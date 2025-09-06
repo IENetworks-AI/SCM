@@ -1,0 +1,9 @@
+pandas
+numpy
+psycopg2-binary
+requests
+sqlalchemy
+apache-airflow-providers-postgres
+apache-airflow-providers-http
+apache-airflow-providers-cncf-kubernetes
+apache-airflow-providers-sqlite

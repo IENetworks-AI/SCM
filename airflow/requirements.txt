@@ -1,0 +1,8 @@
+pandas
+requests
+python-dotenv
+streamlit
+kafka-python
+apache-airflow
+confluent-kafka
+psycopg2-binary

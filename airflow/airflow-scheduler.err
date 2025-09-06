@@ -1,0 +1,73 @@
+[2025-09-04 18:51:11 +0300] [77123] [INFO] Starting gunicorn 23.0.0
+[2025-09-04 18:51:11 +0300] [77123] [INFO] Listening at: http://[::]:8793 (77123)
+[2025-09-04 18:51:11 +0300] [77123] [INFO] Using worker: sync
+[2025-09-04 18:51:11 +0300] [77126] [INFO] Booting worker with pid: 77126
+[2025-09-04 18:51:11 +0300] [77128] [INFO] Booting worker with pid: 77128
+[2025-09-04 18:51:12 +0300] [77123] [INFO] Handling signal: term
+Traceback (most recent call last):
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/bin/airflow", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/__main__.py", line 55, in main
+    args.func(args)
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 48, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/utils/cli.py", line 112, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/utils/providers_configuration_loader.py", line 55, in wrapped_function
+[2025-09-04 18:51:12 +0300] [77128] [INFO] Worker exiting (pid: 77128)
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/cli/commands/scheduler_command.py", line 52, in scheduler
+[2025-09-04 18:51:12 +0300] [77126] [INFO] Worker exiting (pid: 77126)
+    run_command_with_daemon_option(
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/cli/commands/daemon_utils.py", line 81, in run_command_with_daemon_option
+    callback()
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/cli/commands/scheduler_command.py", line 55, in <lambda>
+    callback=lambda: _run_scheduler_job(args),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/cli/commands/scheduler_command.py", line 43, in _run_scheduler_job
+    run_job(job=job_runner.job, execute_callable=job_runner._execute)
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/utils/session.py", line 101, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/jobs/job.py", line 347, in run_job
+    return execute_job(job, execute_callable=execute_callable)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/jobs/job.py", line 376, in execute_job
+    ret = execute_callable()
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/jobs/scheduler_job_runner.py", line 1048, in _execute
+    self._run_scheduler_loop()
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/jobs/scheduler_job_runner.py", line 1332, in _run_scheduler_loop
+    num_queued_tis = self._do_scheduling(session)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/jobs/scheduler_job_runner.py", line 1464, in _do_scheduling
+    num_queued_tis = self._critical_section_enqueue_task_instances(session=session)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/jobs/scheduler_job_runner.py", line 784, in _critical_section_enqueue_task_instances
+    self._enqueue_task_instances_with_queued_state(queued_tis_per_executor, executor, session=session)
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/jobs/scheduler_job_runner.py", line 715, in _enqueue_task_instances_with_queued_state
+    workload = workloads.ExecuteTask.make(ti, generator=executor.jwt_generator)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/executors/workloads.py", line 122, in make
+    fname = log_filename_template_renderer()(ti=ti)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/airflow/utils/helpers.py", line 137, in log_filename_template_renderer
+    return jinja2.Template(template).render
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/jinja2/environment.py", line 1214, in __new__
+    return env.from_string(source, template_class=cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/jinja2/environment.py", line 1111, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+                               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/yab/DataPipeline/SCM_Pipeline/myenv/lib/python3.12/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<unknown>", line 1, in template
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'endif'.
+[2025-09-04 18:51:12 +0300] [77123] [INFO] Shutting down: Master
