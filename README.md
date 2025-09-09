@@ -1,4 +1,4 @@
-### Supply Chain Management (SCM) Data Pipeline
+# Supply Chain Management (SCM) Data Pipeline
 ## Project Overview
 This project focuses on building a robust data pipeline for a Supply Chain Management (SCM) system. The goal is to ingest raw data, preprocess it, and prepare it for analysis and advanced modeling. This work is a core component of a larger initiative to leverage data science and AI for optimizing supply chain operations.
 
@@ -52,7 +52,7 @@ Refer to the dags/ folder for the Airflow Directed Acyclic Graphs (DAGs) that de
 ## Contributing
 We welcome contributions! Please follow the standard GitHub workflow:
 
-# Fork the repository.
+## Fork the repository.
 
 Create a new branch (git checkout -b feature/your-feature).
 
