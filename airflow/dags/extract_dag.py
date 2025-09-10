@@ -38,8 +38,11 @@ API_ENDPOINTS = {
     "https://scm-backend-test.ienetworks.co/api/scm/stock/tools/requested": "requested.json",
     "https://scm-backend-test.ienetworks.co/api/scm/stock/tools": "tools.json",
     "https://scm-backend-test.ienetworks.co/api/scm/stock/inventory/index": "index.json",
-    "https://scm-backend-test.ienetworks.co/api/scm/stock/approved": "approved1.json"
+    "https://scm-backend-test.ienetworks.co/api/scm/stock/approved": "approved1.json",
+    "https://scm-backend-test.ienetworks.co/api/scm/stock/inventory/allCustomRequests/new":"returned_inventory.json",
+    "https://scm-backend-test.ienetworks.co/api/scm/stock/tools/allCustomRequests":"returned_tools.json"
 }
+
 
 BASE_OUTPUT_DIR = "/opt/airflow/output"
 
