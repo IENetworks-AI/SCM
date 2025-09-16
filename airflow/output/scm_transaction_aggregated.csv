@@ -1,0 +1,591 @@
+project_name,item_name,source,total_requested,total_received,total_returned,total_approved,last_updated
+AAiT,Big Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AAiT,Chargeable Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AAiT,Star screw driver,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AMU,Adjustable Wrench,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AMU,Big Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AMU,Brother Labeler/Labeling Machine,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AMU,Chargeable Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AMU,Flat/Minus Screw Drivers,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AMU,Grinder / Small,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AMU,Knife Cutter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AMU,Multimeter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AMU,Side Cutter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AMU,UTP Cable Tester,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AMU,UTP Crimper,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AMU,UTP Puncher,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AMU,Universal Plier / Pinsa,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+AMU,Vacuum Pump,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ATI SDN,Big Drill,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ATI SDN,Brother Labeler/Labeling Machine,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ATI SDN,Chargeable Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ATI SDN,Splice Protector Sleeve,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ATI SDWAN and VMWARE License,Big Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+BDU WLAN,Adjustable Wrench,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+BDU WLAN,Multimeter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+BDU WLAN,OTDR,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+BDU WLAN,Universal Plier / Pinsa,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+BDU-DCF,Adjustable Wrench,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+BDU-DCF,OTDR,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+BDU-DCF,Splice Protector Sleeve,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+BDU-DCF,UTP Crimper,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+BDU-DCF,UTP Puncher,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Boing IP phone,Flat/Minus Screw Drivers,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Boing IP phone,Star screw driver,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+CBE HCI,Allen Key,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+CBE HCI,Brother Labeler/Labeling Machine,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+CBE HCI,Chargeable Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+CBE HCI,Star screw driver,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EIABC Data Center License Renewal,Chargeable Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EIABC Data Center License Renewal,Fiber Tool Kit,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EIABC Data Center License Renewal,OTDR,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EIABC Data Center License Renewal,Splicing Machine,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Adjustable Wrench,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Big Drill,tools,10.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Big Grinder,tools,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Brother Labeler/Labeling Machine,tools,13.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Chargeable Drill,tools,23.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Fiber Tool Kit,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Flat/Minus Screw Drivers,tools,6.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Fluke networks,tools,7.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Grinder / Small,tools,8.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Hand Meter,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Hydraulic Cable Crimper,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Knife Cutter,tools,10.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Labeller casette,inventory,2.0,1.0,0.0,1.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Metal Hammer,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Multimeter,tools,5.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,OTDR,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Plastic Hammer,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Right Angle Ruler / Squadra,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Roll Meter,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Scissor,tools,14.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Side Cutter,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Silicon Gun,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Socket Wrench,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Soldering Machine,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Splice Protector Sleeve,tools,6.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Splicing Machine,tools,6.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Sprit Leveler,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Star screw driver,tools,7.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,UTP Cable Tester,tools,11.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,UTP Crimper,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,UTP Puncher,tools,7.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Universal Plier / Pinsa,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Vacuum Pump Cleaner,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Welding Machine,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,Wood Grinder,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+EPSS Networking Infra and Modular Data Center,guroro conduit 32mm,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA,Adjustable Wrench,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA,Allen Key,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA,Chargeable Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA,Flaring Tools,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA,Flat/Minus Screw Drivers,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA,Mainfold Gauge,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA,Multimeter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA,Pros Tool Kit,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA,Side Cutter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA,Star screw driver,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA,Universal Plier / Pinsa,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA / MoTL Dataceter,Test light screw drivers,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,AC Gauge purchase,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Adjustable Wrench,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Allen Key,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Big Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Brother Labeler/Labeling Machine,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Chargeable Drill,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Flaring Tools,tools,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Flat/Minus Screw Drivers,tools,5.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Hydraulic Cable Crimper,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Leak Detector,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Mainfold Gauge,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Manifold Gauge,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Metal ladder,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Multimeter,tools,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,OTDR,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Roll Meter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Side Cutter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Spanner,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Star screw driver,tools,8.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Test light screw drivers,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Tube Bender,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,UTP Cable Tester,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,UTP Crimper,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ERA and MOTL support,Universal Plier / Pinsa,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ESS NOC,Big Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ESS NOC,Star screw driver,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ESS NOC,UTP Cable Tester,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ESS NOC,UTP Crimper,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ESS NOC,UTP Puncher,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Eagle Hills Ethiopia Real Estate PLC,Chargeable Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Eagle Hills Ethiopia Real Estate PLC,Flat/Minus Screw Drivers,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Ethiopian Communications Authority(ECA) Office 365 license,Star screw driver,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Ethiotelecom-exadata,Star screw driver,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,6 Meter RHS,inventory,14.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,A3 Envelope,inventory,104.0,2.0,0.0,7.0,2025-09-16 05:00:15
+HQ,A4 Envelope,inventory,413.0,18.0,0.0,29.0,2025-09-16 05:00:15
+HQ,A4 Paper,inventory,102.0,1.0,0.0,3.0,2025-09-16 05:00:15
+HQ,A4 Paper (Blue),inventory,6.0,3.0,0.0,4.0,2025-09-16 05:00:15
+HQ,A4 Paper (Double A),inventory,101.0,11.0,0.0,31.0,2025-09-16 05:00:15
+HQ,A4 Paper Blue,inventory,7.0,0.0,0.0,3.0,2025-09-16 05:00:15
+HQ,A4 enveloper,inventory,5.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,AC Copper Pipe,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,AC Copper Pipe (1/2),inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,AC Copper Pipe (3/8),inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,AC Copper Pipe (5/8),inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,AC Indoor & Outdoor (with accessory),inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,AC Mounting Kit,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Ac Gas,inventory,3.0,1.0,0.0,3.0,2025-09-16 05:00:15
+HQ,Ac Gas 410a,inventory,4.0,0.0,0.0,3.0,2025-09-16 05:00:15
+HQ,Agenda,inventory,23.0,1.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Air Freshener,inventory,2.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Air Suspension,inventory,2.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Alkaline Battery (1.5V),inventory,34.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Alkaline battery 1.5V,inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Aluminum L-angle (3M),inventory,3.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Archive room key cylinder  purchas,inventory,3.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,BALL JOINT ASSY-LWR ARM,inventory,4.0,0.0,0.0,3.0,2025-09-16 05:00:15
+HQ,Ball Bearing Hinge,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Bank Paper (Blue),inventory,283.0,2.0,0.0,6.0,2025-09-16 05:00:15
+HQ,Bearing Tension Road Left,inventory,2.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Bed Sheets,inventory,4.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Big Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Black wire,inventory,7.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Bleach (5L),inventory,4.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Both side key,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Bottom patch,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Box File,inventory,172.0,7.0,0.0,8.0,2025-09-16 05:00:15
+HQ,Bracket Electro magnetick lock Model no AL- 280PZ,inventory,32.0,1.0,3.0,5.0,2025-09-16 05:00:15
+HQ,Bracket of Electro magnetick lock Model no AL- 280,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Brochure,inventory,100.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,C-clamp,inventory,200.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,CAT 6 UTP Patch Cord (5M),inventory,34.0,1.0,0.0,2.0,2025-09-16 05:00:15
+HQ,CD,inventory,28.0,2.0,0.0,13.0,2025-09-16 05:00:15
+HQ,CISCO SFP,inventory,9.0,3.0,3.0,3.0,2025-09-16 05:00:15
+HQ,CLUTCH ASSY-REV & O/D,inventory,2.0,0.0,0.0,2.0,2025-09-16 05:00:15
+HQ,CLUTCH ASSY-U/D,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,COVER-ENGINE UNDER LH,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,COVER-ENGINE UNDER RH,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Cable Tie,inventory,5.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Cable Tray,inventory,19.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Cable Trunking (40*25 mm),inventory,56.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Cable tie,inventory,5.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Cable tie medium,inventory,3.0,1.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Cable tray,inventory,8.0,3.0,0.0,4.0,2025-09-16 05:00:15
+HQ,Cable tray striaght section,inventory,14.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Cat 6A UTP Patch cord 3mtrs,inventory,8.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Catalyst 2960,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Catalyst 2960 WS-C2960X-24TS-L switch,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Celing LED lights,inventory,16.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Cement,inventory,24.0,1.0,0.0,3.0,2025-09-16 05:00:15
+HQ,Cement Block,inventory,50.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Ceramic 20*30,inventory,19.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Ceramic 20x30cm for wall,inventory,3.3,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Ceramic 60x60cm for floor,inventory,47.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Chalk Line,inventory,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Chargable Screw,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Circuit Breaker,inventory,2.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Cisco Catalyst 9115AX Series,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Cisco SFP,inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Clutch Cover,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Clutch Disc,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,DELL EMC VMAX STORAGE SERVER,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,DISC SET-BRAKE,inventory,2.0,0.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Dell EMC PowerEdge R340,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Dell Hard Disk (3 TB),inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,"Dell/ Intel Port, Mouse, Power adapter",inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Dettol,inventory,25.0,2.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Digital Printer Ribbon,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Dish Wash (750 ml),inventory,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Door Key Cylinder,inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Drain Opener (1200 ml),inventory,2.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Drill punta 8mm,inventory,3.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Dust Pan,inventory,6.0,1.0,0.0,2.0,2025-09-16 05:00:15
+HQ,"ELEMENT ASSY,AIR",inventory,2.0,0.0,0.0,2.0,2025-09-16 05:00:15
+HQ,EURO door,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Elbow,inventory,170.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Electro magnetick lock,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Energizer Battery 12V 45AM,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Ethiopian Incorporated Book,inventory,136.0,8.0,0.0,11.0,2025-09-16 05:00:15
+HQ,Ethiopian incorporated,inventory,180.0,9.0,0.0,14.0,2025-09-16 05:00:15
+HQ,Euro 70mm Double open cylinder,inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Euro door,inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Euro door handle,inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Exit Button,inventory,5.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Eye glass,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Fastner (50Pcs),inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Fiber LC pigtail Multi mode Upc-1m,inventory,180.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Fiber cable,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Fiber patch chord Duplex LC (20 M),inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Fiber patch chord Duplex LC (3 M),inventory,6.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Fiber patch chord Duplex LC (30 M),inventory,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,File Separator,inventory,123.0,2.0,0.0,6.0,2025-09-16 05:00:15
+HQ,First Aid Kit,inventory,8.0,0.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Fisher,inventory,15.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Flash (64GB),inventory,5.0,1.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Flexable Condiut,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Flexible conduit gororo 19mm,inventory,140.0,2.0,0.0,3.0,2025-09-16 05:00:15
+HQ,GUARD ASSY-FR WHEEL LH,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,GUARD ASSY-FR WHEEL RH,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Glass Dore Model no GL 300,inventory,5.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Golden Screw,inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Grinder Disk 180mm,inventory,3.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Guroro conduite,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Gypsum Floor,inventory,123.0,2.0,0.0,4.0,2025-09-16 05:00:15
+HQ,Gypsum block,inventory,78.0,1.0,0.0,2.0,2025-09-16 05:00:15
+HQ,HDMI Cable (3M),inventory,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,HDMI/SWITCH/SPLITTER,inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,HIKVISION Fixed Bullet Camera,inventory,2.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,HIKVISION Fixed Dome Camera,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,HP 65W USB-C Slim Power Adapter,inventory,2.0,0.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Hand soap,inventory,60.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Hand washer,inventory,4.0,4.0,0.0,4.0,2025-09-16 05:00:15
+HQ,Hard Disk (4TB),inventory,3.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Hard Disk (8TB),inventory,3.0,1.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Head set,inventory,12.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Hp 4003 printer,inventory,3.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,ID Card (M1K White Card),inventory,150.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,IE Fabric Bag,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,IE Fabric T-shirt,inventory,2.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,IE Paper Bag,inventory,63.0,6.0,0.0,7.0,2025-09-16 05:00:15
+HQ,Industrial Plug-Female,inventory,5.0,1.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Industrial Plug-Male (Small),inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Knife Blade,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,LATCH ASSY-FR DR LH,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,LIFTER ASSY-TAIL GATE,inventory,2.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Labeler caset 12mm brother,inventory,8.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Laptop Charger (Type-C),inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Largo (5L),inventory,3.0,2.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Liquid Detergent (5L),inventory,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Liquid Glue,inventory,2.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Liquid Hand Wash,inventory,40.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Magelock Accessories,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Marker Pen (Permanent),inventory,49.0,4.0,0.0,4.0,2025-09-16 05:00:15
+HQ,Metal cutter disck,inventory,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Metal flower Holder,inventory,3.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Micro Oven,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Midium Grinder Disc,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Mini Wireless Adaptor,inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Mirror,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Monoprice PS/2 Cable- 25 Feet -MDIN-6 Male to Male,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Mop,inventory,5.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Mouse Dell,inventory,5.0,2.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Nice Soft Care Napkin,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Note Book,inventory,61.0,12.0,0.0,16.0,2025-09-16 05:00:15
+HQ,Office File,inventory,144.0,5.0,0.0,5.0,2025-09-16 05:00:15
+HQ,Omo Powder (1KG),inventory,2.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,PDU,inventory,4.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,PPR C-clap,inventory,450.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,PPR connector,inventory,60.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,PPR cross connector,inventory,20.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,PPR pipe,inventory,75.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Paint,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Paper carbon,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Patch chord 3m,inventory,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Pen,inventory,486.0,28.0,0.0,49.0,2025-09-16 05:00:15
+HQ,Plaster (Big),inventory,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Plaster (medium size),inventory,9.0,3.0,0.0,4.0,2025-09-16 05:00:15
+HQ,Plastic Connector,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Polycom hdxcma ceiling microphone array module con,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Power Bank,inventory,50.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Power Cable,inventory,53.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Power Cable (3*2.5mm),inventory,11.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Power Cable (3*6mm),inventory,5.0,2.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Power Cable MMQ(5*10),inventory,30.0,0.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Power cable 3x2.5 mm2 Euro brand,inventory,20.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Power extension cord,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Puncher (Small),inventory,3.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Punta,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Punta 06mm,inventory,2.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Punta 8,inventory,2.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,RJ45,inventory,100.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Release Bearing,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Roll up banner,inventory,19.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Roller Assembly Kit,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,SFP,inventory,1.0,1.0,1.0,1.0,2025-09-16 05:00:15
+HQ,SPC 92H*15L,inventory,72.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,SanDisk Extreme Portable,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Sand,inventory,4.0,0.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Sanitizer (1L),inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Saw Blade Disc,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Self screw,inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Sewerage pipe,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Shock absorber ASSY Rare,inventory,4.0,0.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Silver(38mm*600mm),inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Small Grinder Disc,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Socket 3 pin sock,inventory,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Soft Paper,inventory,45.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Speed Sensor,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Stamp Ink,inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Stapler (Small),inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Staples,inventory,5.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Steel Plate 10cm x10cm,inventory,32.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Sticky Note,inventory,8.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Sticky Note 3*4,inventory,4.0,3.0,0.0,3.0,2025-09-16 05:00:15
+HQ,Sun Gloves,inventory,6.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Sun Light (5KG),inventory,3.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Surface Cleaner (5L),inventory,4.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Suspension File,inventory,130.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Switching Adapter,inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Switching Power Supply,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,T-connector,inventory,70.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,"TANK,WASHER",inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,TORSION AXLE COMPLETE,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,"TRANSV,Control Arm Top Left",inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,"TRANSV,Control Arm Top Right",inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,TV Mounting Kit,inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Tasisa Yehulashet   Tieter,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Test 1,inventory,63.0,2.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Test 2,inventory,84.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Test 2,tools,10.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Test 3,inventory,21.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Tiger cola,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Titer,inventory,3.0,1.0,0.0,3.0,2025-09-16 05:00:15
+HQ,Toilet Paper,inventory,56.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Toilet brush,inventory,5.0,1.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Toilet paper,inventory,190.0,2.0,0.0,3.0,2025-09-16 05:00:15
+HQ,Toilet seat cover,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Toner (125A),inventory,2.0,2.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Toner (37A),inventory,4.0,2.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Toner (55A),inventory,8.0,4.0,0.0,4.0,2025-09-16 05:00:15
+HQ,Toner (81A),inventory,13.0,6.0,0.0,6.0,2025-09-16 05:00:15
+HQ,Toner (Lexmark MS810dn),inventory,15.0,3.0,0.0,4.0,2025-09-16 05:00:15
+HQ,Toner 37 A,inventory,2.0,1.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Toshiba Hard Disk,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Trunk Trunk Size; 16*25,inventory,8.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Tshirt,inventory,5.0,2.0,0.0,2.0,2025-09-16 05:00:15
+HQ,UHU,inventory,23.0,3.0,0.0,5.0,2025-09-16 05:00:15
+HQ,USB 3.0 Gigabit LAN Adapter,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,UTP Cable,inventory,10.0,2.0,0.0,4.0,2025-09-16 05:00:15
+HQ,UTP Cable CAT 6,inventory,24.0,3.0,0.0,3.0,2025-09-16 05:00:15
+HQ,VIM (500 gm),inventory,25.0,2.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Vacuum Pump,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Wall Mount Socket,inventory,15.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Wall Paint,inventory,20.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Wall cladding,inventory,3.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,Wall outlet,inventory,41.0,2.0,0.0,4.0,2025-09-16 05:00:15
+HQ,Welding eye glass,inventory,15.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,White board marker,inventory,15.0,2.0,0.0,2.0,2025-09-16 05:00:15
+HQ,Window Cleaner (750ml),inventory,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Window Cleaner(750 ml),inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,Wooden screw,inventory,3.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,ZKT eco AC Model no F18,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,ZKT eco AC Model no G2 Pro,inventory,2.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,ZKT eco AC Model no G3 Pro,inventory,4.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,ZKTeco GL300,inventory,3.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,cable truncking 60*40,inventory,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,cement,inventory,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,chargeable punta 6mm,inventory,10.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,gas kitting,inventory,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,guroro conduit,inventory,12.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,gymsum block,inventory,22.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,gypsum,inventory,8.0,2.0,0.0,3.0,2025-09-16 05:00:15
+HQ,network cable mangment (Trunking ) 25x40,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,plier,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,power adapter,inventory,4.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,power cable 3x2.5mm2,inventory,30.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,rochkiler fleet,inventory,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ,sand paper,inventory,1.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,screw furniture,inventory,150.0,0.0,0.0,2.0,2025-09-16 05:00:15
+HQ,shelf hinge,inventory,3.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,single phase 32A fuese,inventory,8.0,0.0,0.0,1.0,2025-09-16 05:00:15
+HQ,sticky note,inventory,4.0,2.0,0.0,3.0,2025-09-16 05:00:15
+HQ,water paint broken white,inventory,1.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ,ye enchet mero flat,inventory,2.0,1.0,0.0,1.0,2025-09-16 05:00:15
+HQ Office Facility,Adjustable Wrench,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ Office Facility,Allen Key,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ Office Facility,Big Drill,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ Office Facility,Blower,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ Office Facility,Chargeable Drill,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ Office Facility,Flaring Tools,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ Office Facility,Flat/Minus Screw Drivers,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ Office Facility,Grinder / Small,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ Office Facility,Sprit Leveler,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ Office Facility,Star screw driver,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ Office Facility,UTP Crimper,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ support,Allen Key,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ support,Big Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ support,Big Grinder,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ support,Chargeable Drill,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ support,Flat/Minus Screw Drivers,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ support,Hand Meter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ support,Knife Cutter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ support,Metal ladder,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ support,Multimeter,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ support,Right Angle Ruler / Squadra,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ support,Sprit Leveler,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ support,Star screw driver,tools,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+HQ support,Universal Plier / Pinsa,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Adjustable Wrench,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Allen Key,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Big Drill,tools,13.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Big Grinder,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Blower,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Chargeable Drill,tools,16.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Flaring Tools,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Flat/Minus Screw Drivers,tools,5.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Grinder / Small,tools,7.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Hand Meter,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Hydraulic Cable Crimper,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Knife Cutter,tools,11.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Metal Hammer,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Metal Saw / Segeto,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Metal ladder,tools,10.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Multimeter,tools,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Right Angle Ruler / Squadra,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Roll Meter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Scissor,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Side Cutter,tools,6.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Spanner,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Sprit Leveler,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Star screw driver,tools,6.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,UTP Cable Tester,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,UTP Crimper,tools,6.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,UTP Puncher,tools,5.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Universal Plier / Pinsa,tools,9.0,0.0,0.0,0.0,2025-09-16 05:00:15
+ICT Park TTA,Welding Machine,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Big Drill,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Brother Labeler/Labeling Machine,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Ceramic Cutter/ Marble Grinder,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Chargeable Drill,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Face Shield,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Hand Meter,tools,5.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Hole Saw 51MM,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Metal ladder,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Right Angle Ruler / Squadra,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Roll Meter,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Scissor,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Side Cutter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Spanner,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Sprit Leveler,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,UTP Cable Tester,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,UTP Crimper,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,UTP Puncher,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Universal Plier / Pinsa,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Kaizen VC Equipment,Welding Machine,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),600 mm cable cutter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Big Drill,tools,14.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Big Grinder,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Brother Labeler/Labeling Machine,tools,11.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Chargeable Drill,tools,26.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Flaring Tools,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Flat/Minus Screw Drivers,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Grinder / Small,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Hand Meter,tools,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Hole Saw 51MM,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Jig Saw,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Knife Cutter,tools,6.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Metal Hammer,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Metal Saw / Segeto,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Metal ladder,tools,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Multimeter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),OTDR,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Right Angle Ruler / Squadra,tools,5.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Roll Meter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Scissor,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Side Cutter,tools,6.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Spanner,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Splice Protector Sleeve,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Splicing Machine,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Sprit Leveler,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Star screw driver,tools,9.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Tube Bender,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),UTP Cable Tester,tools,5.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),UTP Crimper,tools,7.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),UTP Puncher,tools,7.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Universal Plier / Pinsa,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Wood Grinder,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Commissioning of Smart Communication Rooms at Selected Twenty Governmental Institutions on a Turnkey Basis at 20 sites  (Ref.No ET-MINT-345419-GO-RFB),Wood Saw,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,Big Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,Brother Labeler/Labeling Machine,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,Chargeable Drill,tools,5.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,Flat/Minus Screw Drivers,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,Hole Saw 51MM,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,Knife Cutter,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,Metal ladder,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,Multimeter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,OTDR,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,Splice Protector Sleeve,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,Splicing Machine,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,Star screw driver,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,UTP Cable Tester,tools,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,UTP Crimper,tools,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,UTP Puncher,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Smart Room Support,Universal Plier / Pinsa,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Software License (Ref.No.ET-MInT-346845-GO-RFB)2023,Flat/Minus Screw Drivers,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MINT Software License (Ref.No.ET-MInT-346845-GO-RFB)2023,Star screw driver,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MInT smart communication room,Big Drill,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MInT smart communication room,Chargeable Drill,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MInT smart communication room,UTP Crimper,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOF (OFAG) Audio Video,Hand Meter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOF (OFAG) Audio Video,Hole Saw 51MM,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOR HCI Solution,Brother Labeler/Labeling Machine,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOR HCI Solution,Flat/Minus Screw Drivers,tools,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOR HCI Solution,Roll Meter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOR HCI Solution,Star screw driver,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOTI,Big Drill,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOTI,Chargeable Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOTI,Flat/Minus Screw Drivers,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOTI,Multimeter,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOTI,Scissor,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOTI,Side Cutter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOTI,Soldering Machine,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOTI,Star screw driver,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MOTI,Universal Plier / Pinsa,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MiNT(ECA) - DC,Adjustable Wrench,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MiNT(ECA) - DC,Chargeable Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MiNT(ECA) - DC,Filter Removal Tool,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MiNT(ECA) - DC,Flat/Minus Screw Drivers,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MiNT(ECA) - DC,Multimeter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MiNT(ECA) - DC,Star screw driver,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MiNT(ECA) - DC,Universal Plier / Pinsa,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MoF OFAG-AV,Big Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MoF OFAG-AV,Grinder / Small,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MoF OFAG-AV,Multimeter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+MoF OFAG-AV,Right Angle Ruler / Squadra,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Big Drill,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Chargeable Drill,tools,5.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Flat/Minus Screw Drivers,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Hole Saw 51MM,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Jig Saw,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Knife Cutter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Metal Hammer,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Metal ladder,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Multimeter,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Plastic Hammer,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Side Cutter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Sprit Leveler,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Star screw driver,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Tong,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,UTP Cable Tester,tools,3.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,UTP Crimper,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+OFAG,Universal Plier / Pinsa,tools,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Project- MINT Smart Communication and Turnkey (Ref.No ET-MINT-345419-GO-RFB),Big Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Project- MINT Smart Communication and Turnkey (Ref.No ET-MINT-345419-GO-RFB),Jig Saw,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Store and Inventory,Big Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Store and Inventory,LED Lamp Beads,inventory,54.0,0.0,0.0,1.0,2025-09-16 05:00:15
+Store and Inventory,LED Lamp Beads( CONNECTOR ),inventory,3.0,0.0,0.0,1.0,2025-09-16 05:00:15
+Store and Inventory,Metal Hammer,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Store and Inventory,Test 1,tools,9.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Test Project,Star screw driver,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+Test Project,Test 1,tools,5.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Global UK-Visa Center,Allen Key,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Global UK-Visa Center,Chargeable Drill,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Global UK-Visa Center,Flat/Minus Screw Drivers,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Global UK-Visa Center,Grinder / Small,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Global UK-Visa Center,Sprit Leveler,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Global UK-Visa Center,Star screw driver,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Global UK-Visa Center,Universal Plier / Pinsa,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Saudi Mofa RFQ-893,Allen Key,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Saudi Mofa RFQ-893,Chargeable Drill,tools,4.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Saudi Mofa RFQ-893,Flat/Minus Screw Drivers,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Saudi Mofa RFQ-893,Grinder / Small,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Saudi Mofa RFQ-893,Hand Meter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Saudi Mofa RFQ-893,Hole Saw 51MM,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Saudi Mofa RFQ-893,Hydraulic Cable Crimper,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Saudi Mofa RFQ-893,Knife Cutter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Saudi Mofa RFQ-893,Manual Forklift/Trolly,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Saudi Mofa RFQ-893,Multimeter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Saudi Mofa RFQ-893,Roll Meter,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Saudi Mofa RFQ-893,Star screw driver,tools,2.0,0.0,0.0,0.0,2025-09-16 05:00:15
+VFS Saudi Mofa RFQ-893,Universal Plier / Pinsa,tools,1.0,0.0,0.0,0.0,2025-09-16 05:00:15

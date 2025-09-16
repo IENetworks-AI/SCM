@@ -46,6 +46,7 @@ API_ENDPOINTS = {
 
 BASE_OUTPUT_DIR = "/opt/airflow/output"
 
+
 def fetch_and_save_json(**kwargs):
     """
     Fetch JSON data from APIs and save to local files.

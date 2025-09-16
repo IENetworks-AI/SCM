@@ -2755,3 +2755,103 @@ Traceback (most recent call last):
 jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'endif'.
 2025-09-04 18:51:12,134 INFO - Shutting down LocalExecutor; waiting for running tasks to finish.  Signal again if you don't want to wait.
 2025-09-04 18:51:12,135 INFO - Exited execute loop
+2025-09-12 15:47:32,140 INFO - Task context logging is enabled
+2025-09-12 15:47:32,147 INFO - Loaded executor: LocalExecutor
+2025-09-12 16:13:17,659 INFO - Task context logging is enabled
+2025-09-12 16:13:17,662 INFO - Loaded executor: LocalExecutor
+2025-09-12 16:13:22,776 INFO - Starting the scheduler
+2025-09-12 16:13:22,777 INFO - Processing each file at most -1 times
+2025-09-12 16:13:23,054 INFO - Launched DagFileProcessorManager with pid: 14478
+2025-09-12 16:13:23,057 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-09-12 16:13:23,063 INFO - Configured default timezone UTC
+2025-09-12 16:13:23,103 INFO - Marked 2 SchedulerJob instances as failed
+2025-09-12 16:14:17,709 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:15:12,310 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:16:06,857 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:17:01,523 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:17:55,895 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-09-12 16:17:56,094 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:18:50,753 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:19:45,352 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:20:13,663 INFO - Exiting gracefully upon receiving signal 15
+2025-09-12 16:20:13,815 INFO - Sending 15 to group 14478. PIDs of all processes in the group: []
+2025-09-12 16:20:13,816 INFO - Sending the signal 15 to group 14478
+2025-09-12 16:20:13,816 INFO - Sending the signal 15 to process 14478 as process group is missing.
+2025-09-12 16:20:13,816 INFO - Shutting down LocalExecutor; waiting for running tasks to finish.  Signal again if you don't want to wait.
+2025-09-12 16:20:14,028 INFO - Sending 15 to group 14478. PIDs of all processes in the group: []
+2025-09-12 16:20:14,029 INFO - Sending the signal 15 to group 14478
+2025-09-12 16:20:14,029 INFO - Sending the signal 15 to process 14478 as process group is missing.
+2025-09-12 16:20:14,034 INFO - Exited execute loop
+2025-09-12 16:20:19,481 INFO - Task context logging is enabled
+2025-09-12 16:20:19,484 INFO - Loaded executor: LocalExecutor
+2025-09-12 16:20:24,658 INFO - Starting the scheduler
+2025-09-12 16:20:24,659 INFO - Processing each file at most -1 times
+2025-09-12 16:20:25,213 INFO - Launched DagFileProcessorManager with pid: 20879
+2025-09-12 16:20:25,219 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-09-12 16:20:25,231 INFO - Configured default timezone UTC
+2025-09-12 16:21:20,082 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:22:14,663 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:23:09,262 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:24:02,523 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:24:58,184 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-09-12 16:24:58,446 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:25:53,034 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:26:47,661 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:27:40,471 INFO - Exiting gracefully upon receiving signal 15
+2025-09-12 16:27:40,739 INFO - Sending 15 to group 20879. PIDs of all processes in the group: []
+2025-09-12 16:27:40,739 INFO - Sending the signal 15 to group 20879
+2025-09-12 16:27:40,740 INFO - Sending the signal 15 to process 20879 as process group is missing.
+2025-09-12 16:27:40,740 INFO - Shutting down LocalExecutor; waiting for running tasks to finish.  Signal again if you don't want to wait.
+2025-09-12 16:27:40,921 INFO - Sending 15 to group 20879. PIDs of all processes in the group: []
+2025-09-12 16:27:40,922 INFO - Sending the signal 15 to group 20879
+2025-09-12 16:27:40,922 INFO - Sending the signal 15 to process 20879 as process group is missing.
+2025-09-12 16:27:40,923 INFO - Exited execute loop
+2025-09-12 16:27:56,717 INFO - Task context logging is enabled
+2025-09-12 16:27:56,718 INFO - Loaded executor: LocalExecutor
+2025-09-12 16:28:01,828 INFO - Starting the scheduler
+2025-09-12 16:28:01,829 INFO - Processing each file at most -1 times
+2025-09-12 16:28:02,211 INFO - Launched DagFileProcessorManager with pid: 27804
+2025-09-12 16:28:02,214 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-09-12 16:28:02,220 INFO - Configured default timezone UTC
+2025-09-12 16:28:56,958 INFO - Orphaning unreferenced dataset 's3://this-dataset-doesnt-get-triggered'
+2025-09-12 16:29:49,250 INFO - Exiting gracefully upon receiving signal 15
+2025-09-12 16:29:49,499 INFO - Sending 15 to group 27804. PIDs of all processes in the group: []
+2025-09-12 16:29:49,500 INFO - Sending the signal 15 to group 27804
+2025-09-12 16:29:49,501 INFO - Sending the signal 15 to process 27804 as process group is missing.
+2025-09-12 16:29:49,502 INFO - Shutting down LocalExecutor; waiting for running tasks to finish.  Signal again if you don't want to wait.
+2025-09-12 16:29:49,502 ERROR - Exception when executing Executor.end
+Traceback (most recent call last):
+  File "/home/yab/.local/lib/python3.12/site-packages/airflow/jobs/scheduler_job_runner.py", line 846, in _execute
+    self._run_scheduler_loop()
+  File "/home/yab/.local/lib/python3.12/site-packages/airflow/jobs/scheduler_job_runner.py", line 1001, in _run_scheduler_loop
+    time.sleep(min(self._scheduler_idle_sleep_time, next_event or 0))
+  File "/home/yab/.local/lib/python3.12/site-packages/airflow/jobs/scheduler_job_runner.py", line 259, in _exit_gracefully
+    sys.exit(os.EX_OK)
+SystemExit: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yab/.local/lib/python3.12/site-packages/airflow/jobs/scheduler_job_runner.py", line 867, in _execute
+    self.job.executor.end()
+  File "/home/yab/.local/lib/python3.12/site-packages/airflow/executors/local_executor.py", line 407, in end
+    self.impl.end()
+  File "/home/yab/.local/lib/python3.12/site-packages/airflow/executors/local_executor.py", line 351, in end
+    self.queue.put((None, None))
+  File "<string>", line 2, in put
+  File "/usr/lib/python3.12/multiprocessing/managers.py", line 820, in _callmethod
+    conn.send((self._id, methodname, args, kwds))
+  File "/usr/lib/python3.12/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/usr/lib/python3.12/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/usr/lib/python3.12/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2025-09-12 16:29:49,514 INFO - Sending 15 to group 27804. PIDs of all processes in the group: []
+2025-09-12 16:29:49,514 INFO - Sending the signal 15 to group 27804
+2025-09-12 16:29:49,515 INFO - Sending the signal 15 to process 27804 as process group is missing.
+2025-09-12 16:29:49,515 INFO - Exited execute loop
+2025-09-13 22:54:08,731 INFO - Task context logging is enabled
+2025-09-13 22:54:08,733 INFO - Loaded executor: LocalExecutor
