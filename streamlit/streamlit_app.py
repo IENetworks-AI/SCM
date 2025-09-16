@@ -86,12 +86,16 @@ def aggregate_transactions(df, period='W'):
         df['last_updated'] = datetime.now()
     df['last_updated'] = pd.to_datetime(df['last_updated'])
     df = df.set_index('last_updated')
-    for col in ['requested_quantity', 'quantity_consumed', 'quantity_returned', 'amount']:
+
+    # Ensure all relevant columns exist
+    for col in ['requested_quantity','current_consumed_amount','consumed_amount','quantity_returned','amount']:
         if col not in df.columns:
             df[col] = 0
+
     agg = df.resample(period).agg({
         'requested_quantity': 'sum',
-        'quantity_consumed': 'sum',
+        'current_consumed_amount': 'sum',
+        'consumed_amount': 'sum',
         'quantity_returned': 'sum',
         'amount': 'sum'
     }).reset_index()
@@ -167,10 +171,22 @@ def main():
         inventory_proj_col = 'department_id'
 
     # --------------------------
-    # Combine unique project names
+    # Ensure new DAG fields exist
     # --------------------------
-    all_projects = pd.concat([requests_df[request_proj_col], inventory_df[inventory_proj_col]])
-    all_projects = all_projects[all_projects != ''].unique().tolist()
+    new_fields = ['returned_date', 'is_requester_received', 'requester_received_date',
+                  'current_consumed_amount', 'consumed_amount', 'is_approved', 'approved_date']
+    for col in new_fields:
+        requests_df = ensure_column(requests_df, col)
+        inventory_df = ensure_column(inventory_df, col)
+
+    # --------------------------
+    # Combine unique project names (fixed)
+    # --------------------------
+    all_projects_series = pd.concat([
+        requests_df[request_proj_col].fillna('').astype(str).str.strip(),
+        inventory_df[inventory_proj_col].fillna('').astype(str).str.strip()
+    ])
+    all_projects = all_projects_series[all_projects_series != ''].unique().tolist()
 
     # --------------------------
     # Project selection
@@ -188,77 +204,83 @@ def main():
     # --------------------------
     inventory_agg = aggregate_inventory(inventory_df)
 
-    st.subheader("Inventory Analysis")
-
-    view_option = st.selectbox("View Available Stock By:", ["Quantity", "Amount"])
-
-    if not inventory_agg.empty:
-        display_df = inventory_df.copy()
-
-        # Compute Available
-        display_df['Available'] = display_df['current_stock'] if view_option=="Quantity" else display_df['amount']
-
-        # Compute stock status
-        def stock_status(row):
-            if row['Available'] <= 5:
-                return "🔴 Critical"
-            elif row['Available'] <= 20:
-                return "🟡 Low Stock"
-            else:
-                return "🟢 Sufficient"
-        display_df['Status'] = display_df.apply(stock_status, axis=1)
-
-        # Ensure columns exist
-        for col in ['department_id','amount','date_of_purchased']:
-            if col not in display_df.columns:
-                display_df[col] = None
-
-        display_df = display_df.sort_values(by='Available', ascending=False)
-
-        total_value = display_df['amount'].sum()
-        critical_count = (display_df['Status']=="🔴 Critical").sum()
-        low_count = (display_df['Status']=="🟡 Low Stock").sum()
-        sufficient_count = (display_df['Status']=="🟢 Sufficient").sum()
-
-        # Metrics cards
-        col1, col2, col3, col4 = st.columns(4)
-        col1.metric("Critical Items", critical_count)
-        col2.metric("Low Stock", low_count)
-        col3.metric("Sufficient", sufficient_count)
-        col4.metric("Total Value", f"${total_value:,.2f}")
-
-        # Searchable inventory table
-        search_query = st.text_input("Search items...")
-        if search_query:
-            display_df = display_df[display_df['item_name'].str.contains(search_query, case=False)]
-
-        st.dataframe(display_df[['item_name','Available','Status','department_id','amount','date_of_purchased']])
-
-    else:
-        st.write("No inventory data available.")
+    # --------------------------
+    # Side by side layout
+    # --------------------------
+    col_left, col_right = st.columns(2)
 
     # --------------------------
-    # Usage analytics pie chart
+    # Inventory Analysis (Left)
     # --------------------------
-    st.subheader("Usage Analytics")
-    trans_agg = aggregate_transactions(requests_df)
-    if not trans_agg.empty:
-        pie_fig = px.pie(
-            trans_agg.melt(value_vars=['requested_quantity','quantity_consumed','quantity_returned'],
-                            var_name='Transaction', value_name='Count'),
-            names='Transaction',
-            values='Count',
-            color='Transaction',
-            color_discrete_map={
-                'requested_quantity': 'blue',
-                'quantity_consumed': 'green',
-                'quantity_returned': 'orange'
-            },
-            title="Requested / Consumed / Returned"
-        )
-        st.plotly_chart(pie_fig, use_container_width=True)
-    else:
-        st.write("No transaction data available.")
+    with col_left:
+        st.subheader("Inventory Analysis")
+        view_option = st.selectbox("View Available Stock By:", ["Quantity", "Amount"])
+
+        if not inventory_agg.empty:
+            display_df = inventory_df.copy()
+            display_df['Available'] = display_df['current_stock'] if view_option=="Quantity" else display_df['amount']
+
+            def stock_status(row):
+                if row['Available'] <= 5:
+                    return "🔴 Critical"
+                elif row['Available'] <= 20:
+                    return "🟡 Low Stock"
+                else:
+                    return "🟢 Sufficient"
+            display_df['Status'] = display_df.apply(stock_status, axis=1)
+
+            for col in ['department_id','amount','date_of_purchased']:
+                if col not in display_df.columns:
+                    display_df[col] = None
+
+            display_df = display_df.sort_values(by='Available', ascending=False)
+
+            total_value = display_df['amount'].sum()
+            critical_count = (display_df['Status']=="🔴 Critical").sum()
+            low_count = (display_df['Status']=="🟡 Low Stock").sum()
+            sufficient_count = (display_df['Status']=="🟢 Sufficient").sum()
+
+            c1, c2, c3, c4 = st.columns(4)
+            c1.metric("Critical Items", critical_count)
+            c2.metric("Low Stock", low_count)
+            c3.metric("Sufficient", sufficient_count)
+            c4.metric("Total Value", f"${total_value:,.2f}")
+
+            search_query = st.text_input("Search items...")
+            if search_query:
+                display_df = display_df[display_df['item_name'].str.contains(search_query, case=False)]
+
+            display_cols = ['item_name','Available','Status','department_id','amount','date_of_purchased'] + new_fields
+            st.dataframe(display_df[display_cols])
+
+        else:
+            st.write("No inventory data available.")
+
+    # --------------------------
+    # Usage Analytics (Right)
+    # --------------------------
+    with col_right:
+        st.subheader("Usage Analytics")
+        trans_agg = aggregate_transactions(requests_df)
+        if not trans_agg.empty:
+            pie_fig = px.pie(
+                trans_agg.melt(
+                    value_vars=['requested_quantity','current_consumed_amount','quantity_returned'],
+                    var_name='Transaction', value_name='Count'
+                ),
+                names='Transaction',
+                values='Count',
+                color='Transaction',
+                color_discrete_map={
+                    'requested_quantity': 'blue',
+                    'current_consumed_amount': 'green',
+                    'quantity_returned': 'orange'
+                },
+                title="Requested / Consumed / Returned"
+            )
+            st.plotly_chart(pie_fig, use_container_width=True)
+        else:
+            st.write("No transaction data available.")
 
 if __name__ == "__main__":
     main()
