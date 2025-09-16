@@ -16,3 +16,5 @@ airflow/logs/
 
 # Docker
 *.env
+.env:Zone.Identifier
+

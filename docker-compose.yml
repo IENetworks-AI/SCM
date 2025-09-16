@@ -69,9 +69,10 @@ services:
         condition: service_healthy
     user: "${AIRFLOW_UID:-1000}:0"
     environment:
-      AIRFLOW__CORE__EXECUTOR: LocalExecutor
-      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-      AIRFLOW_UID: ${AIRFLOW_UID:-1000}
+    - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+    - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+    - AIRFLOW_UID=${AIRFLOW_UID:-1000}
+    - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/data:/opt/airflow/data
@@ -97,9 +98,10 @@ services:
     restart: always
     user: "${AIRFLOW_UID:-1000}:0"
     environment:
-      AIRFLOW__CORE__EXECUTOR: LocalExecutor
-      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-      AIRFLOW_UID: ${AIRFLOW_UID:-1000}
+    - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+    - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+    - AIRFLOW_UID=${AIRFLOW_UID:-1000}
+    - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
     ports:
       - "8082:8080"
     volumes:
@@ -123,9 +125,10 @@ services:
     restart: always
     user: "${AIRFLOW_UID:-1000}:0"
     environment:
-      AIRFLOW__CORE__EXECUTOR: LocalExecutor
-      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-      AIRFLOW_UID: ${AIRFLOW_UID:-1000}
+    - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+    - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+    - AIRFLOW_UID=${AIRFLOW_UID:-1000}
+    - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/data:/opt/airflow/data

@@ -150,25 +150,21 @@ def main():
     inventory_df = pd.DataFrame(st.session_state.inventory_data)
 
     # --------------------------
-    # Ensure project columns exist (robust)
+    # Standardize project column
     # --------------------------
-    possible_request_cols = ['requested_project_name', 'project_name', 'project']
-    possible_inventory_cols = ['department_id', 'store_store_name', 'store_name']
+    def get_project_column(df, candidates, fallback_name):
+        for c in candidates:
+            if c in df.columns:
+                df[c] = df[c].fillna('').astype(str).str.strip()
+                return c
+        df[fallback_name] = ''
+        return fallback_name
 
-    request_proj_col = next((c for c in possible_request_cols if c in requests_df.columns), None)
-    inventory_proj_col = next((c for c in possible_inventory_cols if c in inventory_df.columns), None)
+    request_proj_col = get_project_column(requests_df, ['requested_project_name', 'project_name', 'project'], 'requested_project_name')
+    inventory_proj_col = get_project_column(inventory_df, ['project_name', 'store_store_name', 'department_id'], 'project_name')
 
-    if request_proj_col:
-        requests_df[request_proj_col] = requests_df[request_proj_col].fillna('').astype(str).str.strip()
-    else:
-        requests_df['requested_project_name'] = ''
-        request_proj_col = 'requested_project_name'
-
-    if inventory_proj_col:
-        inventory_df[inventory_proj_col] = inventory_df[inventory_proj_col].fillna('').astype(str).str.strip()
-    else:
-        inventory_df['department_id'] = ''
-        inventory_proj_col = 'department_id'
+    requests_df['project_display'] = requests_df[request_proj_col]
+    inventory_df['project_display'] = inventory_df[inventory_proj_col]
 
     # --------------------------
     # Ensure new DAG fields exist
@@ -180,11 +176,11 @@ def main():
         inventory_df = ensure_column(inventory_df, col)
 
     # --------------------------
-    # Combine unique project names (fixed)
+    # Combine unique project names
     # --------------------------
     all_projects_series = pd.concat([
-        requests_df[request_proj_col].fillna('').astype(str).str.strip(),
-        inventory_df[inventory_proj_col].fillna('').astype(str).str.strip()
+        requests_df['project_display'],
+        inventory_df['project_display']
     ])
     all_projects = all_projects_series[all_projects_series != ''].unique().tolist()
 
@@ -195,9 +191,9 @@ def main():
 
     if selected_project != "All Projects":
         if not requests_df.empty:
-            requests_df = requests_df[requests_df[request_proj_col] == selected_project]
+            requests_df = requests_df[requests_df['project_display'] == selected_project]
         if not inventory_df.empty:
-            inventory_df = inventory_df[inventory_df[inventory_proj_col] == selected_project]
+            inventory_df = inventory_df[inventory_df['project_display'] == selected_project]
 
     # --------------------------
     # Aggregate inventory
