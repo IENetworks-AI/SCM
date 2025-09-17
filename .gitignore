@@ -13,6 +13,12 @@ airflow/logs/
 .vscode/
 .idea/
 *.swp
+# Python virtual environments
+.venv/
+venv/
+venvy/
+myenv/
+
 
 # Docker
 *.env
