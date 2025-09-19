@@ -298,8 +298,8 @@ def main():
                 values='Count',
                 color='Transaction',
                 color_discrete_map={
-                    'requested_quantity': 'blue',
-                    'current_consumed_amount': 'green',
+                    'requested_quantity': 'green',
+                    'current_consumed_amount': 'blue',
                     'returned_quantity': 'orange'
                 },
                 title="Requested / Consumed / Returned"
