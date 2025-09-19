@@ -1,0 +1,158 @@
+name: SCM Deployment and Verification Pipeline
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Deployment environment'
+        required: true
+        default: 'production'
+        type: choice
+        options:
+          - production
+
+jobs:
+  # Oracle Server Deployment
+  deploy-oracle:
+    name: Deploy SCM_Pipeline to Oracle Server
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'
+    environment: production
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check Oracle Deployment Configuration
+        id: check-deployment
+        run: |
+          if [ -n "${{ secrets.ORACLE_SSH_KEY }}" ] && [ -n "${{ secrets.ORACLE_HOST }}" ]; then
+            echo "oracle_deploy=true" >> $GITHUB_OUTPUT
+            echo "Oracle deployment secrets found - proceeding with deployment"
+          else
+            echo "oracle_deploy=false" >> $GITHUB_OUTPUT
+            echo "Oracle deployment secrets not found - skipping deployment"
+            echo "Required secrets: ORACLE_SSH_KEY, ORACLE_HOST"
+          fi
+
+      - name: Setup SSH
+        if: steps.check-deployment.outputs.oracle_deploy == 'true'
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.ORACLE_SSH_KEY }}" > ~/.ssh/oracle.key
+          chmod 600 ~/.ssh/oracle.key
+          ssh-keyscan -H ${{ secrets.ORACLE_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Test SSH Connection
+        if: steps.check-deployment.outputs.oracle_deploy == 'true'
+        run: |
+          echo "Testing SSH connection to Oracle server..."
+          ssh -o StrictHostKeyChecking=no -i ~/.ssh/oracle.key ubuntu@${{ secrets.ORACLE_HOST }} "echo 'SSH connection successful'; uname -a; whoami; pwd"
+          echo "SSH connection test completed successfully"
+
+      - name: Deploy Code to Oracle Server
+        if: steps.check-deployment.outputs.oracle_deploy == 'true'
+        run: |
+          echo "Starting deployment to Oracle Cloud..."
+          echo "Target: ${{ secrets.ORACLE_HOST }}"
+          echo "Project: scm-pipeline"
+          
+          rsync -az --delete \
+            --no-perms --no-owner --no-group \
+            --exclude='.git' \
+            --exclude='__pycache__' \
+            --exclude='*.pyc' \
+            --exclude='.pytest_cache' \
+            --exclude='venv' \
+            --exclude='.github' \
+            --exclude='logs' \
+            --exclude='.env' \
+            --exclude='data' \
+            -e "ssh -i ~/.ssh/oracle.key -o StrictHostKeyChecking=no" \
+            ./ ubuntu@${{ secrets.ORACLE_HOST }}:/home/ubuntu/scm-pipeline/
+          
+          echo "Code deployment completed"
+
+      - name: Setup Oracle Server Environment
+        if: steps.check-deployment.outputs.oracle_deploy == 'true'
+        run: |
+          ssh -o StrictHostKeyChecking=no -i ~/.ssh/oracle.key ubuntu@${{ secrets.ORACLE_HOST }} << 'EOF'
+          echo "Setting up Oracle server environment..."
+          
+          cd ~/scm-pipeline
+          
+          if [ -f "deploy/oracle-setup.sh" ]; then
+            echo "Running Oracle setup script..."
+            chmod +x deploy/oracle-setup.sh
+            ./deploy/oracle-setup.sh
+          else
+            echo "Oracle setup script not found, running basic setup..."
+            
+            sudo apt-get update || true
+            sudo apt-get install -y python3 python3-pip python3-venv docker.io docker-compose || true
+
+            # Ensure Docker starts on boot
+            sudo systemctl enable --now docker || true
+
+            # Stop and disable host nginx if present to avoid port 80 conflict
+            if systemctl list-unit-files | grep -q '^nginx.service'; then
+              sudo systemctl disable --now nginx || true
+            fi
+          fi
+          
+          echo "Starting Docker services with latest SCM_Pipeline code..."
+          chmod +x start-docker-services.sh
+          ./start-docker-services.sh
+          
+          echo "Oracle server deployment completed successfully!"
+          EOF
+
+      - name: Verify Deployment (wait until Airflow is healthy)
+        if: steps.check-deployment.outputs.oracle_deploy == 'true'
+        run: |
+          echo "Verifying SCM_Pipeline deployment..."
+          ssh -o StrictHostKeyChecking=no -i ~/.ssh/oracle.key ubuntu@${{ secrets.ORACLE_HOST }} << 'EOF'
+          set -e
+          cd ~/scm-pipeline
+
+          echo "Waiting for Airflow webserver health..."
+          ATTEMPTS=60
+          SLEEP_SECS=10
+          for i in $(seq 1 $ATTEMPTS); do
+            STATUS=$(docker inspect --format '{{json .State.Health.Status}}' scm_airflow_webserver 2>/dev/null | tr -d '"' || true)
+            echo "Attempt $i/$ATTEMPTS: Airflow webserver health: "+${STATUS:-unknown}
+            if [ "$STATUS" = "healthy" ]; then
+              break
+            fi
+            sleep $SLEEP_SECS
+          done
+
+          STATUS=$(docker inspect --format '{{json .State.Health.Status}}' scm_airflow_webserver 2>/dev/null | tr -d '"' || true)
+          if [ "$STATUS" != "healthy" ]; then
+            echo "Airflow webserver did not become healthy in time" >&2
+          fi
+
+          echo "Testing Airflow UI..."
+          curl -f http://localhost:8081/health || echo "Airflow UI test failed"
+
+          echo "Testing Kafka UI..."
+          curl -f http://localhost:8085/ || echo "Kafka UI test failed"
+
+          echo "Testing Streamlit dashboard..."
+          curl -f http://localhost:8501/ || echo "Streamlit test failed"
+
+          echo "Listing containers..."
+          docker ps --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}'
+
+          echo "Deployment verification completed"
+          EOF
+
+      - name: Deployment Summary
+        if: steps.check-deployment.outputs.oracle_deploy == 'false'
+        run: |
+          echo "CI/CD pipeline completed successfully!"
+          echo "Oracle deployment was skipped (secrets not configured)"
+          echo "To enable Oracle deployment, configure the following secrets:"
+          echo "   - ORACLE_SSH_KEY: Private SSH key for Oracle instance"
+          echo "   - ORACLE_HOST: Oracle instance IP address"
