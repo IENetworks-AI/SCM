@@ -160,7 +160,7 @@ def main():
 
     # Header
     st.markdown("""
-        <div class="bg-blue-600 text-white p-4 rounded-lg mb-4">
+        <div class="bg-green-600 text-white p-4 rounded-lg mb-4">
             <h1 class="text-3xl font-bold">📦 SCM Real-Time Dashboard</h1>
             <p class="text-lg">Monitor inventory and transactions across projects</p>
         </div>
