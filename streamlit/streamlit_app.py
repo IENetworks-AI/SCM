@@ -8,6 +8,7 @@ import plotly.express as px
 from kafka import KafkaConsumer
 from datetime import datetime
 import logging
+import requests
 
 # -------------------------- Logging configuration
 logging.basicConfig(level=logging.INFO)
@@ -131,7 +132,7 @@ def generate_unreturned_item_alert(requests_df, selected_project):
         return f"No unreturned or unconsumed items for project {selected_project}."
     
     unreturned_requests['requested_date'] = pd.to_datetime(unreturned_requests.get('requested_date', pd.Timestamp.now()), errors='coerce')
-    unreturned_requests['requester_received_date'] = pd.to_datetime(unreturned_requests.get('requester_received_date', errors='coerce'), errors='coerce')
+    unreturned_requests['requester_received_date'] = pd.to_datetime(unreturned_requests.get('requester_received_date', default=pd.Timestamp.now()), errors='coerce')
     unreturned_requests['relevant_date'] = unreturned_requests['requester_received_date'].fillna(unreturned_requests['requested_date'])
 
     oldest_request = unreturned_requests.loc[unreturned_requests['relevant_date'].idxmin()]
@@ -146,6 +147,25 @@ def generate_unreturned_item_alert(requests_df, selected_project):
 
 # -------------------------- Streamlit App
 st.set_page_config(page_title="SCM Real-Time Dashboard", page_icon="📊", layout="wide")
+ML_API_URL = os.getenv("ML_API_URL", "http://scm_ml-api:8001")
+
+def call_prediction_api(project_name, item_name):
+    try:
+        payload = {
+            "project_name": project_name,
+            "item_name": item_name,
+            "requested_date": datetime.now().strftime("%Y-%m-%d"),
+            "in_use": 1  # automatically set
+        }
+        response = requests.post(f"{ML_API_URL}/predict", json=payload, timeout=10)
+        if response.status_code == 200:
+            return response.json().get("predicted_quantity", None)
+        else:
+            st.error(f"Prediction API error: {response.text}")
+            return None
+    except Exception as e:
+        st.error(f"Failed to call ML API: {e}")
+        return None
 
 def main():
     st.markdown("""
@@ -171,35 +191,26 @@ def main():
         if new_requests:
             st.session_state.requests_data.extend(new_requests)
             st.session_state.requests_data = st.session_state.requests_data[-MAX_MESSAGES:]
-        else:
-            st.warning("No requests messages fetched from Kafka")
-    else:
-        st.warning("Requests consumer not available")
-
     if inventory_consumer:
         new_inventory = fetch_kafka_data(inventory_consumer, batch_size=MAX_MESSAGES)
         if new_inventory:
             st.session_state.inventory_data.extend(new_inventory)
             st.session_state.inventory_data = st.session_state.inventory_data[-MAX_MESSAGES:]
-        else:
-            st.warning("No inventory messages fetched from Kafka")
-    else:
-        st.warning("Inventory consumer not available")
 
     # Convert to DataFrames
     requests_df = pd.DataFrame(st.session_state.requests_data)
     inventory_df = pd.DataFrame(st.session_state.inventory_data)
 
-    # Handle missing columns
+    # Handle missing project_display safely
     if 'requested_project_name' in requests_df.columns:
         requests_df['project_display'] = requests_df['requested_project_name'].fillna('').astype(str).str.strip()
     else:
-        requests_df['project_display'] = requests_df.get('project_display', '')
-    
+        requests_df['project_display'] = pd.Series([''] * len(requests_df))
+
     if 'department_id' in inventory_df.columns:
         inventory_df['project_display'] = inventory_df['department_id'].fillna('').astype(str).str.strip()
     else:
-        inventory_df['project_display'] = inventory_df.get('project_display', '')
+        inventory_df['project_display'] = pd.Series([''] * len(inventory_df))
 
     # Ensure extra fields
     new_fields = ['returned_date', 'is_requester_received', 'requester_received_date',
@@ -228,7 +239,7 @@ def main():
         else:
             st.info("No inventory data available.")
 
-    # Usage analytics
+    # Usage analytics and demand prediction
     with col_right:
         st.subheader("Usage Analytics")
         requests_filtered = requests_df if selected_project_usage=="All Projects" else requests_df[requests_df['project_display']==selected_project_usage]
@@ -249,6 +260,30 @@ def main():
             st.error(alert_msg)
         else:
             st.success(alert_msg)
+
+        # ---------------- Prediction Feature ----------------
+        st.subheader("🔮 Demand Prediction")
+
+        # Projects from requests_df
+        available_projects = sorted(requests_df['project_display'].dropna().unique().tolist())
+        project_choice = st.selectbox("Select Project", available_projects if available_projects else ["No projects available"], key="predict_project")
+
+        # Items from requests_df filtered by project
+        if project_choice and project_choice != "No projects available":
+            project_items = requests_df[requests_df['project_display'] == project_choice]['item_name'].dropna().unique().tolist()
+            available_items = sorted(project_items)
+        else:
+            available_items = []
+
+        item_choice = st.selectbox("Select Item", available_items if available_items else ["No items available"], key="predict_item")
+
+        if st.button("Predict Next Week Demand"):
+            if project_choice not in ["", "No projects available"] and item_choice not in ["", "No items available"]:
+                prediction = call_prediction_api(project_choice, item_choice)
+                if prediction is not None:
+                    st.success(f"📈 Predicted requested quantity for **next week**: {prediction:.2f}")
+            else:
+                st.warning("Please select valid project and item to predict.")
 
 if __name__ == "__main__":
     main()
