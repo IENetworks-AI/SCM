@@ -1,9 +1,9 @@
 id,item_name,price,amount,is_consumable,department_id,date_of_purchased,description,store_store_name,uom_name,quantity
-00089064-1303-49d7-a281-ade9354a28d3,Fiber Patch Cable,1436.4,0.0,0,Dashen Bank DHCI,2025-07-16,"Fibers, LC UPC Duplex to LC UPC
+00089064-1303-49d7-a281-ade9354a28d3,Fiber Patch Cable,1436.4,108.0,0,Dashen Bank DHCI,2025-07-16,"Fibers, LC UPC Duplex to LC UPC
 Duplex, Multimode (OM4), Riser
 (OFNR), 2.0mm, Tight-Buffered,
 Aqua
-3430pcs in FS Asia warehouse",Logistics Temp Store,pcs,108.0
+3430pcs in FS Asia warehouse",Logistics Temp Store,pcs,
 000d13b3-90b8-4995-bc81-fdca1461f37d,Fisher 6.,2739.1,0.0,0,EPSS,2025-05-21,Fisher 6.,Temporary Store,pcs,35.0
 00127af5-67f8-4819-a7e2-6fa0a225611f,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 0017821f-df51-4b1f-95d3-47d5b324bafd,Ethio Telecom,2143.47,1.0,0,HQ Office Facility,2025-07-18,for additional New sim card,HQ Office,pcs,29.0
@@ -14,6 +14,7 @@ Aqua
 00405759-8f91-4b19-bf6e-a39a552119e1,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 00491638-9305-4f6e-9de6-12b05ed5f5af,SVS-FLEX-SUPT-BAS,0.0,1.0,0,ICT Park TTA,2024-12-19,Basic Support for Flex Plan,Temporary Store,,20.0
 00518469-0950-41e1-ba1b-0506cc5afff1,Edge L angle frame plastic L angle for edge chacki,187824.96,0.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+00575099-db21-4634-bea2-e36349de2ae6,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",335925.84,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB *8",Logistics Temp Store,,8.0
 0066c0c6-1331-44c4-a209-125c99891fab,Scotch,339.13043478261,3.0,1,Kaizen VC Equipment,2025-01-15,-,Temporary Store,pcs,3.0
 00751303-9ec1-4ad1-bd5c-7d384fccbec1,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 0086cd96-6533-4d7f-b840-79efe50a1470,conduite 19,7350.0,1.0,0,Kaizen VC Equipment,2024-12-06,19 mm REGIDE conduite with 3 meter long,HQ Office,,150.0
@@ -36,6 +37,7 @@ Aqua
 010b74cd-0d58-4635-88bf-617948edebf2,LED Lamp Beads,89.76,54.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,
 01133c16-d7ab-4ec8-94fd-f95ca7e92dbb,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 0138dadd-ecfe-4fa1-97a5-bb18f498c7d7,A3 Envelope,1086.9565217391,143.0,0,HQ Office Facility,2024-12-16,A3 Envelope,Temporary Store,pcs,
+014c8692-54dd-4c46-a9d7-342eabde188c,‎‎Battery with Model HTO3XL for HP Pavilion laptop,4260.8695652174,0.0,0,HQ Office Facility,2025-08-27,laptop ‎‎Battery with Model HTO3XL for HP Pavilion laptop Model 14-ce2068st,Temporary Store,pcs,1.0
 015855cd-1dbc-4c4e-b3fe-1093481027be,Edge L angle frame plastic L angle for edge chacki,187824.96,0.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 015e7cef-4cd6-4c1e-9d2d-d2a75166a247,Gearbox support side,5000.0,1.0,1,HQ fleet,2024-07-03,Gearbox support side,Fleet Mgt Store,pcs,1.0
 016ed253-4e54-44d4-afcd-e92a60c9ec6c,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
@@ -67,6 +69,7 @@ Aqua
 022a6836-6c8f-4b99-b22c-445402930320,Rubber Insulation RI58,22.05,0.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation 5/8 ,1.8 Mtr",Temporary Store,,45.0
 022ef5be-93b0-45b8-8398-0b759e67b706,Light Motion Sensor,122.5,1.0,0,ICT Park TTA,2024-12-19,Ceiling mount infrared motion sensors for lights (1000 W),Temporary Store,,10.0
 0238ffcd-5008-40b5-a8fe-6d2b8917bdad,Clamp,1956.45,1.0,0,EPSS,2025-05-21,Clamp,Temporary Store,pcs,150.0
+02447a0b-94a2-435b-adc2-0be8ec6d7ccf,Nastro,1565.2173913043,2.0,1,ERA Redeployment,2025-08-27,High tenshin Nastro,Temporary Store,,2.0
 0253f5c3-537d-473f-9aaf-c77752f79deb,Lights Pool Office and Traing Staffs Rooms,1234.8,1.0,0,ICT Park TTA,2024-12-19,15 W LED spotlight for magnetic rails with full accessories,Temporary Store,,72.0
 026f2603-edc6-4499-927d-c8869b90e2c4,A3 Envelope,1086.9565217391,100.0,0,HQ Office Facility,2024-12-16,A3 Envelope,22 Branch Office,pcs,
 027bb900-468c-4ecd-88ac-f89e4ed00c4a,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -77,6 +80,7 @@ Aqua
 02a8f8f9-65ba-411e-8153-c40000a41393,Edge L angle frame plastic L angle for edge chacki,187824.96,0.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 02b71732-9df0-4019-92b8-656620b050ba,A-FLEX-PROPACK-ENT,0.0,1.0,0,ICT Park TTA,2024-12-19,Pro Pack for Cisco Control Hub Entitlement,Temporary Store,,10.0
 02b839c4-1eaf-4169-ba9e-206abcd1aa44,L angle white Aluminum  L angle for LED light modf,35200.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,white Aluminum  L angle for LED light modfication (1pc Length=3m),Temporary Store,pcs,88.0
+02c82da5-61e7-4528-bddc-3cebc6bb64c6,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 02ccac24-94f0-489b-b1d5-6a660888c482,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 02d5c7ec-9dfc-4f3e-a4e2-47627eb5681e,Metal fisher,6000.0,0.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 02ed310d-e692-4127-8ebf-b9ba117be97d,Clamp,1956.45,1.0,0,EPSS,2025-05-21,Clamp,Temporary Store,pcs,150.0
@@ -95,7 +99,7 @@ Aqua
 03560f8f-0a66-4fae-91a9-b633d45f081f,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 035e98dd-7953-492c-a98d-e73a23128ed7,breaker  32Amp,834.78,0.0,1,HQ Office Facility,2025-01-31,breaker  32Amp,IT Park Store,pcs,3.0
 035ed2a8-1354-4822-b347-f5aa61dea545,RJ45,260.86956521739,10.0,1,MINT Commissioning of Smart Communication Rooms at,2024-12-06,RJ45,Temporary Store,pcs,30.0
-037209a3-ba6f-4079-ae77-a37e65292f38,Box File,12000.0,1.0,0,HQ Office Facility,2025-02-18,Box File,HQ Office,pcs,60.0
+037209a3-ba6f-4079-ae77-a37e65292f38,Box File,12000.0,2.0,0,HQ Office Facility,2025-02-18,Box File,HQ Office,pcs,
 03749109-d9a5-4a21-9ff6-e01968643ce0,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 03828f25-1b86-42f5-bb9a-ee92c04dc908,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 03870bf0-6e7e-40ac-8d0e-baf97eec2938,Fisher 6mm,65.22,0.0,1,MINT Commissioning of Smart Communication Rooms at,2025-01-09,Fisher 6mm,Temporary Store,Pack,1.0
@@ -386,9 +390,14 @@ Aqua
 0ce3d0b5-e047-4e4e-8b79-ec82e2f880db,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 0ce5f518-b38d-4a7d-bd60-fb83f6914815,"Guroro conduit  for AC hose 1/2"" guroro conduit",1669.2,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"Guroro conduit  for AC hose 1/2"" guroro conduit",Temporary Store,Meter,120.0
 0ce7e8e4-9863-4717-b336-5f6ab7d0c48f,sticker  for south site,16649.76,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-03-28,white Glass sticker for south site,HQ Office,,48.0
+0cecd2bc-9a18-4e02-9cfd-648372d1b28d,UPS 120KVA,30461.99,1.0,0,EEC Supply and Fix 120kva UPS,2025-08-12,"Liebert EXM2 - 120kVA UPS, Input & Output subassembly 100-
+160KVA (4 X Switches), IS-UNITY-DP CARD, IS-RELAY CARD,
+Warranty Extension Year 2 & 3 (UPS), 630A BCB BOX, 40 X Leoch
+160Ah, 12V Battery Block, 2 X Battery Stand",Logistics Temp Store,Set,1.0
 0cf3578f-4b9a-44e2-87d6-8f90d7e2e8e3,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 0cf54f3d-f1bc-40bc-99fd-038db2186260,Rubber Insulation RI38,15.75,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation , 3/8 ,1.8 Mtr",Temporary Store,,45.0
 0cfb26d9-8dd3-44c4-850c-41499b719222,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
+0cff0d0d-7fd3-4049-b16c-6c8d6aeeddd5,8 GB DDR4 for Hp 15-dw3xxx laptop,2782.6,0.0,0,HQ Office Facility,2025-08-27,8 GB DDR4 for Hp 15-dw3xxx laptop,Temporary Store,pcs,1.0
 0d063a1f-614e-473a-9ae5-914e7b345d26,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 0d122b86-42df-4a6e-b8e5-638369f6caf7,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 0d13a3e5-7db9-4629-9d73-e4204b639643,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
@@ -453,12 +462,14 @@ Aqua
 0f6d652a-db48-40e7-a60a-995716766694,Gysum board 1200x2400x9mm Gypsum board,128348.04,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,1200x2400x10mm Gypsum board,HQ Office,pcs,98.4
 0f73cdbe-74f5-413e-bb15-bb3e19b4eeb7,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 0f7d2d45-a77d-4ed3-999f-9c3553150a87,TV Floor Stand,350.0,1.0,0,ICT Park TTA,2024-12-19,Universal moveable TV Floor Stand for 55 inches to 65 inches,Temporary Store,pcs,
+0f88386d-a215-47c7-a21b-c3eab93c59e5,Flash Drive 64GB USB 3.0 Flash Drive Retractable S,2504.347826087,0.0,0,HQ Office Facility,2025-08-27,Flash Drive 64GB USB 3.0 Flash Drive Retractable Slide Memory Stick 64GB Memory Stick for Computers Zip Drive USB Jump Drive Pen Drive Blue,Temporary Store,pcs,3.0
 0f8ae245-06b9-4775-a1c0-8ba58229900e,Screw 6mm,552.17391304348,1.0,1,EPSS,2024-06-06,Screw 6mm,EPSS Mini store,,1.0
 0f94821d-02f3-4341-927a-9624fe911c17,Shetaf,11478.260869565,0.0,1,ICT Park TTA,2025-01-04,Shetaf,Temporary Store,pcs,6.0
 0fa251a4-142b-431e-a390-d3e0f1f3afa2,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 0fa9fca4-9796-4aa8-b360-30a84fe9f824,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 0faa7d0a-600d-4fd5-a6d3-c09224c5e6b5,Dimmer Switch,3267.36,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,Wi fi smart switch Dimmer white,Temporary Store,pcs,48.0
 0fae5252-18d3-4ff1-88fb-757338eb4c96,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+0fbf4610-2867-4941-ba1e-19f0890afe6d,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 0fc87d3f-f62b-4872-995e-a59c868edb63,Cat 6A Utp cable  As per the sample   (G link Bran,1610869.5652174,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,Cat 6A Utp cable  As per the sample   (G link Brand ),Temporary Store,pcs,57.0
 0fcbd51e-821d-497d-b368-267c092f3e19,Fuel filter Fleet guard FS 1280,1200.0,1.0,1,MiNT(ECA) - DC,2024-07-02,Fuel filter Fleet guard FS 1280,Main Store,pcs,1.0
 0fcc2718-acf2-4543-8eea-9e4ac4771dbf,manual key,478.26086956522,1.0,1,ICT Park TTA,2024-11-13,manual key,Temporary Store,pcs,1.0
@@ -467,6 +478,7 @@ Aqua
 0fde4771-2101-47dc-a114-30b683e2ff3b,kacha,1565.2173913043,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-11,kacha,Temporary Store,KG,12.0
 0fe083ab-2248-4953-9d4f-e941dd0a5acf,A-FLEX-FILESTG-ENT,0.0,1.0,0,ICT Park TTA,2024-12-19,File Storage Entitlement,Temporary Store,,200.0
 0fe6c863-1465-482b-a660-ff77e0e5ca4a,C9300X-24HX-M,3212.92,1.0,0,ICT Park TTA,2024-12-19,"C9300X 24-port mGig UPoE+, 1100wac PS, w/MERAKI",Temporary Store,,1.0
+0ff75b93-8120-4fd7-b01f-682d6cf1bb1a,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 0fff16b2-461a-4b58-9b3f-980a5721fbca,A-FLEX-SRST-E,0.0,1.0,0,ICT Park TTA,2024-12-19,SRST Endpoints (1),Temporary Store,,20.0
 101e5872-1818-44e7-8557-dbce0f73658e,White Borad 200132,650.0,1.0,0,ICT Park TTA,2024-12-19,Double soded magnetic white board with metal stand and wheels 600mm×900mm(60cm×90cm),Temporary Store,,5.0
 104f8cc4-ac6a-40bf-9535-132f8ebecd94,OFFICE FILE,5217.3913043478,100.0,1,HQ Office Facility,2025-02-18,OFFICE FILE,HQ-Mini Store,pcs,100.0
@@ -558,6 +570,7 @@ Finish Material Fireproof
 Soundproof Operable Partitions
 Wall",Temporary Store,,12.975
 12bc894b-1eb3-4ffd-93a8-bceb191f4fca,T Frame as per the sample,68869.565217391,144.0,1,MINT Commissioning of Smart Communication Rooms at,2024-12-04,T Frame as per the sample,Temporary Store,pcs,144.0
+12c65eec-f403-4c05-aadc-a1f23a697884,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 12c9b02e-8dcc-4a1f-8c9f-b604563cf953,Cable lug #70,3600.0,1.0,0,ICT Park TTA,2025-02-06,Cable lug #70,HQ Office,pcs,40.0
 12cd63a5-f6aa-4d6d-9445-9bdda5cd4e89,VIM,1043.4,15.0,1,HQ Office Facility,2025-07-16,VIM,Temporary Store,,15.0
 12d5e533-117a-4413-bf93-1288e420dba8,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -696,7 +709,7 @@ Aqua
 17555efa-fb78-4594-ace4-68664bbfa0ad,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 176835bb-6bac-461b-ba5e-642a728c9bb3,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 17710909-0ea0-4dfc-b396-b8f145af4110,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
-1778e2bd-b659-467e-9af2-bcd58b5d7206,Power Adapter  12V 3A,1565.2173913043,1.0,1,HQ support,2024-11-13,Power Adapter 12V 3A,HQ-Main Store,pcs,1.0
+1778e2bd-b659-467e-9af2-bcd58b5d7206,Power Adapter  12V 3A,1565.2173913043,1.0,1,HQ support,2024-11-13,Power Adapter 12V 3A,HQ-Main Store,Box,
 17886385-2501-4f8b-9e62-4daf9b4142fc,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 178c73ce-26b8-49ef-b87f-8c3e94c8ffe6,Agrigate 02(Teter),3652.1739130435,2.0,1,HQ support,2024-11-13,Agrigate 02,Temporary Store,,2.0
 178f0cdc-2fe4-4bea-96ba-39dc49fd6ae4,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
@@ -722,6 +735,7 @@ Aqua
 ,Output:DC110-145V 300mA",Temporary Store,pcs,87.0
 17d9addb-2ed3-49e7-a77b-fff919162ecd,NA,2173.5,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-02-12,Gurori Conduite 32mm,HQ Office,Meter,50.0
 17e517a0-ab05-432d-b256-5eb0859450be,Fisher  8MM,5008.6956521739,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-11,Fisher  8MM,Temporary Store,Pack,48.0
+17f56e08-1762-4d2d-9097-71b7408a1614,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 17f58da4-f957-4b4e-a5e8-6881dddeae99,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 180afdbc-cfb1-4ee3-81d2-d965169a1bd0,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 181051be-bbaf-4a81-8201-8ec2efdab778,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -927,6 +941,7 @@ Aqua
 3430pcs in FS Asia warehouse",Logistics Temp Store,pcs,
 1dce9b6f-3ac2-42ed-bbc2-4c188f1b53ed,VIM (500 gm),1043.4,0.0,1,HQ Office Facility,2024-07-29,Vim,HQ-Mini Store,pcs,
 1de9d5bc-4ca6-4c0d-a8eb-106a35a80a13,sticker  for south site,16649.76,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-03-28,white Glass sticker for south site,HQ Office,,48.0
+1e02024f-c068-4c6b-bbbf-c445242c6358,USB Wired Computer Mouse Optical Mouse for PC Mous,2391.3043478261,0.0,0,HQ Office Facility,2025-08-27,Computer Mouse Optical Mouse for PC Mouse Mice for Office Home Use,Temporary Store,pcs,5.0
 1e062400-b72c-4d9d-ad5b-eb8c6e0a8b36,Fiber Patch Cable,1436.4,1.0,0,Dashen Bank DHCI,2025-07-16,"Fibers, LC UPC Duplex to LC UPC
 Duplex, Multimode (OM4), Riser
 (OFNR), 2.0mm, Tight-Buffered,
@@ -954,6 +969,7 @@ accessories",Temporary Store,,12.0
 1e74d5db-ad55-4e4d-92a1-fc65066e6add,MEM-4460-DP-4G,0.0,1.0,0,ICT Park TTA,2024-12-19,4G DRAM for Cisco ISR 4460 Data Plane,Temporary Store,,1.0
 1e74e735-7462-452e-a48e-d50afa9a5163,Spot light lamps,0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,"Directional spot ,GU10 LED bulbs with 7W",HQ Office,pcs,30.0
 1e7ef2e1-6b97-4a77-a342-542bdb7fba5b,OFFICE FILE,5217.3913043478,1.0,0,HQ Office Facility,2025-02-18,OFFICE FILE,HQ Office,pcs,100.0
+1eb24acd-0422-4722-ba40-3cda8fe1ddc3,"Gorilla Super Glue Gel, 15 Gram, Clear, (Pack of 1",486.95652173913,0.0,1,HQ Office Facility,2025-08-27,"Gorilla Super Glue Gel, 15 Gram, Clear, (Pack of 1)",Temporary Store,pcs,2.0
 1eb405a5-1867-435a-b218-dc83465602dc,guroro conduit,4521.6,1.0,0,EPSS,2025-05-21,guroro conduit,Temporary Store,,80.0
 1ebcc433-5bfd-4370-b909-dae05bdbdb10,power adapter,4695.652173913,0.0,1,HQ Office Facility,2025-03-05,power adapter,Temporary Store,pcs,
 1ec2f113-2254-49a3-8eca-375f97677c83,3 Angle emergency,4050.0,9.0,1,HQ fleet,2024-12-24,3 Angle emergency,Temporary Store,pcs,9.0
@@ -1041,6 +1057,7 @@ Aqua
 217ebc71-d71e-4204-bc8d-c5a4395eea25,A3 Envelope,1086.9565217391,1.0,0,HQ Office Facility,2024-12-16,A3 Envelope,Temporary Store,pcs,100.0
 21834d35-2323-4c3f-897a-4f365eb23fba,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 2197030f-ee5a-4767-a19a-2a4cb196e6b1,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
+219b9815-0e26-49dd-a18e-df13b079ef75,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 219f38da-2e8a-4674-a9f3-41b0c5b86980,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 21e4e80c-ac3b-4e9c-8178-b5e07a6a45bc,fisher,495.0,1.0,0,Kaizen VC Equipment,2024-12-06,6mm-fisher,HQ Office,Pack,11.0
 21e77542-dc7b-4b5b-9153-019a25486cc1,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -1048,7 +1065,7 @@ Aqua
 224c0048-6155-4052-a609-5fadac89acbd,LED Ballast(driver),0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,"LED Dimmer Driver Input AC200-240V
 ,Output:DC110-145V 300mA",Temporary Store,pcs,87.0
 2259ad62-f5a6-4fd1-9d07-3f31aac17e02,STRUT ASSY-FR LH,113.4,1.0,1,HQ fleet,2025-01-22,STRUT ASSY-FR LH prt no 546504H100 brand orginal,Temporary Store,pcs,
-225ad5e8-5467-4616-938d-25cb0f10c9bb,CP-PWR-CORD-CE=,72.0,1.0,0,ICT Park TTA,2024-12-19,"Power Cord, Central Europe",Temporary Store,,10.0
+225ad5e8-5467-4616-938d-25cb0f10c9bb,Power Cord,72.0,2.0,0,ICT Park TTA,2024-12-19,"Power Cord, Central Europe",Temporary Store,pcs,
 22717017-4e2a-4299-80fe-a1359a9d5bce,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 22838db9-6fb0-4972-9b3c-c29347ec1adb,arteficial hareg,6000.0,5.0,1,ICT Park TTA,2025-02-20,arteficial hareg,Temporary Store,pcs,5.0
 22880d71-ba84-4bcb-adcd-4db93d4609f9,Fisher  8MM,5008.6956521739,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-11,Fisher  8MM,Temporary Store,Pack,48.0
@@ -1212,12 +1229,15 @@ Aqua
 (White),
 Dimension:120*72*37MM
 Australian Standard Size",Temporary Store,,42.0
+271b2618-f536-4e1e-9e79-6034d15af880,Mugs ceramic withUV print,5300.0,10.0,1,HQ Marketing,2025-08-26,Mugs ceramic withUV print,HQ Office,pcs,10.0
 271bc622-e8d7-463c-a987-b06828ad910c,CMOS Battery,826.08695652174,1.0,0,MoF OFAG-AV,2025-03-18,CMOS Battery for Desktops,Temporary Store,pcs,10.0
+271bd7ca-cf83-4fbc-9944-152690cc44c5,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",335925.84,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB *8",Logistics Temp Store,,8.0
 272ce078-4bcf-41fd-abeb-2047c5f60b3c,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 27332789-b20a-4e31-bda4-cd6a29c0e98d,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 274988e5-8b6b-4876-8087-8c1994656675,Cat 6A RJ45,90.0,10.0,1,ICT Park TTA,2025-02-26,Cat 6A RJ45,Temporary Store,pcs,
 2753f433-c0f3-4970-9fb8-80edfcde17a7,A-FLEX-SRST-E,0.0,1.0,0,ICT Park TTA,2024-12-19,SRST Endpoints (1),Temporary Store,,20.0
 27545064-4ac5-4c35-8d34-d30afb88fe27,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
+27598524-b6de-4833-b26e-9959fc57b6b6,Chargaible punta,1043.4782608696,10.0,1,ERA Redeployment,2025-08-27,Chargaible punta,Temporary Store,pcs,
 27679f72-3bb3-4e1c-8259-056d204f8ef3,Fiber Patch Cable,1436.4,1.0,0,Dashen Bank DHCI,2025-07-16,"Fibers, LC UPC Duplex to LC UPC
 Duplex, Multimode (OM4), Riser
 (OFNR), 2.0mm, Tight-Buffered,
@@ -1313,6 +1333,7 @@ Aqua
 294fd5e3-d67d-4d85-86e2-fad4147b1cc4,OFFICE FILE,5217.3913043478,1.0,0,HQ Office Facility,2025-02-18,OFFICE FILE,HQ Office,pcs,100.0
 2963c3c3-94da-41a4-b2f7-61fccfa8b184,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 296b195e-8b14-4f40-8da4-b2fbe5ad5655,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+296c295e-b971-4a31-bda6-4ab3de2ce635,USB Wired Computer Mouse Optical Mouse for PC Mous,2391.3043478261,0.0,0,HQ Office Facility,2025-08-27,Computer Mouse Optical Mouse for PC Mouse Mice for Office Home Use,Temporary Store,pcs,5.0
 296c9e3e-eead-413e-9f65-3e12ae79aa00,DISC SET-BRAKE,40.5,1.0,1,HQ fleet,2025-01-22,DISC SET-BRAKE part no 4562602420 brand ORIGINAL,Temporary Store,pcs,
 29879517-3200-4cca-b71f-00f54863434a,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 29931638-e85b-4cc4-8d61-100fa0629311,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -1344,7 +1365,7 @@ Aqua
 2ab874a5-403e-43c1-9692-60da9393fae2,868200X200,102.6,1.0,0,HQ fleet,2025-01-22,GUARD ASSY-FR WHEEL RH prt no 868200X200 brand Orginal,HQ Office,pcs,4.0
 2ac5c68c-c0bc-4127-93e9-88d9f8c3f717,NA,608.69565217391,2.0,1,MINT Commissioning of Smart Communication Rooms at,2025-03-05,Punta 8,Temporary Store,pcs,2.0
 2ac6b647-523f-45a1-ac0c-a9e2555328a1,LED Lamp Beads,89.76,1.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,51.0
-2ac6ec4c-b2a7-40a9-be3d-71a016e00ed9,Roll up banner,10000.0,0.0,1,Branding and  CSR,2025-02-13,Roll up banner,Temporary Store,pcs,2.0
+2ac6ec4c-b2a7-40a9-be3d-71a016e00ed9,Roll up banner,10000.0,2.0,1,Branding and  CSR,2025-02-13,Roll up banner,Temporary Store,pcs,2.0
 2adbd81e-4116-4bbc-bba0-f17b138638c6,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 2adc258f-10fa-480b-af91-c9ba63946ed9,Golden screw 8MM,25043.47826087,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-11,Golden screw 8MM,Temporary Store,Pack,48.0
 2ae1efe6-af36-415f-8c51-e7c98c90c3fd,Dimmer Switch,3267.36,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,Wi fi smart switch Dimmer white,Temporary Store,pcs,48.0
@@ -1482,6 +1503,7 @@ Aqua
 2e928b7e-4c71-4225-96a2-be4cf05d25c1,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 2e989457-7e48-4e1c-88d4-e627b1af4ed1,Trunk 16*25mm,1947.8260869565,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-27,Trunk 16*25mm,HQ Office,pcs,8.0
 2e9c20d2-c9a6-42e0-9560-6fcf1562cf44,A3 Envelope,1086.9565217391,0.0,0,HQ Office Facility,2024-12-16,A3 Envelope,Temporary Store,pcs,100.0
+2eaa6140-7848-4fd5-8ac4-0085a1e887c2,Full car mat with plate no 3-A21140 Hyundai i10 Se,5350.0,1.0,1,HQ fleet,2025-09-08,Full car mat with plate no 3-A21140 Hyundai i10 Service,Temporary Store,pcs,1.0
 2eaba373-47d5-480a-aca1-059fa086fe6f,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 2eb9a3b4-6064-4773-8a45-535e5ae750e1,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 2eba348e-a039-435f-9359-4fc87b78b5c0,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -1519,6 +1541,7 @@ Aqua
 2fa94520-e207-49c3-b712-796b4f63c80e,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 2faa1c49-f8c2-4346-9bbb-0bb26de56662,Big Mefas,304.34782608696,1.0,1,MINT Commissioning of Smart Communication Rooms at,2025-04-02,Big Mefas,22 Store,pcs,1.0
 2fb7f083-0dfc-4c5a-9db9-3e4aaa521cc2,NA,6521.74,10.0,1,MINT Commissioning of Smart Communication Rooms at,2025-03-07,morale australia 4*5,Temporary Store,pcs,10.0
+2fc1e3d0-d3d7-4574-8a70-cd3777ed79fb,Mintaf for High Roof 68651 Car,11000.0,1.0,0,HQ fleet,2025-09-09,Mintaf for High Roof 68651 Car purchase,Temporary Store,Set,
 2fc891ee-23bf-4adf-978d-34594dd580fb,Clamp,1956.45,1.0,0,EPSS,2025-05-21,Clamp,Temporary Store,pcs,150.0
 2fcdcf0a-168a-4148-bde3-7e44f4a92b90,ANC6UPKJTLS-180,219.2,1.0,0,ICT Park TTA,2024-12-19,"RJ45- Cat6 Keystone Jack ,110 IDC, Shielded, 180 degree(for patch panel)TOOLLES",Temporary Store,,80.0
 2fd51da4-b60d-4cee-9d6b-05c5678cde1d,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -1574,6 +1597,7 @@ Size: D110xH110mm",Temporary Store,pcs,48.0
 30dfd3bb-560b-43e3-baa4-196a5f74b029,OFFICE FILE,5217.3913043478,1.0,0,HQ Office Facility,2025-02-18,OFFICE FILE,HQ Office,pcs,100.0
 30fa1b1b-1350-4b3e-a8dd-f10ac5dabd93,LED Ballast(driver),0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,"LED Dimmer Driver Input AC200-240V
 ,Output:DC110-145V 300mA",Temporary Store,pcs,87.0
+31014c70-b560-423e-b1f9-7d100665e749,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 3107ea26-7922-4af7-9609-ed1215a50828,Gysum board 1200x2400x9mm Gypsum board,128348.04,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,1200x2400x10mm Gypsum board,HQ Office,pcs,98.4
 310d6f23-75a8-4e0e-a0c6-bf81b2ab0257,NA,9739.1,1.0,0,HQ Office Facility,2025-02-19,Trash bin,HQ Office,pcs,10.0
 310d8fac-153a-49ca-a462-078da9dc7161,Cafteria Chair,3400.0,1.0,0,ICT Park TTA,2024-12-31,"Color use IE brand colors Navy,Cycan,Dark Navy & Gray (Hex BFBFBF)",HQ Office,pcs,40.0
@@ -1615,6 +1639,7 @@ getway that you sent us before",Temporary Store,pcs,24.0
 3277aa53-12c1-49c1-8cd9-ba7161121cbb,fisher,495.0,1.0,0,Kaizen VC Equipment,2024-12-06,6mm-fisher,HQ Office,Pack,11.0
 328ac265-4b34-4b8a-b953-1eb36d3409cc,ANC6ASPGY-1MT-LSZH,196.0,1.0,0,ICT Park TTA,2024-12-19,Cat.6A 10G STP 26AWG LSZH Patch cord 1meter grey colour,Temporary Store,,50.0
 328b56f3-6ff6-4a23-ae71-5b6bee0205f8,Trunk 16x25mm,730.44,3.0,1,MINT Commissioning of Smart Communication Rooms at,2025-01-09,Trunk 16x25mm,Temporary Store,pcs,3.0
+328d7169-3095-4a0d-8055-b16a50619c82,Labelr casset 12mm,3478.2608695652,2.0,1,Store and Inventory,2025-09-10,Label casset 12mm,HQ-Main Store,pcs,2.0
 328eade3-e72e-44e6-9575-7fd1a2dffd38,LED Lamp Beads,89.76,1.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,51.0
 32997d47-b57e-4ae9-91a8-3c44687f1c2e,Glove,891.15,5.0,1,HQ Office Facility,2025-03-27,Glove,Temporary Store,pcs,
 32c690e3-1403-4942-a2dc-58e887b40420,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -1650,6 +1675,7 @@ Aqua
 33871d73-0ab3-45d7-93b6-5b1ab9e8debb,OMO 5kG purchase,2099.14,2.0,1,HQ Office Facility,2025-05-29,OMO 5KG,HQ-Mini Store,,2.0
 33888cb3-92d5-4e6c-827d-6188a8ec5d27,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 3398de82-e977-44c1-8dfe-d44ce94f11ea,"Gelila Tegegn 3-cell, 41 Wh Li-ion battery for HP ",6500.0,1.0,1,HQ Office Facility,2024-12-06,"Gelila Tegegn 3-cell, 41 Wh Li-ion battery for HP Pavilion x360 - 14-dh1026ne",Temporary Store,pcs,1.0
+339e7c20-79b7-4ac7-b180-9e06f0a63ed6,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 33a2db63-ffe9-457d-b08f-5de125f52bcf,doctore shose,1739.1304347826,0.0,1,HQ Office Facility,2024-10-21,doctore shose,Temporary Store,pcs,4.0
 33d9a816-4f28-4a96-b0c2-fc4e8ba850eb,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 33dbd172-e858-4ed0-b5dd-9cb0dbe665b2,NOC room and Class room area light,1334.13,1.0,0,ICT Park TTA,2024-12-19,"35'' 4 -Light Fixed Track
@@ -1716,6 +1742,7 @@ Aqua
 35e72d6a-cf5f-48cf-8bfb-6a39a5acce37,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 35ea754e-66b4-4afc-a6f7-bb7317239736,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 35f19f31-76fe-4ead-9fc3-85e72f203fb3,A-FLEX-ENH-CUBE,1090.6,1.0,0,ICT Park TTA,2024-12-19,CUBE Enhanced Trunk Session License,Temporary Store,,10.0
+35f1b8c1-e645-4d8e-a9f6-5ae7863b19cc,Flash Drive 64GB USB 3.0 Flash Drive Retractable S,2504.347826087,1.0,0,HQ Office Facility,2025-08-27,Flash Drive 64GB USB 3.0 Flash Drive Retractable Slide Memory Stick 64GB Memory Stick for Computers Zip Drive USB Jump Drive Pen Drive Blue,Temporary Store,pcs,3.0
 35fb299f-389f-438d-841c-0188ea959478,Metal cutter disc,208.69565217391,1.0,0,Kaizen VC Equipment,2025-01-15,size: small,HQ Office,pcs,3.0
 360b1895-69e0-4298-897e-90416e1975ad,Nastro,2086.9565217391,2.0,1,ERA and MOTL support,2025-05-08,Black High tension Nasstro,Temporary Store,pcs,2.0
 360b205f-629a-4a56-a443-715c82dce3ac,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -1897,6 +1924,7 @@ accessories",Temporary Store,,12.0
 3b16c999-ed11-4ef5-84bf-d46c8257552e,keystone jack,53700.0,200.0,1,ICT Park TTA,2024-05-22,Cat 6 Keystone Jak,ICT PARK,pcs,200.0
 3b42db31-7a2e-4e08-ab79-55bf69176d36,ANC6ASPGY-1MT-LSZH,196.0,1.0,0,ICT Park TTA,2024-12-19,Cat.6A 10G STP 26AWG LSZH Patch cord 1meter grey colour,Temporary Store,,50.0
 3b44256b-0ed6-4054-abaa-9b751e96e31f,Clamp,1956.45,1.0,0,EPSS,2025-05-21,Clamp,Temporary Store,pcs,150.0
+3b467112-a5dd-41a9-a9de-2f824edf5ee4,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 3b4e1f17-d65b-4334-833f-eb1b943606a4,Flash light,4695.652173913,3.0,1,HQ Office Facility,2025-03-27,Flash light,Temporary Store,pcs,
 3b58fe50-9e41-4f8b-9018-1fc0a719b6d9,RJ45,1304.0,100.0,1,MINT Commissioning of Smart Communication Rooms at,2025-02-12,RJ45,Temporary Store,pcs,
 3b5f5e55-4e59-4979-9649-1f37d8667b15,A3 Envelope,1086.9565217391,1.0,0,HQ Office Facility,2024-12-16,A3 Envelope,Temporary Store,pcs,100.0
@@ -2052,6 +2080,7 @@ getway that you sent us before",Temporary Store,pcs,24.0
 3f81584e-81c3-41a9-ae60-ae1ccfaf04bb,Guard ASSY front wheel LH,2000.0,1.0,1,HQ fleet,2024-07-03,Guard ASSY front wheel LH,Fleet Mgt Store,pcs,1.0
 3f8734ed-2283-44c5-a434-cfbecbd93918,Lights Pool Office and Traing Staffs Rooms,1234.8,1.0,0,ICT Park TTA,2024-12-19,15 W LED spotlight for magnetic rails with full accessories,Temporary Store,,72.0
 3f89f13c-3b90-4c00-9797-36d47264ecc8,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
+3f940785-6e33-407a-a08b-0f7c868b3e30,Breaker PAD,24879.26,1.0,0,HQ fleet,2025-08-15,Toyota High Roof/68651 Breaker PAD,Temporary Store,pcs,1.0
 3f9b94bd-4761-4d62-8299-04572cc4390e,LE Solutions,800.0,2.0,1,HQ Office Facility,2025-07-03,For ICT PARK core values A1 sticker printing payment,Temporary Store,pcs,2.0
 3fa6a171-5eee-46cd-a23e-be9de4eed846,Fiber Patch Cable,1436.4,1.0,0,Dashen Bank DHCI,2025-07-16,"Fibers, LC UPC Duplex to LC UPC
 Duplex, Multimode (OM4), Riser
@@ -2208,6 +2237,7 @@ Aqua
 Design , with full accessories
 Power 60Watt",Temporary Store,,19.0
 43e6f970-2fd6-40a5-afa4-5352e2a61eeb,conduite 19,7350.0,1.0,0,Kaizen VC Equipment,2024-12-06,19 mm REGIDE conduite with 3 meter long,HQ Office,,150.0
+43e8bdd7-ca1a-4507-a1ea-b1b93cfb0040,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 43f3bbb6-e03b-429b-886b-e32275ffa74d,Cable lug #70,3600.0,1.0,0,ICT Park TTA,2025-02-06,Cable lug #70,HQ Office,pcs,40.0
 43f601bb-78ae-4a54-8e78-3dca81b2eac4,Cafteria Chair,3400.0,1.0,0,ICT Park TTA,2024-12-31,"Color use IE brand colors Navy,Cycan,Dark Navy & Gray (Hex BFBFBF)",HQ Office,pcs,40.0
 43fe5355-517d-4d9c-b720-ab63afb1ff01,Lights Pool Office and Traing Staffs Rooms,1234.8,1.0,0,ICT Park TTA,2024-12-19,15 W LED spotlight for magnetic rails with full accessories,Temporary Store,,72.0
@@ -2224,6 +2254,8 @@ with full accessories",Temporary Store,,7.0
 442d9487-4e12-40e3-b158-1335c881efd3,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 443762b0-235a-477b-b36f-cd03f3cfaba9,A-FLEX-FILESTG-ENT,0.0,1.0,0,ICT Park TTA,2024-12-19,File Storage Entitlement,Temporary Store,,200.0
 443996e5-7737-4bb1-a673-87bfb48e417a,conduite 19,7350.0,1.0,0,Kaizen VC Equipment,2024-12-06,19 mm REGIDE conduite with 3 meter long,HQ Office,,150.0
+443e798f-7c1a-4f80-bebc-a1610dbeef15,UPS SRV (6000VA 230V ),489676.17,1.0,0,HQ support,2025-08-29,"APC Easy UPS SRV 6000VA 230V 
+ Model:  SRV6KI",Temporary Store,pcs,1.0
 4441dc58-2f8e-4d73-86ed-5dbc0d7b4edf,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 4444c921-0c39-4b49-9d1f-2149937b0cbe,Fiber Patch Cable,297.36,1.0,0,Dashen Bank DHCI,2025-07-16,"5m (16ft) Fiber Patch Cable, 2
 Fibers, LC UPC Duplex to LC UPC
@@ -2231,6 +2263,7 @@ Duplex, Multimode (OM4), Riser
 (OFNR), 2.0mm, Tight-Buffered,
 Aqua
 6103pcs in FS Asia warehouse",Logistics Temp Store,pcs,36.0
+445cc489-5dc4-4864-9b58-e1305dc2271e,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 4469d2df-6a35-40c8-a9a7-ecaa8737c0e4,White sparay,382.60869565217,2.0,1,Kaizen VC Equipment,2025-01-15,-,Temporary Store,pcs,2.0
 446a4f53-8749-48b5-ad73-293222e44784,"Guroro conduit  for AC hose 1/2"" guroro conduit",1669.2,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"Guroro conduit  for AC hose 1/2"" guroro conduit",Temporary Store,Meter,120.0
 44758506-afb0-49d4-9c2a-804983ec2958,LED Ballast(driver),0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,"LED Dimmer Driver Input AC200-240V
@@ -2242,6 +2275,7 @@ Aqua
 44a0941d-8b79-44bc-9f62-b7b3ecd01625,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 44aa1dd8-2048-4099-8d32-aa1f87b25a99,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 44bea01f-70cb-40fc-89ed-180577c23c62,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
+44cbe4e6-47cc-4324-8041-44e241c3dbbf,SuperStar  Measuring A0 paper 84x118mm purchase,1000.0,1.0,0,HQ People,2025-08-29,SuperStar  Measuring A0 paper 84x118mm purchase,HQ-Main Store,pcs,
 44ee35aa-016f-452a-b0cd-2ce371e9da48,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 44f1de31-26a3-49a3-bfe2-0a826793a7c7,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 44f8cf3f-b07e-4ee4-baf4-8b25ef3bc1a8,Labelling Tape Cassette (12MM) purchase,4956.5217391304,1.0,0,Store and Inventory,2025-06-17,Labelling Tape Cassette (12MM) purchase,HQ Office,,3.0
@@ -2427,6 +2461,7 @@ Aqua
 4a21bd7b-ed0d-477a-8acd-9b0f768d804b,IE,2956.5217391304,1.0,1,HQ Office Facility,2024-11-20,AC Adapter Charger forHP EliteBook 840 G2 Notebook PC,Temporary Store,pcs,1.0
 4a2351f7-5d34-49a4-8f19-f3ff82483eeb,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 4a3b9dd1-5b0d-4fc8-ba01-b93f60862b1e,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
+4a44ab9a-2cde-46b7-b0a3-50095766cc1d,USB Wired Computer Mouse Optical Mouse for PC Mous,2391.3043478261,0.0,0,HQ Office Facility,2025-08-27,Computer Mouse Optical Mouse for PC Mouse Mice for Office Home Use,Temporary Store,pcs,5.0
 4a602988-c37c-4517-96ed-9a935b5b54ee,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 4a62aae9-4764-42d5-8a8b-bbd37770a505,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 4a6d703f-957c-4538-91dd-131278a881d9,Rubber Insulation RI38,15.75,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation , 3/8 ,1.8 Mtr",Temporary Store,,45.0
@@ -2461,6 +2496,7 @@ phone or by creating scenarios. ( 2 Gang, L/L&N)",Temporary Store,pcs,6.0
 4b50d044-b0a2-4922-86ae-195c64b551cf,conduite 19,7350.0,1.0,0,Kaizen VC Equipment,2024-12-06,19 mm REGIDE conduite with 3 meter long,HQ Office,,150.0
 4b7839b3-cc2d-44a5-8596-724e5756c91d,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 4b7d4fee-6858-48eb-8bc5-0f779e0e25ca,A-FLEX-FILESTG-ENT,0.0,1.0,0,ICT Park TTA,2024-12-19,File Storage Entitlement,Temporary Store,,200.0
+4b8135bb-b326-463f-8e7c-1e5e6155562d,Labelling tape cassette,13217.391304348,8.0,1,Dashen Bank DHCI,2025-09-02,"Labelling Tape Cassette – Black on White, 12mm wide,0.47''",Temporary Store,pcs,8.0
 4b82886c-8be0-4116-b71b-f95e1c4cc880,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 4b8460ca-fe44-4c78-9bdb-2d91d9477622,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 4b8b5cb5-8211-4e48-b7fe-0a82e23b5faf,LED Ballast(driver),0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,"LED Dimmer Driver Input AC200-240V
@@ -2533,6 +2569,7 @@ Power 60Watt",Temporary Store,,19.0
 4e27f331-ebf1-4783-b6b9-5c4f85cb6ac9,Spot light lamps,0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,"Directional spot ,GU10 LED bulbs with 7W",HQ Office,pcs,30.0
 4e30cfe7-1c51-48d7-b24b-41d8a2803984,LED Lamp Beads,0.0,1.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,3.0
 4e32d1c2-1464-4e1f-8ca4-3c415279f07a,Gysum board 1200x2400x9mm Gypsum board,128348.04,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,1200x2400x10mm Gypsum board,HQ Office,pcs,98.4
+4e32d37d-9119-4f7c-bfcb-775e68e4ad40,Ball,4347.8260869565,1.0,0,HQ People,2025-09-15,"FootbalL, Size 5#",Temporary Store,pcs,1.0
 4e3aecbd-fd7a-45cd-abb7-652b08d9df59,Fiber Patch Cable,1436.4,1.0,0,Dashen Bank DHCI,2025-07-16,"Fibers, LC UPC Duplex to LC UPC
 Duplex, Multimode (OM4), Riser
 (OFNR), 2.0mm, Tight-Buffered,
@@ -2549,6 +2586,7 @@ Aqua
 4ed73eac-32a3-4b15-9ba9-e4838dac6e2e,A3 Envelope,1086.9565217391,1.0,0,HQ Office Facility,2024-12-16,A3 Envelope,Temporary Store,pcs,100.0
 4ee999bc-4cfc-45f3-840b-a31e136d4c8f,LIC-MV-3YR,3932.25,1.0,0,ICT Park TTA,2024-12-19,"Meraki MV Enterprise License and Support, 3YR",Temporary Store,,25.0
 4ef16664-6529-4850-a886-54b14c1b65e5,Gysum board 1200x2400x9mm Gypsum board,128348.04,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,1200x2400x10mm Gypsum board,HQ Office,pcs,98.4
+4efb3291-a5be-4a3e-b1bf-aa0760b9cce2,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 4f06f4be-885f-4be3-9cff-08597a23d275,"Guroro conduit  for AC hose 1/2"" guroro conduit",1669.2,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"Guroro conduit  for AC hose 1/2"" guroro conduit",Temporary Store,Meter,120.0
 4f07d69f-b716-4380-8bd7-02a107101f19,Fisher  8MM,5008.6956521739,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-11,Fisher  8MM,Temporary Store,Pack,48.0
 4f1aabc8-46de-4970-900d-d4e48f1e77b2,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -2583,6 +2621,7 @@ Aqua
 4fdb1ea9-80d9-4973-88c0-70c380f4c8be,LED Ballast(driver),0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,"LED Dimmer Driver Input AC200-240V
 ,Output:DC110-145V 300mA",Temporary Store,pcs,87.0
 4fe0cce9-f978-4987-92aa-d65e79834de7,Rubber Insulation RI58,22.05,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation 5/8 ,1.8 Mtr",Temporary Store,,45.0
+4ff1f5e5-692e-41bc-b57d-d8dfd2da4180,Chair Wear for H-1 Car 21783,23000.0,1.0,0,HQ fleet,2025-09-09,Chair Wear for H-1 Car 21783 purchase,Temporary Store,,1.0
 5022d586-62b8-4dab-aad0-f50516ab81f5,golden screw num 8 golden screw,2086.9565217391,4.0,1,MINT Commissioning of Smart Communication Rooms at,2025-01-24,num 8 golden screw,Temporary Store,Pack,4.0
 5022e911-fefb-4331-b96f-d7483bd8afe6,Cat 6A Utp cable  As per the sample   (G link Bran,1610869.5652174,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,Cat 6A Utp cable  As per the sample   (G link Brand ),Temporary Store,pcs,57.0
 5028001f-8ba1-44e9-bd9f-72c5b4238af4,Clamp,1956.45,1.0,0,EPSS,2025-05-21,Clamp,Temporary Store,pcs,150.0
@@ -2678,6 +2717,7 @@ Hanging",Temporary Store,,7.0
 52c2d0bb-e6c0-4217-903e-adf5d270928b,Oil filter,1000.0,1.0,1,ERA and MOTL support,2024-08-28,Fleet guard LF 3345,Fleet Mgt Store,pcs,1.0
 52d2dce9-3d1e-4798-96bf-7957df374d79,Junktion Box 15x20 cm,880.0,8.0,1,MINT Commissioning of Smart Communication Rooms at,2025-01-24,Junktion Box 15x20 cm,Temporary Store,pcs,8.0
 52d674dc-90ac-4227-8228-dadf1d9e513f,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+52d7450d-4ab6-4ffc-9cba-3af82ae00690,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 52d832a5-2ae1-42c7-946f-df20ba8fbffb,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 52db7eb7-2ad3-4e2e-b02a-a83137531e2b,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 52dfc348-7cf3-4503-b3c1-e246b2e3fa3c,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -2739,6 +2779,7 @@ Duplex, Multimode (OM4), Riser
 Aqua
 3430pcs in FS Asia warehouse",Logistics Temp Store,pcs,108.0
 54ab4325-9de5-4d3e-98a8-c2b8c2263e46,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+54ae6f72-df81-4fde-96b7-d2d0e141356d,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 54ae77e8-0e48-49cc-a915-25f849eaceeb,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 54be0bde-9a6b-4023-8e6f-a439d62e385a,Bleach (5L),791.32,0.0,1,HQ Office Facility,2024-07-29,Blich  5 liter,HQ-Mini Store,pcs,
 54c2f602-7ee9-4735-a8f7-c799c7bc8879,LED lights,0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,Size 600x600mm Dimmable,Temporary Store,pcs,25.0
@@ -2751,6 +2792,7 @@ Aqua
 54e2f5a1-c3b9-40b1-a4ca-b0adaf2563a6,Fisher  8MM,5008.6956521739,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-11,Fisher  8MM,Temporary Store,Pack,48.0
 54e73c62-b75f-4e7b-8e90-9da7d3fad27d,Trunk 16*25mm,1947.8260869565,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-27,Trunk 16*25mm,HQ Office,pcs,8.0
 54ff3944-1a93-4030-9d00-8724e5bfbd0b,Pool Office  window curtainn 1,396.0,1.0,0,ICT Park TTA,2024-12-31,window Dimension (3.64mx4m),Temporary Store,,2.0
+55012914-77fa-48c2-9cfa-99cbe848e3ac,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 55034587-3b74-41df-8d57-80bdad8437f7,NA,2173.5,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-02-12,Gurori Conduite 32mm,HQ Office,Meter,50.0
 550d1c73-e66b-4e76-a356-91ddd8c29995,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 5514bf09-cc87-48b5-a02a-f0195fa297cc,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -2895,11 +2937,13 @@ Australian Standard Size",Temporary Store,,42.0
 5a3004c6-37a8-4154-9b41-7ee0444dae39,Hyundai i10s 21140  SENSOR ASSY - OUTPUT SPEED,10869.57,1.0,0,HQ fleet,2025-07-28,Hyundai i10s 21140  SENSOR ASSY - OUTPUT SPEED,Temporary Store,pcs,1.0
 5a4edd3c-71b4-403c-afea-07be2b7b8386,NA,2173.5,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-02-12,Gurori Conduite 32mm,HQ Office,Meter,50.0
 5a50a63c-c745-4d64-87f2-dac81185310e,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
-5a5edd0d-57e7-441f-8ade-9376fc0f3708,High tenstion Nastro,2850.0,1.0,0,ICT Park TTA,2025-02-06,High tenstion Nastro,HQ Office,,3.0
+5a5117aa-ab39-4ade-9e84-40e3998722a4,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
+5a5edd0d-57e7-441f-8ade-9376fc0f3708,High tenstion Nastro,2850.0,1.0,0,ICT Park TTA,2025-02-06,High tenstion Nastro,HQ Office,pcs,
 5a5ff31a-17ba-40ef-8fc8-8354f4be6b25,ANC6UPKJTLS-180,219.2,1.0,0,ICT Park TTA,2024-12-19,"RJ45- Cat6 Keystone Jack ,110 IDC, Shielded, 180 degree(for patch panel)TOOLLES",Temporary Store,,80.0
 5a67215a-cfdf-4d82-ae03-967d3fa5a0c9,Ceramic 20*30,18173.88,0.0,1,ICT Park TTA,2025-01-04,Ceramic 20*30,Temporary Store,pcs,
 5a6fd891-12a5-41c9-b51a-60b6c1c05057,A-FLEX-FILESTG-ENT,0.0,1.0,0,ICT Park TTA,2024-12-19,File Storage Entitlement,Temporary Store,,200.0
 5a7c7990-c606-4cbb-9c3f-24769ec24332,conduite 19,7350.0,1.0,0,Kaizen VC Equipment,2024-12-06,19 mm REGIDE conduite with 3 meter long,HQ Office,,150.0
+5a87c0aa-8369-460b-8529-076028222547,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 5a8b02d9-7ebf-4514-b453-841498bd15cf,Dog skin,3478.2608695652,5.0,1,Fleet: Support Department,2025-01-15,Dog skin,Temporary Store,pcs,5.0
 5a8e4b72-792f-4785-93ed-36463ed20d94,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 5a9cbcc1-dd46-439a-b704-5848b12dc986,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
@@ -2951,6 +2995,7 @@ Aqua
 5c052a47-3676-4c24-8bc0-bd006171d52a,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 5c0a0ca7-50e4-46bb-b6b7-1e229a52c8c8,Microwave,12500.0,1.0,1,HQ Office Facility,2024-08-29,Microwave,HQ Office,pcs,1.0
 5c0b489d-137a-4832-95d8-38257ad99b8e,Clamp,1956.45,1.0,0,EPSS,2025-05-21,Clamp,Temporary Store,pcs,150.0
+5c0eead0-61ed-4976-bcbf-c9efcbff850b,Steering wheel For H-1 purchase,1500.0,1.0,0,HQ fleet,2025-08-21,Steering wheel For H-1 purchase,Temporary Store,,1.0
 5c13e1a9-fa9a-42cb-b69e-6cc3efc002c5,Amare Misganie AC Charger for hp probook 440 G3,2782.6086956522,1.0,1,HQ Office Facility,2025-02-14,Amare Misganie AC Charger for hp probook 440 G3,Temporary Store,pcs,1.0
 5c15f04d-49dc-45e3-85c9-6bd3d4e790b4,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 5c2e6f22-e69a-40c7-81e6-2daaac9b2a20,LED Ballast(driver),0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,"LED Dimmer Driver Input AC200-240V
@@ -3018,6 +3063,7 @@ getway that you sent us before",Temporary Store,pcs,24.0
 5e198321-e64b-4b1c-a291-59ef1f505dca,Clamp,1956.45,1.0,0,EPSS,2025-05-21,Clamp,Temporary Store,pcs,150.0
 5e1d7e0a-e081-496c-8906-8b4f24cb60c1,Outdoor Wall Mounting Bracket WM2TR,68.05,1.0,0,ICT Park TTA,2024-12-19,WALLMOUNT STAND - OUTDOOR,Temporary Store,,5.0
 5e1ec22b-f8c6-4325-8066-439806873c8e,Outdoor Wall Mounting Bracket WM2TR,68.05,1.0,0,ICT Park TTA,2024-12-19,WALLMOUNT STAND - OUTDOOR,Temporary Store,,5.0
+5e20d6a5-c8a6-432e-9d6a-c524a4c585bc,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 5e285858-b230-4f30-ad56-8a3593c9e26a,Labeller casette,3391.3043478261,2.0,1,EPSS,2024-06-06,Labeller casette,EPSS Mini store,,2.0
 5e303706-466c-4e2e-a016-f6a98eb9fdc3,A-FLEX-FILESTG-ENT,0.0,1.0,0,ICT Park TTA,2024-12-19,File Storage Entitlement,Temporary Store,,200.0
 5e324544-4ef9-4d93-b5b9-ee1a1c48ff7a,sticker  for south site,16649.76,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-03-28,white Glass sticker for south site,HQ Office,,48.0
@@ -3092,6 +3138,7 @@ getway that you sent us before",Temporary Store,pcs,24.0
 601d09d7-51ac-4946-a96b-f89fdc0212da,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 6029dd8b-866c-4a98-ad88-496728faa7f0,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 602ffd22-5613-4490-a91c-761cb90bf572,LIC-MV-3YR,3932.25,1.0,0,ICT Park TTA,2024-12-19,"Meraki MV Enterprise License and Support, 3YR",Temporary Store,,25.0
+603edc1a-eb1d-48ff-ba79-84b67df98bb7,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",335925.84,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB *8",Logistics Temp Store,,8.0
 60446bbb-8a24-417b-92fb-4f0e461c8e36,LIC-MV-3YR,3932.25,1.0,0,ICT Park TTA,2024-12-19,"Meraki MV Enterprise License and Support, 3YR",Temporary Store,,25.0
 6054f6fd-bff6-4f85-adf6-99d602e3cb3c,LED lights,0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,Size 600x600mm Dimmable,Temporary Store,pcs,25.0
 605966f2-7465-4407-b906-3dd5892cc1eb,A-FLEX-ENH-CUBE,1090.6,1.0,0,ICT Park TTA,2024-12-19,CUBE Enhanced Trunk Session License,Temporary Store,,10.0
@@ -3102,6 +3149,7 @@ getway that you sent us before",Temporary Store,pcs,24.0
 608833b8-225c-4029-abc7-3d162893668b,Cable lug #70,3600.0,1.0,0,ICT Park TTA,2025-02-06,Cable lug #70,HQ Office,pcs,40.0
 6089051b-ca0a-4c16-b32c-713cb903251d,Drill punta 6mm,391.30434782609,1.0,0,HQ Office Facility,2025-01-27,Drill punta 6mm,HQ Office,pcs,3.0
 60897f06-beaa-40a8-acfe-15111f6d209f,L angle white Aluminum  L angle for LED light modf,35200.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,white Aluminum  L angle for LED light modfication (1pc Length=3m),Temporary Store,pcs,88.0
+60a1bf3b-2626-4d73-b7d9-382b0fe27316,1TB  M.2 2230/2280 NVMe PCIe Gen 3 x4 SSD for dell,9565.21,0.0,0,HQ Office Facility,2025-08-27,1TB  M.2 2230/2280 NVMe PCIe Gen 3 x4 SSD for dell inc XPS 13 9305 pc,Temporary Store,pcs,1.0
 60b0ad55-c1a1-427d-a671-a99dcd33b968,For H- Hyundai 68082-Oil Filter,500.0,1.0,1,HQ fleet,2024-05-23,For H- Hyundai 68082-Oil Filter,HQ Office,pcs,1.0
 60b3986b-bb1b-463f-a31a-0a970d8a92a0,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 60c5b5d2-41f1-4dab-be93-75a014e73a48,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -3176,6 +3224,7 @@ Vout: 24VDC
 Amps: 2.5A",Temporary Store,pcs,1.0
 628f6220-c834-41e6-8a5e-22fb38acb660,"Guroro conduit  for AC hose 1/2"" guroro conduit",1669.2,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"Guroro conduit  for AC hose 1/2"" guroro conduit",Temporary Store,Meter,120.0
 629020ac-4da8-42e1-9787-5d9d7930f1e4,A-FLEX-FILESTG-ENT,0.0,1.0,0,ICT Park TTA,2024-12-19,File Storage Entitlement,Temporary Store,,200.0
+62909c60-5b24-42eb-8edb-4b0052796ba6,Tread extraction,1304.347826087,1.0,1,ERA Redeployment,2025-08-27,Tread extraction 10 mm size,Temporary Store,pcs,
 629973ab-4598-4fc5-a1ce-7f4a2011e221,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 62ab6cfd-efbb-480c-b83c-534f820a3e87,ANPC-OM3-LC-LC-DP-50MT,352.8,1.0,0,ICT Park TTA,2024-12-19,"50.0 meter LC/UPC-LC/UPC Duplex MM Fiber optic patchcord, LSZH,OM3(Aqua)",HQ Office,,8.0
 62abb05c-a6d1-46b7-be7d-0024719de3f0,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -3239,6 +3288,7 @@ suspended version). with full
 accessories",Temporary Store,,4.0
 64b41b9c-5660-4b95-9b29-ea70a0edfc10,Fisher  8MM,5008.6956521739,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-11,Fisher  8MM,Temporary Store,Pack,48.0
 64b8209b-abcd-4c4d-b7e1-1f4fc9de2d28,Fisher 6mm,260.86956521739,3.0,1,EPSS,2024-06-06,Fisher 6mm,EPSS Mini store,,3.0
+64be3611-d9d4-4521-a03d-cb9697e064c0,wood cuter disk,139.13043478261,1.0,1,ERA Redeployment,2025-08-27,wood cuter disk 125 mm Size,Temporary Store,pcs,
 64be6644-8908-4fbe-9b54-e8e392730679,"Guroro conduit  for AC hose 1/2"" guroro conduit",1669.2,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"Guroro conduit  for AC hose 1/2"" guroro conduit",Temporary Store,Meter,120.0
 64d2bea1-3380-432b-b8c7-2cab78db5cf5,Elbow,8313.0,170.0,1,ICT Park TTA,2024-12-10,Elbow  dia = 32 mm2,Temporary Store,,170.0
 64d2eeeb-b882-42ef-95bf-abe71f9b03ad,A-FLEX-FILESTG-ENT,0.0,1.0,0,ICT Park TTA,2024-12-19,File Storage Entitlement,Temporary Store,,200.0
@@ -3250,6 +3300,7 @@ accessories",Temporary Store,,4.0
 6529aa75-eba8-4777-b1bc-2a2bbaee32bb,LIC-MV-3YR,3932.25,1.0,0,ICT Park TTA,2024-12-19,"Meraki MV Enterprise License and Support, 3YR",Temporary Store,,25.0
 65304f90-a688-4163-b7dd-ed6d9ef484ec,LED bulb,2391.3043478261,25.0,1,HQ support,2024-11-13,LED bulb,Temporary Store,pcs,25.0
 6533b0b4-12b5-4f21-a3f6-43e8e8d21535,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
+65352cf0-0121-4a89-ac46-5bedc92a47e3,Mad Flap for Pick Up car 88431,4500.0,1.0,0,HQ fleet,2025-08-21,Mad Flap for Pick Up car 88431,Temporary Store,,1.0
 653ff801-71dd-4a9e-9db9-3d0d603e98f1,Almunim profile L black color,18486.0,1.0,0,ICT Park TTA,2025-01-04,Almunim profile L black color,Temporary Store,pcs,5.0
 6541a201-6028-49de-9b67-082e7e155b21,Light Haging chain,17100.0,30.0,1,ICT Park TTA,2024-11-20,Light Haging chain (For Hanging 6 pcs Rectangular lights with 1.2m hight ),Temporary Store,pcs,30.0
 65443ef6-ee99-4d06-9fe2-b6583eb83bae,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
@@ -3348,6 +3399,7 @@ Australian Standard Size",Temporary Store,,42.0
 68b58f39-7b95-49e7-9899-e0c15b1fb552,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 68b90ffa-a43a-43c8-84cc-a85b65ce2b9e,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 68bb8f2b-9bca-44bd-8a87-f47e5c7bc807,guroro conduit 1 inch,2173.9130434783,0.0,1,EPSS,2024-06-06,1 inch,Main Store,,
+68d0256e-9873-4b4c-bd20-0e9a28c7cede,Flash Drive 64GB USB 3.0 Flash Drive Retractable S,2504.347826087,0.0,0,HQ Office Facility,2025-08-27,Flash Drive 64GB USB 3.0 Flash Drive Retractable Slide Memory Stick 64GB Memory Stick for Computers Zip Drive USB Jump Drive Pen Drive Blue,Temporary Store,pcs,3.0
 68d09438-c03a-4d22-a030-b51243e1e5d2,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 68d30145-ef7d-47ae-ad40-354cc3be1064,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 68d9cb9f-31a2-4f4a-8419-b942468e7faa,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -3382,6 +3434,7 @@ Aqua
 69c30444-7e9b-4dad-b591-f9d33ff48e7f,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 69c5e9d4-c72c-4e6c-8b49-0dd8c225dfd1,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 69d4c1c3-87d4-45af-8b10-1abd98b0a80f,Rubber Insulation RI58,22.05,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation 5/8 ,1.8 Mtr",Temporary Store,,45.0
+69e45ee6-dfcd-49f5-b93a-b806521345d5,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 69f1c3f8-1b7c-4622-9bd8-adef9db41ef6,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 69f3017e-25f5-4e01-b675-9579b2a24cad,NA,2173.5,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-02-12,Gurori Conduite 32mm,HQ Office,Meter,50.0
 69f95212-be9d-4452-af2f-422dc91ff4b8,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
@@ -3427,6 +3480,7 @@ with full accessories",Temporary Store,,7.0
 6b3666fb-4a9f-4c21-a2e9-b25f5d3f463b,Light  switch,3043.4782608696,10.0,1,MINT Commissioning of Smart Communication Rooms at,2025-01-13,single gang  white colour with dimensions 9x9cm,HQ-Main Store,pcs,10.0
 6b3fd826-834f-4de2-9429-f2ddb925334f,SR-JUMP-2MC13,120.0,1.0,0,HQ Office Facility,2024-12-16,"Power cord: Sun Rack 2 jumper, 2 meters, C14RA plug, C13 connector, 13 A (for factory installation)",22 Store,pcs,4.0
 6b430235-911c-4247-9dcb-d09a846c3927,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
+6b5e74b7-f581-4cb1-8399-7dcd21141fb9,chair cover cloth with plate no 3-A21140 Hyundai i,15500.0,1.0,1,HQ fleet,2025-09-08,chair cover cloth with plate no 3-A21140 Hyundai i10 Service,Temporary Store,pcs,1.0
 6b618b8e-aae5-4dee-8bf2-a8b985783910,Rubber Insulation RI38,15.75,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation , 3/8 ,1.8 Mtr",Temporary Store,,45.0
 6b702326-73bb-4019-b070-7ded129f8a1d,Release Bearing,4500.0,1.0,1,HQ fleet,2025-03-11,Relse Bearing,Temporary Store,pcs,
 6b7b592c-87ca-4f40-8a65-c2c92878c4fa,A-FLEX-FILESTG-ENT,0.0,1.0,0,ICT Park TTA,2024-12-19,File Storage Entitlement,Temporary Store,,200.0
@@ -3449,9 +3503,11 @@ Wall",Temporary Store,,12.5
 6baf6691-197a-4ce9-aa02-f5f75d7434ae,Fisher 6.,2739.1,1.0,0,EPSS,2025-05-21,Fisher 6.,Temporary Store,pcs,35.0
 6bb29292-8a15-47c4-91fe-a330c288bb39,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 6bb3b706-1e60-4111-81dc-cfe3336790fa,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
+6bc4599d-bf00-441a-8b6b-6a8e569e1fa6,Meregagecha for 68062 i10s car,5500.0,1.0,0,HQ fleet,2025-08-21,Meregagecha for 68062 i10s car purchase,Temporary Store,Set,
 6bd1e4e6-21a4-40ae-92ca-8209ea0246ec,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 6bd64778-003f-46d3-927d-2b7b0b39011e,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 6bddd443-ebff-472e-a73d-d90273ccf8f6,MR36-HW,2171.0,1.0,0,ICT Park TTA,2024-12-19,Meraki MR36 Wi-Fi 6 Indoor AP,Temporary Store,,13.0
+6bfa0865-16c8-42fc-9ab9-89ea1583438f,"LC/UPC-LC/UPC, MM DX, 20M",0.0,12.0,0,14954e62-13d5-4eb2-a2fa-196d3dbcf687,0001-01-01,,22 Store,pcs,
 6c04cbe7-224f-4639-85da-bbcf6eecd6ed,Car Tool Set (46 Pcs),8701.0,7.0,0,6434d36c-7c76-4fe3-a64c-31895e0ffd96,2024-12-09,,Main Store,Set,
 6c0f55d4-360d-41cd-bf52-4f70b06b40b0,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 6c26779f-cf47-4de0-9531-2b2a5eb337c3,PPR C-clap,22500.0,0.0,1,ICT Park TTA,2024-12-10,PPR C-clap   = 32 mm2,Temporary Store,pcs,
@@ -3477,6 +3533,7 @@ Wall",Temporary Store,,12.5
 6ceb5a32-7378-4424-83e3-a7a71c8f1a03,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 6cf266a4-dbb8-4434-910e-59d808fedf8c,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 6cf47074-1b01-48b4-846c-c4c763dc501f,CMOS Battery,826.08695652174,1.0,0,MoF OFAG-AV,2025-03-18,CMOS Battery for Desktops,Temporary Store,pcs,10.0
+6cf6fda3-6362-4a0a-8ac8-decef2b3bbf3,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 6d01823d-943a-46c1-a5ab-a23ac2699402,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 6d22cb90-ec47-4350-87a1-0a8d17467575,A-FLEX-P-ER,0.0,1.0,0,ICT Park TTA,2024-12-19,Emergency Responder Smart License (1),Temporary Store,,30.0
 6d36c387-1702-435f-bb65-f8327f230c24,A3 Envelope,1086.9565217391,1.0,0,HQ Office Facility,2024-12-16,A3 Envelope,Temporary Store,pcs,100.0
@@ -3542,6 +3599,7 @@ Wall",Temporary Store,,12.5
 6eecb177-0fce-4fb7-9b10-470ef5205ffb,X-pro Battry with 45AH,7391.3043478261,1.0,1,HQ fleet,2024-06-05,X-pro Battry with 45AH,Fleet Mgt Store,pcs,1.0
 6ef7ba00-db72-4a07-ba3f-60ad380a4761,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 6efd9840-4630-4a8c-80f4-614e86fa8bfe,conduite 19,7350.0,1.0,0,Kaizen VC Equipment,2024-12-06,19 mm REGIDE conduite with 3 meter long,HQ Office,,150.0
+6f27e2da-996c-44a8-8259-eaef1a6d72db,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 6f2dbb04-0a0e-42c2-b965-ce2478423992,L angle white Aluminum  L angle for LED light modf,35200.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,white Aluminum  L angle for LED light modfication (1pc Length=3m),Temporary Store,pcs,88.0
 6f3d1f16-50f8-40e9-a5a5-1c2148f5d4cb,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 6f498ed2-dc78-463f-889f-c5893dbd94ca,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -3626,6 +3684,7 @@ Aqua
 718e0e0f-05c5-4957-8722-25460de87912,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 7195db5e-10ac-4db5-8949-1afe84af4449,NA,521.73913043478,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-03-05,plier,Temporary Store,pcs,1.0
 7198ccfc-4b66-4871-aebc-689bed2ca3ce,A-FLEX-P-PRO,0.0,1.0,0,ICT Park TTA,2024-12-19,Unified Communications Manager Smart License - Pro (1),Temporary Store,,10.0
+71a99a52-27dc-4a5f-9746-88d5b9eea815,Daihatsu Terios JD2GJ522271024632 Transmission Sup,25000.0,1.0,1,HQ fleet,2025-08-26,Daihatsu Terios JD2GJ522271024632 Transmission Support  purchase,Temporary Store,pcs,
 71ad6b34-2ff6-43a2-8c64-6208737c2ef4,NA,260.86956521739,2.0,1,MINT Commissioning of Smart Communication Rooms at,2025-03-05,Punta 6,Temporary Store,pcs,2.0
 71b01a2f-4908-410c-80a4-7f2f9e60b310,OFFICE FILE,5217.3913043478,1.0,0,HQ Office Facility,2025-02-18,OFFICE FILE,HQ Office,pcs,100.0
 71b2cc42-2aaa-45e6-9d4f-57d4d9aefe40,Fiber Patch Cable,1436.4,1.0,0,Dashen Bank DHCI,2025-07-16,"Fibers, LC UPC Duplex to LC UPC
@@ -3638,6 +3697,7 @@ Aqua
 71d1455a-1298-475f-8116-594cc70509fc,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 71e1c738-88dd-4491-80d1-06014da7f0cd,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 71e2a666-25f2-4512-b158-098e53137363,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
+71edc17f-9887-42eb-aee3-7aa043cbcef4,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 71ef51c0-ea4e-4db7-8d69-4d7c78ec86be,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 71f5dd79-91e3-46a7-9850-33ad2cd08c3a,A-FLEX-NUPL-P,2091.6,1.0,0,ICT Park TTA,2024-12-19,NU On-Premises Calling Professional,Temporary Store,,10.0
 71f8d5d2-8278-4059-8535-b2b2f3fbaee8,A3 Envelope,1086.9565217391,1.0,0,HQ Office Facility,2024-12-16,A3 Envelope,Temporary Store,pcs,100.0
@@ -3674,10 +3734,12 @@ Output: 12.0V 2.0A 24.0W",Temporary Store,pcs,3.0
 72ff1fd5-2ba2-4d0e-a54a-36e6bc8e9032,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 7301d539-f33f-4127-ba9a-f6030cdbd1f0,Cable lug #70,3600.0,1.0,0,ICT Park TTA,2025-02-06,Cable lug #70,HQ Office,pcs,40.0
 7303fcc8-16ce-4e37-b8ee-9123568ca218,PDU,849.42,1.0,0,ICT Park TTA,2024-12-19,8 Sockets and has a master on/off switch,Temporary Store,,39.0
+7309dd07-fb81-48e4-b636-dc2745e7d80d,Ball,4347.8260869565,1.0,0,HQ People,2025-09-15,"FootbalL, Size 5#",Temporary Store,pcs,1.0
 73108b9f-f4aa-44eb-9a17-081a39b3f9e0,Ethio Telecom,2143.47,1.0,0,HQ Office Facility,2025-07-18,for additional New sim card,HQ Office,pcs,29.0
 73181b6a-0e59-4f14-b183-28e11a003b61,Self screw,478.26086956522,1.0,0,Kaizen VC Equipment,2025-01-15,Size: 40,HQ Office,Pack,1.0
 731c4860-b2e3-489b-860d-f59868167c97,8 GB DDR4-2666 MHz RAM (1 x 8 GB) Transfer rates u,3304.347826087,1.0,1,HQ Office Facility,2024-09-23,8 GB DDR4-2666 MHz RAM (1 x 8 GB) Transfer rates up to 2666 MT/s. 1 x 8 GB RAM for HP Pavilion x360 - 14-dh1026ne laptop,Temporary Store,pcs,1.0
 732a8958-c280-4ff7-93d6-7bc7f5c4a3f7,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+732fefaf-1909-4b52-8a46-b6ac0b2a3516,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 734b7d91-0c14-40f7-8818-1f1f3f987599,Scotch,1043.4782608696,0.0,1,EPSS,2024-05-22,white lastro,22 Store,pcs,
 7350752d-bf1b-44b6-8ed5-327e4f96e250,sticker  for south site,16649.76,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-03-28,white Glass sticker for south site,HQ Office,,48.0
 73574ea4-08d4-435a-ae29-a4242c843810,Hyundai i10s  Oil Filter,500.0,1.0,1,HQ fleet,2024-06-12,Oil Filter,Fleet Mgt Store,pcs,1.0
@@ -3834,6 +3896,7 @@ Aqua
 (White),
 Dimension:120*72*37MM
 Australian Standard Size",Temporary Store,,42.0
+77fb4ce1-cf88-4751-b897-c9338a02d06f,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",335925.84,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB *8",Logistics Temp Store,,8.0
 7801bcb1-011b-41a0-b501-553288b09beb,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 7811dcd7-0c06-4735-8639-cd9fcd4ddad5,Single Ganag Switch,1143.66,1.0,0,ICT Park TTA,2024-12-19,"Smart Zigbee 1 Gang Switch
 (White),
@@ -3881,6 +3944,7 @@ Australian Standard Size",Temporary Store,,42.0
 796ff828-4f76-430d-a6ea-17f7852f84cc,Dimmer Switch,3267.36,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,Wi fi smart switch Dimmer white,Temporary Store,pcs,48.0
 7970ec6b-5fea-40f0-8645-7b2195c8e71f,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 798dd245-9955-4c06-a688-9328ec8528b1,Rubber Insulation RI58,22.05,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation 5/8 ,1.8 Mtr",Temporary Store,,45.0
+79943b33-3fef-4a24-84cf-20065ec9cc4d,T-Shirts Normal white O neck T-Shirts with BTF pri,17500.0,35.0,1,HQ Marketing,2025-08-26,T-Shirts Normal white O neck T-Shirts with BTF print,Temporary Store,pcs,35.0
 7996694e-7ae2-44e8-9f34-c66b5ffc5981,Fiber Patch Cable,1436.4,1.0,0,Dashen Bank DHCI,2025-07-16,"Fibers, LC UPC Duplex to LC UPC
 Duplex, Multimode (OM4), Riser
 (OFNR), 2.0mm, Tight-Buffered,
@@ -3953,6 +4017,7 @@ with full accessories",Temporary Store,,7.0
 7bd27f3c-b872-4a57-a073-9a9d2dedb582,Hydrolic hose,7600.0,2.0,1,MiNT(ECA) - DC,2024-08-14,1''  Flexiable and both end press fit R1,HQ Office,Meter,2.0
 7be6ee59-26cc-43ef-8f1a-c8baabf10156,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 7bf18840-626e-4c9c-b542-846763160337,LED Lamp Beads,0.0,1.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,3.0
+7c0b088d-2b15-45fe-8911-97ce3bdc8105,Bolt with nut and washer,1043.4782608696,1.0,1,ERA Redeployment,2025-08-27,Bolt with nut and washer,HQ Office,pcs,
 7c0b0ef1-cd19-4ef0-ac07-7a87264927f7,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 7c1d5b68-65a0-44ba-b6d1-f49fab241c13,"Guroro conduit  for AC hose 1/2"" guroro conduit",1669.2,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"Guroro conduit  for AC hose 1/2"" guroro conduit",Temporary Store,Meter,120.0
 7c299001-43a0-41ae-8108-c744ceb7f832,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
@@ -4009,6 +4074,7 @@ Aqua
 7d9a7b2e-a062-4138-947b-7e06babf0a8a,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 7d9d7be3-1453-427b-8ab1-0709aa14d921,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 7da67107-55b3-41dc-ae81-1d4faaa677cd,A-FLEX-NUPL-P,2091.6,1.0,0,ICT Park TTA,2024-12-19,NU On-Premises Calling Professional,Temporary Store,,10.0
+7da9c06b-cc14-480e-b07e-017613ce557a,Mintaf for H-1 Car 21783,11000.0,1.0,0,HQ fleet,2025-09-09,Mintaf for H-1 Car 21783 purchas,Temporary Store,,1.0
 7dab613e-2dcc-4e2d-85e2-12b7482d6fcd,"Guroro conduit  for AC hose 1/2"" guroro conduit",1669.2,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"Guroro conduit  for AC hose 1/2"" guroro conduit",Temporary Store,Meter,120.0
 7dafddb4-d842-4de6-a7f7-45fff7b696bc,Golden screw 8MM,25043.47826087,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-11,Golden screw 8MM,Temporary Store,Pack,48.0
 7db3c562-e1b4-4ee9-a291-f8e55d75f464,silicone white and clear colour,3913.0434782609,6.0,1,MINT Smart Room Support,2024-08-28,silicone white and clear colour,Temporary Store,pcs,6.0
@@ -4079,6 +4145,7 @@ Power 60Watt",Temporary Store,,19.0
 7fba26bf-c91a-4987-9b9c-d393a36498ae,Toilet paper,6265.2173913043,0.0,1,HQ Office Facility,2024-09-20,Toilet paper,Temporary Store,pcs,
 7fcccc76-fac7-4bb7-9d2c-c5acb0cb953b,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 7fcf544e-482a-4c8f-86ea-f9ea34f09d36,Ceramic 30*30,18173.88,0.0,1,ICT Park TTA,2025-01-04,Ceramic 30*30,Temporary Store,pcs,19.0
+7fe64c99-ead8-4e2d-8de6-97f5fef811a9,Mad Flap for Pick Up car 88429,4500.0,1.0,0,HQ fleet,2025-08-21,Mad Flap for Pick Up car 884291 purchase,Temporary Store,,1.0
 7fee2a13-9b3c-49c6-a121-fcc43abb722a,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 7ff705df-bd4a-4490-9bef-35433a37f2db,LED Ballast(driver),0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,"LED Dimmer Driver Input AC200-240V
 ,Output:DC110-145V 300mA",Temporary Store,pcs,87.0
@@ -4092,6 +4159,7 @@ Power 60Watt",Temporary Store,,19.0
 802eb272-5570-4267-9112-a00a8a866269,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 8044756a-2242-4f10-bbc9-c703fd45d98a,Fisher 6.,2739.1,1.0,0,EPSS,2025-05-21,Fisher 6.,Temporary Store,pcs,35.0
 804657c2-0f18-4076-9589-f4f03eacd0e9,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+80539beb-9452-484c-8eef-e19b2ef4e3bc,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 8057ddb4-7227-49b0-ad46-2ed5d22159ec,A-FLEX-FILESTG-ENT,0.0,1.0,0,ICT Park TTA,2024-12-19,File Storage Entitlement,Temporary Store,,200.0
 8061eec0-9d28-4d59-bc85-968380cdfc7b,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 8061f196-6cf6-46b9-a10d-07e4bb93fb1d,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
@@ -4194,6 +4262,7 @@ Output: 12.0V 2.0A 24.0W",Temporary Store,pcs,3.0
 (White),
 Dimension:120*72*37MM
 Australian Standard Size",Temporary Store,,42.0
+84130688-1434-4913-99e8-51b32af9c27e,CAB-Q-Q-100G-1M,268.7,2.0,0,Dashen Bank DHCI,2025-09-05,"100GbE QSFP to QSFP twinax copper cable, 1M",Logistics Temp Store,pcs,2.0
 8423da2e-7528-4cb8-a5c3-8aaa408e07d4,Rubber Insulation RI58,22.05,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation 5/8 ,1.8 Mtr",Temporary Store,,45.0
 8427962f-6158-4394-8be8-38bb40723df5,Gypsum board,18913.043478261,0.0,1,ICT Park TTA,2025-02-06,Gypsum board  1.2x.2.4x0.1mm,IT Park Store,pcs,15.0
 842e6241-6be0-432e-82c8-205510a9d5ac,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -4215,6 +4284,7 @@ getway that you sent us before",Temporary Store,pcs,24.0
 84d90599-1b72-4d60-b98e-c3ba01488cb1,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 84df433a-53ab-44c1-9795-f766ee4c2752,Cat 6A Utp cable  As per the sample   (G link Bran,1610869.5652174,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,Cat 6A Utp cable  As per the sample   (G link Brand ),Temporary Store,pcs,57.0
 84e1af96-c357-4409-8444-a31ad7f89493,conduite 19,7350.0,1.0,0,Kaizen VC Equipment,2024-12-06,19 mm REGIDE conduite with 3 meter long,HQ Office,,150.0
+84e30688-1434-4913-99e8-51b32af9c27e,DCS-7050SX3-48YC8-F,36870.0,2.0,0,Dashen Bank DHCI,2025-09-05,"Arista 7050X3, 48x25GbE SFP & 8x100GbE QSFP switch, front-to-rear air, 2xAC, 2xC13-C14 cords",Logistics Temp Store,pcs,2.0
 84f4db74-1088-4f79-a1c2-fde5343ecc91,A-FLEX-P-ER,0.0,1.0,0,ICT Park TTA,2024-12-19,Emergency Responder Smart License (1),Temporary Store,,30.0
 84fcab41-0cb7-43ce-a97e-f9ef9bdd1a0b,LED Lamp Beads,89.76,1.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,51.0
 8507fcd4-55c7-4caa-9e64-8812e411b478,LED Ballast(driver),0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,"LED Dimmer Driver Input AC200-240V
@@ -4355,7 +4425,7 @@ getway that you sent us before",Temporary Store,pcs,24.0
 89428a2b-da6a-4e85-8061-377a219c2df4,NA,35000.0,1.0,0,HQ fleet,2025-02-24,JTGSS22P5J0177429Toyota High Roof  plate no 3-A68651-   Upper righ Arm -ASSY,HQ Office,pcs,1.0
 894fe159-21a9-4ac4-bc8a-3369b3e0db20,Clamp,1956.45,1.0,0,EPSS,2025-05-21,Clamp,Temporary Store,pcs,150.0
 895a213c-8060-4f68-95eb-7f8f2c2d2ba3,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
-895fe659-af6e-400e-bb27-68b7d508141d,Cat 6A UTP Patch cord 3mtrs,8478.15,15.0,1,ICT Park TTA,2025-02-26,Cat 6A UTP Patch cord 3mtrs,Temporary Store,pcs,
+895fe659-af6e-400e-bb27-68b7d508141d,Cat 6A UTP Patch cord 3mtrs,8478.15,4.0,1,ICT Park TTA,2025-02-26,Cat 6A UTP Patch cord 3mtrs,Temporary Store,pcs,
 89609cd1-8563-4a5e-9e64-f7b497556865,Rubber Insulation RI38,15.75,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation , 3/8 ,1.8 Mtr",Temporary Store,,45.0
 896729ec-834d-4d4e-9622-7e9c1db17ca7,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 8967b4e5-e1fc-4a07-bfd1-b364cbfb28e7,"Guroro conduit  for AC hose 1/2"" guroro conduit",1669.2,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"Guroro conduit  for AC hose 1/2"" guroro conduit",Temporary Store,Meter,120.0
@@ -4369,9 +4439,11 @@ getway that you sent us before",Temporary Store,pcs,24.0
 89b14d6b-d043-47c8-87b5-5d4f515ad76f,NA,2173.5,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-02-12,Gurori Conduite 32mm,HQ Office,Meter,50.0
 89b35491-6539-4def-b93e-c4bf57009c8d,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 89be3013-5f12-4103-89d9-d2740ca5cc92,Lights Pool Office and Traing Staffs Rooms,1234.8,1.0,0,ICT Park TTA,2024-12-19,15 W LED spotlight for magnetic rails with full accessories,Temporary Store,,72.0
-89c2ed51-19fc-4e0e-ac69-c7462f24edb8,High tenstion Nastro,2850.0,1.0,0,ICT Park TTA,2025-02-06,High tenstion Nastro,HQ Office,,3.0
+89c2ed51-19fc-4e0e-ac69-c7462f24edb8,High tenstion Nastro,2850.0,1.0,0,ICT Park TTA,2025-02-06,High tenstion Nastro,HQ Office,pcs,
+89cb3f6f-5e1a-4ffc-beaf-dab74a5f3055,"Hiearcool USB C Hub Ethernet,4K@60 USB-C to HDMI H",4695.652173913,0.0,0,HQ Office Facility,2025-08-27,"USB C Hub Ethernet,4K@60 USB-C to HDMI Hub,8in1 Multi-Port USBC Adapter Type C Dock Dongle Compatible",Temporary Store,pcs,2.0
 89dd3bd9-b554-45cb-9ee4-ca589bffa018,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 89dee72c-97ac-40d1-9782-d3a63b268faa,A-FLEX-P-PRO,0.0,1.0,0,ICT Park TTA,2024-12-19,Unified Communications Manager Smart License - Pro (1),Temporary Store,,10.0
+89eb7745-5240-4d86-800a-5bdef387f85d,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 89ee8994-56d8-406f-b41f-aa7b87faccda,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 89f202d8-6ccc-4e18-beef-0ac7a9e96665,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 89f32c05-74a2-41c0-9c74-43785d16244c,"Guroro conduit  for AC hose 1/2"" guroro conduit",1669.2,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"Guroro conduit  for AC hose 1/2"" guroro conduit",Temporary Store,Meter,120.0
@@ -4448,6 +4520,7 @@ For Over celing plastering and over celing column plastering",ICT PARK,pcs,20.0
 8c12d1f1-b395-458e-8579-291172600f8f,Glove,1327.4,10.0,1,HQ Office Facility,2025-02-19,Glove,Temporary Store,pcs,
 8c135ef4-30ff-4b3b-ba2b-72596bfed435,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 8c1365a5-1133-49bc-9750-8dd8a325ed2e,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
+8c2641a3-93bd-4a67-866e-e66dd15e24e5,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 8c26b8fa-ce78-4f81-8ba3-1825d39c2a2f,High quality custom full color polo T-shirt,14545.454545455,14.0,1,HQ People,2024-07-01,High quality custom full color polo T-shirt,HQ-Mini Store,pcs,
 8c2b9d7b-2187-499c-80e2-f3cf79618561,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 8c2e45d6-65fd-468e-b40c-c93205514402,Ethio Telecom,2143.47,1.0,0,HQ Office Facility,2025-07-18,for additional New sim card,HQ Office,pcs,29.0
@@ -4497,6 +4570,7 @@ Wall",Temporary Store,,12.5
 8d781e60-c0f0-47b5-bb60-8701d861a05e,Rubber Insulation RI58,22.05,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation 5/8 ,1.8 Mtr",Temporary Store,,45.0
 8d8ed128-1e87-434a-aa39-6bfc3383a906,PDU,849.42,1.0,0,ICT Park TTA,2024-12-19,8 Sockets and has a master on/off switch,Temporary Store,,39.0
 8d9da0df-4eb8-445e-b1ae-4b5803fc08f5,knife,1617.36,12.0,1,EPSS,2025-05-21,knife,Temporary Store,,12.0
+8dba7eb5-c488-446b-b4bc-a2bf997df4ec,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 8dc3a552-70d2-473e-98f6-787e1e04e83b,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 8dd196fc-14e2-4ad0-9c0c-e079ea0253a1,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 8df8673a-78cf-4232-8d19-ea7b6a176421,cleaning  uniform,434.78260869565,0.0,1,HQ Office Facility,2024-10-21,cleaning  uniform,Temporary Store,pcs,1.0
@@ -4694,6 +4768,7 @@ Wall",Temporary Store,,12.5
 9425f866-196b-4ae5-b15f-407373872f15,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 943a0d28-c75c-42fd-b99d-1e9d046eb2a5,A-FLEX-P-ER,0.0,1.0,0,ICT Park TTA,2024-12-19,Emergency Responder Smart License (1),Temporary Store,,30.0
 94412a1c-2b75-49e3-b77e-c87cee2ed3ba,LED lights,0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,Size 600x600mm Dimmable,Temporary Store,pcs,25.0
+94416990-64a7-4aba-9ac4-da6db5e1c7f4,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 94445290-ebd8-4d3d-8242-b6c4f45f9f28,LED Lamp Beads,89.76,1.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,51.0
 9444f0cd-205b-4c59-ab5d-35141d816d34,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 944a9feb-9129-43f8-b6d5-5c6449c205ac,Fuel filter,700.0,1.0,1,ERA and MOTL support,2024-08-28,Fleetguard FS 5052,Fleet Mgt Store,pcs,1.0
@@ -4719,6 +4794,7 @@ Wall",Temporary Store,,12.5
 94bce7f3-a17e-4271-8b76-665e57c0e005,Cafteria Chair,3400.0,1.0,0,ICT Park TTA,2024-12-31,"Color use IE brand colors Navy,Cycan,Dark Navy & Gray (Hex BFBFBF)",HQ Office,pcs,40.0
 94be546c-5d65-45e2-9737-874dfe78b08f,Spray,652.17,1.0,0,EPSS,2025-05-21,Spray,Temporary Store,pcs,3.0
 94c4f54e-a060-4e6a-9cd4-296bfe659794,conduite 19,7350.0,1.0,0,Kaizen VC Equipment,2024-12-06,19 mm REGIDE conduite with 3 meter long,HQ Office,,150.0
+94cbad0b-d34f-4bf2-a63b-dbb777ba4c48,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 94d720cc-3845-4d64-a004-ee027df0cfa6,Meeting Room 1  window curtain,300.0,1.0,0,ICT Park TTA,2024-12-31,window Dimention (2.75mx4m),Temporary Store,,2.0
 94de02a9-fa8a-46ad-82af-6ffeae5e4232,Brochure,9600.0,0.0,1,HQ People,2024-07-02,Broacher  A4,HQ-Mini Store,pcs,
 94e19123-997f-4a02-9afe-477658b87b43,L angle white Aluminum  L angle for LED light modf,35200.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,white Aluminum  L angle for LED light modfication (1pc Length=3m),Temporary Store,pcs,88.0
@@ -4775,6 +4851,7 @@ Design , with full accessories
 Power 60Watt",Temporary Store,,19.0
 96428a72-6baf-47ba-ad18-10c4a4e8b3f3,CP-PWR-CORD-CE=,72.0,1.0,0,ICT Park TTA,2024-12-19,"Power Cord, Central Europe",Temporary Store,,10.0
 9643b27e-65c5-4812-9cbb-39cd4db754c4,Clamp,1956.45,1.0,0,EPSS,2025-05-21,Clamp,Temporary Store,pcs,150.0
+964a652c-c73a-4728-9cfe-95456e1114e8,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 9651ee91-60bb-40a3-a2aa-009fd96cb057,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 9655fd08-d44b-4d03-9966-83e9e222fece,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 9669493c-e823-448a-9253-9f45def91ba7,Single Ganag Switch,1143.66,10.0,0,ICT Park TTA,2024-12-19,"Smart Zigbee 1 Gang Switch
@@ -4813,6 +4890,7 @@ Aqua
 96ffddf5-3896-4165-a61e-83350b4cac83,Box File,12000.0,1.0,0,HQ Office Facility,2025-02-18,Box File,HQ Office,pcs,60.0
 97093a16-fba9-4f75-b6dd-d2ac4bfe6499,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 9715895e-623c-4fdf-bc2c-ee45de287676,Almunim profile L black color,18486.0,1.0,0,ICT Park TTA,2025-01-04,Almunim profile L black color,Temporary Store,pcs,5.0
+97171ea6-1f2e-49a8-8a77-26a6b7b2a79c,USB Wired Computer Mouse Optical Mouse for PC Mous,2391.3043478261,0.0,0,HQ Office Facility,2025-08-27,Computer Mouse Optical Mouse for PC Mouse Mice for Office Home Use,Temporary Store,pcs,5.0
 9726a3ff-f9fa-47c3-b6c5-389b94b63310,Rubber Insulation RI58,22.05,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation 5/8 ,1.8 Mtr",Temporary Store,,45.0
 9738286a-9549-4ed0-9f6d-b4ed376cfb37,Golden screw 8MM,25043.47826087,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-11,Golden screw 8MM,Temporary Store,Pack,48.0
 973a72ae-026e-4c81-a010-24a2699e952c,Ethio Telecom,2143.47,1.0,0,HQ Office Facility,2025-07-18,for additional New sim card,HQ Office,pcs,29.0
@@ -4933,6 +5011,7 @@ necessary accessories.",Temporary Store,,6.0
 9a45e69a-c9c7-4a40-8c8d-246ef30a1401,network outlate white Scatola 8*8 mm,9975.0,25.0,1,ICT Park TTA,2025-02-06,network outlate white Scatola 8*8 mm,Temporary Store,pcs,25.0
 9a528b66-4fb2-4c15-ba90-a5908c67daf7,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 9a87d3ee-0a02-457c-ba32-6f535c174548,CP-PWR-CORD-CE=,72.0,1.0,0,ICT Park TTA,2024-12-19,"Power Cord, Central Europe",Temporary Store,,10.0
+9a8c9ac5-b818-4f71-9b60-e9d60cbe7145,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 9a91de0b-966a-4405-9b49-eda1393d779b,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 9a977bec-fab8-4313-b0ea-5e529473292c,Suger bowl,1000.0,0.0,1,HQ Office Facility,2025-02-05,Suger bowl,Temporary Store,pcs,2.0
 9a9c2f93-bdc7-4163-867e-4aa6d6d82297,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -4958,6 +5037,7 @@ suspended version). with full
 accessories",Temporary Store,,4.0
 9b516727-69e8-4f3a-a08a-5df810809f6a,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 9b625a6f-83df-47ad-b673-a4f58591c1d1,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+9b63f92f-7c1d-4b41-bc02-49d511ef19f1,USB Wired Computer Mouse Optical Mouse for PC Mous,2391.3043478261,0.0,0,HQ Office Facility,2025-08-27,Computer Mouse Optical Mouse for PC Mouse Mice for Office Home Use,Temporary Store,pcs,5.0
 9b760f78-d0dc-4419-96c6-3536b7a94adb,wood cutter,300.0,1.0,1,Kaizen VC Equipment,2025-01-22,size: small,Temporary Store,pcs,1.0
 9b79a2e5-d44f-4cb9-b217-3924def2537e,Cable lug #70,3600.0,1.0,0,ICT Park TTA,2025-02-06,Cable lug #70,HQ Office,pcs,40.0
 9b945cb0-7819-42ea-b7e7-0356d253a322,Rubber Insulation RI38,15.75,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation , 3/8 ,1.8 Mtr",Temporary Store,,45.0
@@ -4976,6 +5056,7 @@ accessories",Temporary Store,,4.0
 9bf5cfd2-47b8-4184-af9b-cb0cb57bf62a,Rubber Insulation RI38,15.75,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation , 3/8 ,1.8 Mtr",Temporary Store,,45.0
 9c02ef53-0a46-41f3-b69c-95498d47821b,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 9c100eeb-a945-402d-993e-55fd91926ed7,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
+9c131838-d9b4-4580-831a-6386a573b40e,Bolt with nut and washer,2782.6086956522,40.0,1,ERA Redeployment,2025-08-27,Bolt with nut and washer,Temporary Store,pcs,
 9c278c91-85a7-453f-9358-6ba3e894d8db,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 9c399ec5-2456-4ead-86bd-942800bfca72,Rubber Insulation RI58,22.05,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation 5/8 ,1.8 Mtr",Temporary Store,,45.0
 9c4e66a7-32c1-4b56-912b-4f44889b4cc3,Gysum board 1200x2400x9mm Gypsum board,128348.04,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,1200x2400x10mm Gypsum board,HQ Office,pcs,98.4
@@ -5126,6 +5207,7 @@ a1433a93-665d-4eb8-ba2d-46a6a252f778,LED Ballast(driver),0.0,1.0,0,MINT Commissi
 ,Output:DC110-145V 300mA",Temporary Store,pcs,87.0
 a14820e9-a571-4d72-ad10-eec82fca95b9,Plastic paint for wall,108528.0,160.0,1,ICT Park TTA,2024-05-22,For Painting  wall with Plastic paint,ICT PARK,pcs,160.0
 a1552539-7db4-46d8-93f1-0fee86d6fd34,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
+a158ef10-6ee4-47a0-9092-914afb5f6c0a,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 a15d0e24-d5a5-46e4-b1b9-40f8b64ba122,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 a15e2adc-23ab-4be5-b1c4-5a4b92ced7f5,Ethio Telecom,2143.47,1.0,0,HQ Office Facility,2025-07-18,for additional New sim card,HQ Office,pcs,29.0
 a160883b-af47-46b2-bde2-849f1b4ffe67,OFFICE FILE,5217.3913043478,1.0,0,HQ Office Facility,2025-02-18,OFFICE FILE,HQ Office,pcs,100.0
@@ -5143,6 +5225,7 @@ a1c7819a-f1d1-4353-b243-84112d45b02f,Edge L angle frame plastic L angle for edge
 a1de70ff-1d6f-458a-83a4-df54bb6bac34,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 a1dec01b-e09e-48e0-bac8-1ba521fef274,gypsum screw,391.3,1.0,0,EPSS,2025-05-21,gypsum screw,Temporary Store,pcs,1.0
 a1e0bd2e-0295-407f-9053-464a0a2e5f3c,Rubber Insulation RI38,15.75,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation , 3/8 ,1.8 Mtr",Temporary Store,,45.0
+a1e8312f-2eb1-4d26-9892-c3d1451f69ca,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",335925.84,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB *8",Logistics Temp Store,,8.0
 a1ea99b3-1ac1-4605-bf94-399e7c566401,Clamp,1956.45,1.0,0,EPSS,2025-05-21,Clamp,Temporary Store,pcs,150.0
 a1eaccf5-7810-4bc8-9388-edba1b4708e2,guroro conduit,4521.6,1.0,0,EPSS,2025-05-21,guroro conduit,Temporary Store,,80.0
 a207d2ec-dcc5-4140-9b2d-9a64441dd3fd,Plaster,5565.2173913043,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-03-05,Plaster,Temporary Store,pcs,20.0
@@ -5185,6 +5268,7 @@ a2faed87-ba41-4ea8-ae3d-65592afd69a3,L angle white Aluminum  L angle for LED lig
 a2fcd9cc-2b81-424d-b828-7f85bdb84ef5,Cable Manager,11130.434782609,8.0,1,EPSS,2024-09-24,1U cable manager,Temporary Store,pcs,8.0
 a3014d80-bdd1-4c0d-a6ca-0ea87d818cbf,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 a30334d3-ed9d-407f-b269-b9c8c7104385,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+a30b9805-be48-43d5-8eab-404546a0ab4c,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 a30bd33b-87e5-4f28-9de7-2a09a7684a8f,Korkoro,22608.7,20.0,1,Store and Inventory,2025-06-13,Korkoro,Temporary Store,pcs,20.0
 a319c38f-3201-4c0c-a42a-23cbb09e14c3,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 a3238b9a-c3b8-4704-b86d-69725a0916cc,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
@@ -5217,6 +5301,7 @@ a3ddb3e4-01b9-410b-b673-deb6a9f25a71,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT 
 a3e69ef6-6b53-415e-9242-638e31bb5972,Silcon Clear,11565.217391304,0.0,1,ICT Park TTA,2025-02-06,Silcon Clear,IT Park Store,pcs,19.0
 a3edfdc0-55ca-4ebd-bd26-20ae105b0f77,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 a3f8619e-623f-454c-886b-90980c130435,A-FLEX-P-UCXN,0.0,1.0,0,ICT Park TTA,2024-12-19,Unity Connection Smart License (1),Temporary Store,,10.0
+a3fc3594-e1f0-4052-9a2e-663ba11f7d66,512GB M.2 2280 slot for NVMe PCIe Gen 3 x4 SSDs fo,5826.08,0.0,0,HQ Office Facility,2025-08-27,512GB M.2 2280 slot for NVMe PCIe Gen 3 x4 SSDs for Hp 15-dw3xxx laptop,HQ Office,pcs,1.0
 a408824f-3669-462e-bf28-2f439b552df6,Mewelwaya,434.78260869565,0.0,1,ICT Park TTA,2025-02-06,Mewelwaya,IT Park Store,pcs,2.0
 a40b5209-07f9-4f61-8d3a-fe1cdae4d68a,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 a40c848b-3417-4c02-9e31-b9166f549d84,LED Ballast(driver),0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,"LED Dimmer Driver Input AC200-240V
@@ -5370,6 +5455,8 @@ a8795d4a-46c0-4b8b-b790-deb3886c5c42,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT 
 a882bf0a-c117-4f05-8ffd-5013c66b1241,Trash bin,1173.9,5.0,1,HQ Office Facility,2025-03-27,Trash bin,Temporary Store,pcs,
 a893e6f0-0e10-4fbe-959b-dd8b1809ceb5,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 a89cc641-8a0c-44b8-901d-995e61bca93f,Socket 2PIN,2542.0,1.0,0,Kaizen VC Equipment,2024-12-06,2 pin surface mountable socket,HQ Office,,31.0
+a8b63b37-90e7-4fb5-b348-09ac1a3cb346,Car Wear for High Roof 68651,23000.0,1.0,0,HQ fleet,2025-09-09,Car Wear for High Roof 68651 Purchase,Temporary Store,Set,
+a8b6774b-758b-4321-ba7d-dcc585ff7708,512GB Decdeal OSCOO NGFF/ M.2 2242 (42mm) SATA(not,5478.2608695652,0.0,0,HQ Office Facility,2025-08-27,512GB Decdeal OSCOO NGFF/ M.2 2242 (42mm) SATA(not NVMe)  SSD for HP EliteBook 840 G1's,Temporary Store,pcs,1.0
 a8b9a21c-b4fd-4bee-a174-7105fd950bb6,addatinal Morale 4*5mm,2365.2,4.0,0,ICT Park TTA,2025-02-26,addatinal Morale 4*5mm,Temporary Store,pcs,
 a8cbc3dc-1349-459f-bbb3-bfdd6b2849a0,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 a8d051bb-c099-4ff9-8f0b-0bbfd78c341a,LED lights,707.8,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,Size 600x600mm Dimmable Light with ballast,Temporary Store,pcs,20.0
@@ -5488,6 +5575,7 @@ ac8bd956-c2ed-474b-b403-6d401bf72d5f,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT 
 ac935f79-571c-4660-9ab7-d38181dedaa7,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 acc469ac-465e-4252-a87d-a0da142a88bf,LED Lamp Beads,89.76,1.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,51.0
 acc5323a-4ccf-4426-b01e-10c6f2e03a1e,Rubber Insulation RI58,22.05,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation 5/8 ,1.8 Mtr",Temporary Store,,45.0
+acc6eff2-988d-4143-b174-976873e50c7f,Roll-Up Banners only with assembly,700.0,1.0,1,HQ Marketing,2025-08-26,Roll-Up Banners only with assembly,Temporary Store,pcs,1.0
 accea714-3002-4d1e-a959-06a0a3d4ffee,LED Lamp Beads,89.76,1.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,51.0
 acd3fa45-9515-4917-b0bc-de9cf7db6d95,Metal punta,208.69565217391,2.0,1,MINT Commissioning of Smart Communication Rooms at,2025-03-28,Metal punta 2mm,Temporary Store,pcs,2.0
 acdfb8ce-c7c3-4340-9862-3bfa97fce776,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -5496,6 +5584,7 @@ ace4ae30-9a76-44b3-ba01-0a315864fae4,ANC6ASPGY-1MT-LSZH,196.0,1.0,0,ICT Park TTA
 aceb82f3-887c-4b4c-8b0a-606e8ff0bad3,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 acf32910-c39a-428c-b4b3-a84e6b66d456,Dimmer Switch,3267.36,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,Wi fi smart switch Dimmer white,Temporary Store,pcs,48.0
 acf78e00-a978-46d3-befa-8dcc18348414,conduite 19,7350.0,1.0,0,Kaizen VC Equipment,2024-12-06,19 mm REGIDE conduite with 3 meter long,HQ Office,,150.0
+acfb44f8-0d58-48da-acee-9873dd382a51,Ball,4347.8260869565,1.0,0,HQ People,2025-09-15,"FootbalL, Size 5#",Temporary Store,pcs,1.0
 acfbb91b-a287-42e7-b00b-f4cebfd6a779,2442003000 Tensioner Arm ASSY with Chassis Num MAL,38.0675,1.0,1,HQ fleet,2025-05-23,2442003000 Tensioner Arm ASSY with Chassis Num MALAN51C9BM648263 Hyundai i10  2011,Temporary Store,pcs,1.0
 acfc09ef-c4af-4524-bc3e-1f15698c24d1,Golden screw 8MM,25043.47826087,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-11,Golden screw 8MM,Temporary Store,Pack,48.0
 acfcbbe9-d263-42de-99e0-cb88aa9fffc6,"Guroro conduit  for AC hose 1/2"" guroro conduit",1669.2,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"Guroro conduit  for AC hose 1/2"" guroro conduit",Temporary Store,Meter,120.0
@@ -5559,6 +5648,8 @@ af260275-f161-4f0f-8356-cb642d8acd76,Rubber Insulation RI58,22.05,1.0,0,ICT Park
 af2d052b-d70a-4996-9024-067323995b28,LED Lamp Beads,89.76,1.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,51.0
 af30c61d-b385-47d6-942e-38eccf7cee8f,A3 Envelope,1086.9565217391,1.0,0,HQ Office Facility,2024-12-16,A3 Envelope,Temporary Store,pcs,100.0
 af3e96af-8279-4aa8-b623-3099e6b0c59b,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+af51f64b-89af-4b3d-99ec-12aa1822f3f9,wood Screw,69.565217391304,1.0,1,ERA Redeployment,2025-08-27,6mm size wood Screw,Temporary Store,pcs,
+af5dd436-1d92-4876-ad5c-f0752e3e29de,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 af6749ff-2fa8-41d3-878f-be8b169d3382,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 af6b684c-6c14-4e90-b47f-f6883986f539,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 af6ea6c6-de4e-4f2f-9b90-1feb8ae25cd6,Rubber Insulation RI58,22.05,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation 5/8 ,1.8 Mtr",Temporary Store,,45.0
@@ -5697,6 +5788,7 @@ Aqua
 3430pcs in FS Asia warehouse",Logistics Temp Store,pcs,108.0
 b3abe51a-ead2-4d0f-bae9-07010b695a65,Rubber Insulation RI38,15.75,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation , 3/8 ,1.8 Mtr",Temporary Store,,45.0
 b3c350d2-afbf-416f-aebe-ab25f74e5dc8,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+b3d04b55-f667-47b7-ac37-e257caba12eb,ICT office -Chair's Gas lift with accessories Purc,16739.130434783,11.0,1,HQ Office Facility,2025-08-21,ICT office -Chair's Gas lift with accessories Purchase,IT Park Store,pcs,11.0
 b3d6993f-3552-4ee0-9427-ad35d7d91586,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 b3f9a325-d942-46fb-aa72-cfa4e9109e4e,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
 b41fa89c-cfdc-477c-822b-d367b6e6a05f,Cafteria  light,1582.89,1.0,0,ICT Park TTA,2024-12-19,"Light Single Pendant, Fixture
@@ -5723,6 +5815,7 @@ b4ab59b3-ffef-46fe-910a-7d62b324d8e8,Rubber Insulation RI38,15.75,1.0,0,ICT Park
 b4bfd731-6734-4416-b0ce-b32bce8ba5e5,Rubber Insulation RI58,22.05,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation 5/8 ,1.8 Mtr",Temporary Store,,45.0
 b4c528a4-e833-4578-8698-771cd120dbca,Ethio Telecom,2143.47,1.0,0,HQ Office Facility,2025-07-18,for additional New sim card,HQ Office,pcs,29.0
 b4cd80d1-9f6a-481d-b1ff-97300787cf67,L angle white Aluminum  L angle for LED light modf,35200.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,white Aluminum  L angle for LED light modfication (1pc Length=3m),Temporary Store,pcs,88.0
+b4dd71bc-c9b2-4c30-89b9-bb7b6a9a4519,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 b4e74942-acfe-4167-94b6-cc980fcf1942,Chair Wear for pick up cars,31000.0,2.0,1,HQ fleet,2025-06-04,Chair Wear for pick up cars,Temporary Store,pcs,2.0
 b4ebd4d2-449d-41cc-8177-316126d07f06,LED Lamp Beads,89.76,1.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,51.0
 b4f90fd9-131c-43dc-be8f-d92ba9a3f67a,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -5732,6 +5825,7 @@ Model No.:WB-24J12FG
 P/N:NNHRG REV.A00 WYSE
 Input: 100-240 V~, 50-60 Hz,0.7 A Max.
 Output: 12.0V 2.0A 24.0W",Temporary Store,pcs,3.0
+b50abeba-9666-4e01-ae5e-88db3e1d6e34,8 GB DDR3 RAM for HP 15-ac156TX  NootBook  PC,2821.7391304348,0.0,0,HQ Office Facility,2025-08-27,8 GB DDR3 RAM for HP 15-ac156TX  NootBook  PC,Temporary Store,pcs,1.0
 b5161986-4d71-4626-85f3-e4d8d58d3de3,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 b527b8d9-9432-4796-97c9-c4ef2327d545,A3 Envelope,1086.9565217391,1.0,0,HQ Office Facility,2024-12-16,A3 Envelope,Temporary Store,pcs,100.0
 b5284fe6-a697-44ed-9b05-5b777b023c02,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -5778,6 +5872,7 @@ b633aec9-5e93-49a3-a386-7141ebd75b45,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT 
 b63e10b4-6013-4286-96fb-6fa732b52356,M.C.B 3ph 160A,6956.52,0.0,1,ICT Park TTA,2025-02-06,M.C.B 3ph 160A,IT Park Store,pcs,
 b649c1d0-3afb-4f35-80ea-812d48cec8c6,Concrit punta 10,304.34782608696,0.0,1,ICT Park TTA,2025-02-06,Concrit punta 10,IT Park Store,pcs,1.0
 b65c17b1-922f-4e0c-bf4a-6cc44c20b778,LED Lamp Beads( CONNECTOR ),0.0,1.0,0,HQ Office Facility,2025-07-14,connecter,Logistics temporary store,pcs,60.0
+b6692f34-a187-4655-a366-d2f28ddfb491,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 b66aa155-80db-42a9-9afe-3c42b66f8d8b,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 b66bbc25-f5d9-4dfc-bf27-b4334909d1be,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 b66e47b6-92fc-4b59-9843-f58c96af503f,L&Z Angle connector,1070.76,1.0,0,ICT Park TTA,2025-01-04,L&Z Angle connector,Temporary Store,pcs,12.0
@@ -5984,6 +6079,7 @@ bb01aadf-d217-4b26-ab8e-788096c08ba1,Lights Pool Office and Traing Staffs Rooms,
 bb122ba4-9bab-4ca3-baa3-30e6a30a7928,OFFICE FILE,5217.3913043478,1.0,0,HQ Office Facility,2025-02-18,OFFICE FILE,HQ Office,pcs,100.0
 bb1ac174-4aee-453d-8d03-2003ce125860,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 bb21a858-5afa-44f9-bbb2-2a56f411fe9c,guroro conduit,4521.6,1.0,0,EPSS,2025-05-21,guroro conduit,Temporary Store,,80.0
+bb2bdb5e-3f11-4720-9c28-5eb53a5d1088,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",335925.84,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB *8",Logistics Temp Store,,8.0
 bb311bdf-f074-4850-a871-e06545a5a887,Fuel filter,1500.0,1.0,1,ERA and MOTL support,2024-08-28,Fleet guard FF 5327,Fleet Mgt Store,pcs,1.0
 bb3f5f7c-9747-41c2-b0de-fb62db2432f8,Box File,12000.0,1.0,0,HQ Office Facility,2025-02-18,Box File,HQ Office,pcs,60.0
 bb41f701-ca8b-4a2f-afe1-19ecc0a0a2c5,LIC-ENT-3YR,1228.5,1.0,0,ICT Park TTA,2024-12-19,"Meraki MR Enterprise License, 3YR",Temporary Store,,13.0
@@ -5996,6 +6092,7 @@ bb937da3-3c24-47cc-9b5f-33e1c5b051f7,sticker  for south site,16649.76,1.0,0,MINT
 bb9bab5f-05b3-4d90-aa55-55b180dde870,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 bbaa4c15-9461-4d6f-bf7e-6b793a392bdf,Window sticker 65x107,660.0,0.0,1,HQ Office Facility,2025-06-13,Window sticker 65x107,Temporary Store,,1.0
 bbb2a3f7-ac61-496e-be73-1ca4b447fa50,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+bbb6bbac-3d2b-458d-8361-294f52977a69,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 bbbbe55c-64f3-461c-9ff5-b0fc38743ed2,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 bbe1e066-cdc4-4ac0-a418-46acad3f93de,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 bbe4c430-dc39-43de-bc33-1e8277e5b914,Lights Pool Office and Traing Staffs Rooms,1234.8,1.0,0,ICT Park TTA,2024-12-19,15 W LED spotlight for magnetic rails with full accessories,Temporary Store,,72.0
@@ -6110,6 +6207,7 @@ bf4598cc-cdac-45f6-b70e-f97b276f16c6,"Guroro conduit  for AC hose 1/2"" guroro c
 bf5155cb-f721-4b8b-bab0-b2a789cce3ea,L angle white Aluminum  L angle for LED light modf,35200.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,white Aluminum  L angle for LED light modfication (1pc Length=3m),Temporary Store,pcs,88.0
 bf58a9e1-351f-41c3-93b2-1a775a1ada35,Dimmer Switch,3267.36,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,Wi fi smart switch Dimmer white,Temporary Store,pcs,48.0
 bf5f618f-73fe-42c4-9006-d835c5f6f624,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
+bf60b03a-a622-43a0-b9ad-7eab0e08c65d,Ling long195/155R15 tubus tyer Toyota Paso with pl,38260.869565217,4.0,1,HQ fleet,2025-09-05,Ling long195/155R15 tubus tyer Toyota Paso with plate no  06766 Car tyer Purchase 8/19/2025,Temporary Store,pcs,4.0
 bf61ad6d-f029-4cb4-832f-cd44a4d5f72a,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 bf63da6f-ef1c-406a-815f-3fb94261edda,ANC6UPKJTLS-180,219.2,1.0,0,ICT Park TTA,2024-12-19,"RJ45- Cat6 Keystone Jack ,110 IDC, Shielded, 180 degree(for patch panel)TOOLLES",Temporary Store,,80.0
 bf6dfab8-80ba-4746-805d-44c22963e613,PPC Cement,11347.826086957,9.0,1,ICT Park TTA,2025-01-04,PPC Cement,Temporary Store,pcs,9.0
@@ -6292,6 +6390,7 @@ c4c4d749-ceaf-41e6-9735-221783d4be41,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT 
 c4c62668-b95f-45ed-8eba-69ecfd632e47,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 c4da0929-1c0e-4715-a255-f79b7a3b036b,Almuniuim  Profil 3M,6600.0,0.0,1,ICT Park TTA,2025-02-06,Almuniuim  Profil 3M,IT Park Store,pcs,3.0
 c4e0af4a-9a56-49ea-ac2a-dbcb816a9e3c,Rubber Insulation RI58,22.05,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation 5/8 ,1.8 Mtr",Temporary Store,,45.0
+c4e1da8a-5b1b-478d-b60b-581e3db88494,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 c5192945-e538-4cde-b388-e871719db360,Rubber Insulation RI38,15.75,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation , 3/8 ,1.8 Mtr",Temporary Store,,45.0
 c51f7996-b381-4cc0-92af-8dc20edbdf63,A3 Envelope,1086.9565217391,1.0,0,HQ Office Facility,2024-12-16,A3 Envelope,Temporary Store,pcs,100.0
 c520a774-aa8d-40f6-af24-f70da776d237,Spot light lamps,0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,"Directional spot ,GU10 LED bulbs with 7W",HQ Office,pcs,30.0
@@ -6436,6 +6535,7 @@ c9d1f4f9-1cb0-4a6a-a346-c61d3c2c1bc5,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT 
 c9d35c6f-e415-496f-9cca-bc094308657f,Wood,3173.9130434783,5.0,1,ICT Park TTA,2024-05-22,Atana,ICT PARK,pcs,5.0
 c9e9a1b8-1257-4633-9a19-d6446d7d4de5,LED Lamp Beads,89.76,1.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,51.0
 c9f70eb9-2fb7-4530-8278-d7a67b70db07,NA,2173.5,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-02-12,Gurori Conduite 32mm,HQ Office,Meter,50.0
+c9f75669-cc73-4117-a469-f6aedaf10dbf,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 c9feec3e-6b9d-45be-b4ff-6771152ff532,Dimmer Switch,3267.36,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,Wi fi smart switch Dimmer white,Temporary Store,pcs,48.0
 ca11c6fe-4692-4506-b5b4-3522340a29b4,PDU,849.42,1.0,0,ICT Park TTA,2024-12-19,8 Sockets and has a master on/off switch,Temporary Store,,39.0
 ca288518-a793-48ac-9046-67365bb27730,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -6764,6 +6864,7 @@ d4207213-49dc-45f7-b793-773c543e34e2,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT 
 d42d086f-ccd3-4799-94b3-ba2a1646f47c,Rubber Insulation RI38,15.75,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation , 3/8 ,1.8 Mtr",Temporary Store,,45.0
 d42d1135-664a-4159-bbfa-2f3ee3d0491c,conduite 19,7350.0,1.0,0,Kaizen VC Equipment,2024-12-06,19 mm REGIDE conduite with 3 meter long,HQ Office,,150.0
 d43e1018-8abf-4908-8b69-6bc78543926b,load channal /primer C channal  Iron sheet metal t,84782.1,195.0,1,MINT Commissioning of Smart Communication Rooms at,2024-12-04,Iron sheet metal type: 20x40x3000 mm,HQ Office,pcs,195.0
+d446704b-aebc-43c3-80bf-348ccce496a8,"Hiearcool USB C Hub Ethernet,4K@60 USB-C to HDMI H",4695.652173913,0.0,0,HQ Office Facility,2025-08-27,"USB C Hub Ethernet,4K@60 USB-C to HDMI Hub,8in1 Multi-Port USBC Adapter Type C Dock Dongle Compatible",Temporary Store,pcs,2.0
 d45238a0-8484-490c-a899-342d13cd47a6,Socket 3 pin sock,278.26,3.0,1,Kaizen VC Equipment,2024-12-06,3 pin surface mountable socket,Temporary Store,pcs,
 d45be9b8-20ff-42fa-917c-3831f549c764,Golden screw 8MM,25043.47826087,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-11,Golden screw 8MM,Temporary Store,Pack,48.0
 d470028a-6a84-4fc0-9827-a00b0af52adc,Single Ganag Switch,1143.66,1.0,0,ICT Park TTA,2024-12-19,"Smart Zigbee 1 Gang Switch
@@ -6979,12 +7080,15 @@ daf80e5b-9604-45ec-b932-802413bfe05a,IE,2173.9130434783,5.0,1,HQ Office Facility
 dafbadaa-130f-4354-8a63-eb6e672fcc43,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 dafda66e-67bf-47d1-b5f5-0888590883ac,reflector,33234.789,49.0,1,HQ support,2024-12-19,reflector Voltex,Temporary Store,pcs,49.0
 db013aa1-be63-47e1-9efc-d190ab3fece0,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+db0d9f7b-43e0-413a-9b4e-177390862f98,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",335925.84,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB *8",Logistics Temp Store,,8.0
 db14bb8b-19e4-4392-a879-138fd2984df0,Cafteria Chair,3400.0,1.0,0,ICT Park TTA,2024-12-31,"Color use IE brand colors Navy,Cycan,Dark Navy & Gray (Hex BFBFBF)",HQ Office,pcs,40.0
 db1b93a5-9502-47d4-90e2-d3be092a711b,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 db1f1d7c-d267-41a5-83cc-310a8610bede,Single Ganag Switch,1143.66,1.0,0,ICT Park TTA,2024-12-19,"Smart Zigbee 1 Gang Switch
 (White),
 Dimension:120*72*37MM
 Australian Standard Size",Temporary Store,,42.0
+db37558c-1f7b-444e-ace9-3075eb4dad4f,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
+db444592-9db1-438c-a085-ddedb291d568,HQ  office -Chair's Gas lift with accessories,42608.695652174,28.0,1,HQ Office Facility,2025-08-21,HQ  office -Chair's Gas lift with accessories,HQ Office,pcs,28.0
 db5a62f6-7efe-4bc4-9174-b398ff358917,OFFICE FILE,5217.3913043478,1.0,0,HQ Office Facility,2025-02-18,OFFICE FILE,HQ Office,pcs,100.0
 db68f745-392f-4eac-a6e9-712ad49c3332,Socket 2PIN,2542.0,1.0,0,Kaizen VC Equipment,2024-12-06,2 pin surface mountable socket,HQ Office,,31.0
 db6e60af-f7d9-4642-a0ab-e111f0b5ae8d,Disc 125mm,626.08695652174,0.0,1,ICT Park TTA,2025-02-06,Disc 125mm,IT Park Store,pcs,9.0
@@ -7025,6 +7129,7 @@ dc66936d-bd15-4459-addd-3fe1687e5cd0,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT 
 dc67b77c-e53d-49a3-8fa2-3889cbee8be3,bathroom wiper,1565.2,10.0,1,HQ Office Facility,2025-02-19,bathroom wiper,HQ-Mini Store,pcs,
 dc8a9536-0013-44c0-b7a7-375860981d05,A-FLEX-P-ER,0.0,1.0,0,ICT Park TTA,2024-12-19,Emergency Responder Smart License (1),Temporary Store,,30.0
 dcb986a4-0e17-4d71-8f70-a400cb44abe0,Box File,12000.0,1.0,0,HQ Office Facility,2025-02-18,Box File,HQ Office,pcs,60.0
+dccccc9b-7965-47c7-ba36-25f5c259af12,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 dcdad155-a6ce-4ee5-88bd-28d7b50ca912,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 dce3b0e0-e5ef-4ffa-87e4-dd49dfc5560c,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 dce7f2d8-0b10-400a-8a14-85e36e7a4cfe,A3 Envelope,1086.9565217391,1.0,0,HQ Office Facility,2024-12-16,A3 Envelope,Temporary Store,pcs,100.0
@@ -7035,6 +7140,7 @@ dd2934bb-314c-465d-9e97-3e350a32c4df,LED lights,707.8,1.0,0,MINT Commissioning o
 dd38d0b7-6852-4b00-a213-136133da2a8b,Largo 5L,2826.1,1.0,0,HQ Office Facility,2025-07-16,Largo 5L,HQ Office,,5.0
 dd44da98-fdfa-455b-a7d7-b4815236ff3b,A-FLEX-SRST-E,0.0,1.0,0,ICT Park TTA,2024-12-19,SRST Endpoints (1),Temporary Store,,20.0
 dd55c267-320d-42bc-993e-bc24d8901a35,MEM-4460-8G,0.0,1.0,0,ICT Park TTA,2024-12-19,8G DRAM (1 DIMM) for Cisco ISR 4460,Temporary Store,,1.0
+dd59e80c-f0be-48d8-ba12-9b2b71b8c8f8,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 dd5ee66f-ab94-49c9-b58a-aaa539808c2c,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 dd60a876-aab9-4bdc-8a5e-6f2951659678,Cafteria  light,1582.89,1.0,0,ICT Park TTA,2024-12-19,"Light Single Pendant, Fixture
 Design , with full accessories
@@ -7097,6 +7203,7 @@ df2e0763-98b7-4fac-938c-e555be22d1ef,NA,695.65217391304,1.0,0,MINT Commissioning
 df3232ea-a9f8-4bc0-83a0-908885b7de5b,L angle white Aluminum  L angle for LED light modf,35200.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,white Aluminum  L angle for LED light modfication (1pc Length=3m),Temporary Store,pcs,88.0
 df43f632-5b71-4c92-975c-dfab492d1680,A-FLEX-FILESTG-ENT,0.0,1.0,0,ICT Park TTA,2024-12-19,File Storage Entitlement,Temporary Store,,200.0
 df618364-474c-4864-b89b-400b27841968,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
+df6716fc-7f1f-4a31-9ad7-6009004842ec,Radiator Upper Hose   purchase,3000.0,1.0,0,HQ fleet,2025-08-21,"Hyundai H-,21783    Radiator Upper Hose   purchase",Temporary Store,pcs,1.0
 df7637ac-dd83-4ae3-988f-398ae8ac2a0b,OFFICE FILE,5217.3913043478,1.0,0,HQ Office Facility,2025-02-18,OFFICE FILE,HQ Office,pcs,100.0
 df78ffd7-2b19-4907-8311-7b1ec018d6b8,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 df98ae92-ae5b-44d4-9298-c3a1e3e8c448,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
@@ -7147,6 +7254,7 @@ e0fa6a18-d938-4352-92c2-268e72821c3d,Golden screw 8MM,25043.47826087,1.0,0,MINT 
 e105b1b6-9bad-4a5e-a791-0adb137f4562,L angle white Aluminum  L angle for LED light modf,35200.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,white Aluminum  L angle for LED light modfication (1pc Length=3m),Temporary Store,pcs,88.0
 e1096691-842d-4122-9603-0a3264214111,LED Lamp Beads,0.0,1.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,3.0
 e112d06f-96c0-4e45-b372-d36eb16e0328,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+e11d73ea-52e7-4906-8bfe-73577495d752,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 e1254cf5-b9cd-4afc-b384-93e6309230e0,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 e13d2e9e-a6da-4cb8-8ca3-9043c829ac39,Cement,8000.0,1.0,0,HQ support,2024-11-14,PPC cement,HQ Office,,4.0
 e140b8c7-2e81-4891-a0ba-270303753495,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
@@ -7330,8 +7438,9 @@ e60b47ae-3024-47d8-8317-42eed192be17,A-FLEX-P-ER,0.0,1.0,0,ICT Park TTA,2024-12-
 e60fe3cf-0a16-4ff6-a8b1-aaf22189f0ba,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 e622b1b0-c289-4dd1-a1da-639035c8fdd5,LED Lamp Beads,89.76,1.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,51.0
 e6398114-45f6-4868-9b65-8fb85feb6597,L angle white Aluminum  L angle for LED light modf,35200.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,white Aluminum  L angle for LED light modfication (1pc Length=3m),Temporary Store,pcs,88.0
+e6473b67-ad61-4e5f-88b0-6e12906007c0,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 e6539c8d-f64a-4916-aac7-c615807807df,C-clamp 19MM,3000.0,300.0,1,Kaizen VC Equipment,2024-12-06,C-clamp 19MM,Temporary Store,,300.0
-e669dd84-2d62-4491-be1a-08519dde0164,High tenstion Nastro,2850.0,1.0,0,ICT Park TTA,2025-02-06,High tenstion Nastro,HQ Office,,3.0
+e669dd84-2d62-4491-be1a-08519dde0164,High tenstion Nastro,2850.0,1.0,0,ICT Park TTA,2025-02-06,High tenstion Nastro,HQ Office,pcs,
 e66e28ea-8633-4d21-926c-0b98bbe20c6a,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 e6756b32-986b-43af-9d99-77b127316b8a,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 e676c0ec-e80a-4b75-944b-4337142c36c8,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
@@ -7354,6 +7463,7 @@ e73c299f-c718-4778-8864-4357338d19ca,Window sticker 65x105,650.0,0.0,1,HQ Office
 e73ef6e9-6238-4f14-8ef9-3d0a10ff65b8,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 e7545fb8-8f8a-4741-a3fb-25bb4d03322e,Plaster,5565.2173913043,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-03-05,Plaster,Temporary Store,pcs,20.0
 e770aff6-afe0-4d04-8b3b-022ae1d9f7fb,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
+e775255a-a16a-4158-92ea-2417e1c4294b,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",335925.84,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB *8",Logistics Temp Store,,8.0
 e77c7e5f-e082-4593-9a1b-0b43592fe6aa,"Wulian gateway
 adapter",0.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-04-08,"Out put voltage :5v,1A that compataible with the wulian
 getway that you sent us before",Temporary Store,pcs,24.0
@@ -7439,6 +7549,7 @@ accessories",Temporary Store,,12.0
 e98197c6-fbf7-4de5-b0e3-01d3a896d47a,bolt,5478.2608695652,350.0,0,EPSS,2024-05-14,bolt 13mm,Main Store,pcs,
 e995200e-3854-4283-bc1a-6b2f15211814,A-FLEX-FILESTG-ENT,0.0,1.0,0,ICT Park TTA,2024-12-19,File Storage Entitlement,Temporary Store,,200.0
 e995ff39-a62e-4395-ab0e-94d7d9f9ed2e,NA,391.30434782609,3.0,1,MINT Commissioning of Smart Communication Rooms at,2025-03-07,grinder disc 180MM,Temporary Store,pcs,3.0
+e9a0efcc-c360-4d0b-9f51-a2d1beae55f2,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 e9a1e265-2cc0-4ee1-958e-88e6cd0a0239,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 e9c20bb8-9e38-4d0e-9063-9254ded34a40,Nail,1200.0,6.0,1,ICT Park TTA,2024-06-11,Nail,ICT PARK,pcs,6.0
 e9d5186a-b484-4160-b3ab-0e81a50aacef,Tinner/dulenti,5217.3913043478,1.0,0,HQ support,2024-11-14,Tinner/dulenti for paint tinner,HQ Office,,20.0
@@ -7483,6 +7594,7 @@ eb16837a-c47a-44b6-97ec-25cceec31b93,electric Lastro,869.5652173913,20.0,1,ICT P
 eb180a71-5552-49a5-8b64-ab39c555904e,A-FLEX-FILESTG-ENT,0.0,1.0,0,ICT Park TTA,2024-12-19,File Storage Entitlement,Temporary Store,,200.0
 eb1a9670-c7fa-4828-99f2-a8bdebd6d462,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 eb4a1a1c-c3cf-45de-aa20-dead53d3fa84,LED phase indicator,391.30434782609,3.0,1,ERA and MOTL support,2024-08-28,LED phase indicator,Temporary Store,pcs,3.0
+eb4d8273-007b-44fa-8d4e-45491552c88b,QSFP-40G-SR4,8410.5,14.0,0,Dashen Bank DHCI,2025-09-05,"40GBASE-SR4 QSFP+ transceiver, up to 100m over parallel OM3 or 150m over OM4 MMF",Logistics Temp Store,pcs,14.0
 eb51f3aa-f33b-44bf-bbbb-0955fbe75376,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 eb54cec9-3ddc-4fa0-b8cc-7a42249c4eb9,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 eb7896ae-7bfe-4be0-915b-736fcfd459ba,L angle white Aluminum  L angle for LED light modf,35200.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-12-04,white Aluminum  L angle for LED light modfication (1pc Length=3m),Temporary Store,pcs,88.0
@@ -7702,6 +7814,7 @@ f263bcca-2e88-4d5c-8db0-69f2f75d0e3f,Water paint,24347.826086957,0.0,1,ICT Park 
 f2693c3b-aaa8-47fc-84e7-73e79b01ca0c,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 f2727d5f-2312-4b20-8e21-54c28c4a9be7,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 f27394ee-07cd-4594-9c26-26277c6693f4,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
+f2764c1d-ed7a-414a-ac14-04fb22c205f2,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 f2769c8d-b0b2-4e0c-b8e8-55902c1e892d,Golden screw 8MM,25043.47826087,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-11,Golden screw 8MM,Temporary Store,Pack,48.0
 f288a676-4851-414b-ac71-b8065751174a,A3 Envelope,1086.9565217391,1.0,0,HQ Office Facility,2024-12-16,A3 Envelope,Temporary Store,pcs,100.0
 f29ac295-2e15-4fb5-94b0-e9ba4bf42f1b,Rubber Insulation RI38,15.75,1.0,0,ICT Park TTA,2024-12-19,"Rubber Insulation , 3/8 ,1.8 Mtr",Temporary Store,,45.0
@@ -7923,6 +8036,7 @@ f9675c50-4526-42ce-89c6-c33b644d5f2d,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT 
 f9705743-4efd-4f56-b20e-37cc10fff8f5,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 f98becc8-dd89-4d90-ae60-0439687625e0,sticker  for south site,16649.76,1.0,0,MINT Commissioning of Smart Communication Rooms at,2025-03-28,white Glass sticker for south site,HQ Office,,48.0
 f9bfb769-8b6f-4551-8fef-3e7d868e01b6,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+f9c66663-2868-4d3d-aae0-3f165b3f879d,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S proce",1294460.16,1.0,0,Dashen Bank DHCI,2025-09-03,"NX-8150-G9, 1 Node; 2x Intel Xeon-Gold 6454S processor (2.2 GHz/ 32-core/ 270W, Sapphire Rapids) per node with accessory and C-NVM7.68TB-B-CM - 7.68 TB * 12",Logistics Temp Store,,28.0
 f9e6cb96-cef3-4014-a223-0447f0a2baeb,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 f9efb0da-cecf-4f5d-a13f-c4a15ced1f99,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 f9efe2e6-a8dd-41ad-8c73-6a5c15734e7c,LED Lamp Beads,89.76,1.0,0,HQ Office Facility,2025-07-14,LED Lamp Beads,Logistics temporary store,pcs,51.0
@@ -7985,6 +8099,7 @@ fbde3c11-724d-4b67-8225-73846874fd8c,ANC6UPKJTLS-180,219.2,1.0,0,ICT Park TTA,20
 fbeb8d2b-5333-402e-9693-06b99c036cb1,Metal fisher,6000.0,1.0,0,ICT Park TTA,2025-02-06,Metal fisher,Temporary Store,pcs,200.0
 fbfb61a1-0605-4c82-912c-cb7842b3bc70,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,"C-Clamp  1""  C-Clamp",HQ Office,pcs,1000.0
 fbfe6973-7704-4bb4-b998-6e6547c3609f,Café uniform Dress with shirt,1565.2173913043,0.0,0,HQ Office Facility,2024-10-21,Café uniform Dress with shirt,HQ Office,pcs,1.0
+fc05d757-e6cb-4809-8aa6-f0e8639ab922,SFP-25G-MR-SR,146000.4,312.0,0,Dashen Bank DHCI,2025-09-05,"10/25GBASE-SR SFP transceiver, up to 70/100m at 25G, and 300/400m at 10G over duplex OM3/OM4 MMF",Logistics Temp Store,pcs,312.0
 fc064b92-e8d4-465a-810a-59578c0ca56e,Box File,12000.0,1.0,0,HQ Office Facility,2025-02-18,Box File,HQ Office,pcs,60.0
 fc08198e-8a78-4285-b58c-296277f238bf,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 fc189f22-a97a-43d6-a7ed-06b390210f13,Teflon,243.47826086957,1.0,0,ICT Park TTA,2024-11-14,Teflon,Temporary Store,,4.0
@@ -8100,6 +8215,7 @@ ff0a38f3-db69-4587-a9bd-1e71c9740d1e,"C-Clamp  1""  C-Clamp",13040.0,1.0,0,MINT 
 ff1024c2-c5f5-4dd2-add0-7c086ea99e16,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 ff14b87f-00fc-4646-be2c-ba7bcabe63b1,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
 ff1d5eba-3120-417b-8bc1-062caae23507,Edge L angle frame plastic L angle for edge chacki,187824.96,1.0,0,MINT Commissioning of Smart Communication Rooms at,2024-11-27,plastic L angle for edge chacking work(1pc Length=2.4m) angle L =2.1x2.1 cm),Temporary Store,pcs,864.0
+ff202e7f-9252-433b-8183-3681b1b5d5a0,Power cable 4*16 mm Purchase charge station,40000.0,1.0,0,HQ Office Facility,2025-08-26,Power cable 4*16 mm Purchase charge station,Temporary Store,pcs,20.0
 ff53542a-71c0-4cbd-9738-859d50be6e6a,A-FLEX-FILESTG-ENT,0.0,1.0,0,ICT Park TTA,2024-12-19,File Storage Entitlement,Temporary Store,,200.0
 ff5f2f7e-f0e6-45ea-84a8-f1e4424a9660,Class room light,2822.88,1.0,0,ICT Park TTA,2024-12-19,"43.31'' 5 -Light Fixed Track
 Track Kit with Dimmable and

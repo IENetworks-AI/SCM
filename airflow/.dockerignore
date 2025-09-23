@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Airflow outputs/logs
+logs/
+output/
+
+# Environment
+.env
+*.env
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+.venv/
+venv/
+myenv/
