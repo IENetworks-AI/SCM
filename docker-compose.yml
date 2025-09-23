@@ -10,6 +10,20 @@ services:
     ports:
       - "8085:8080"
     restart: unless-stopped  
+  scm_ml-api:
+    build:
+      context: ./ml-api
+      dockerfile: Dockerfile
+    container_name: scm_ml-api
+    networks:
+      - scm_pipeline_default
+    ports:
+      - "8001:8001"
+    environment:
+      - SOME_ENV_VAR=value
+    volumes:
+      - ./scripts:/app/scripts 
+
   postgres:
     image: postgres:13
     environment:
@@ -111,6 +125,7 @@ services:
       - ./.env:/opt/airflow/.env
       - ./airflow/output:/opt/airflow/output
       - ./airflow/logs:/opt/airflow/logs
+      - ./scripts:/opt/airflow/scripts
     command: airflow webserver
 
   airflow-scheduler:
@@ -167,3 +182,4 @@ volumes:
 networks:
   scm_pipeline_default:
     external: true
+
