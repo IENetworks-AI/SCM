@@ -165,6 +165,7 @@ services:
       - scm_pipeline_default
     environment:
       - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - GEMINI_API_KEY=AIzaSyBTB4ooWmFCwf62wxJGcwWhP-QZzrqKNsU
     volumes:
       - ./streamlit:/app
       - ./streamlit/requirements.txt:/app/requirements.txt

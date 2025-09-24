@@ -1,0 +1,19 @@
+{
+  "created_at": "2025-09-24T05:39:55.315064Z",
+  "target_transform": "log1p",
+  "inverse_transform": "expm1",
+  "prediction_postprocessing": "round_to_nearest_int_then_clip_min_0",
+  "features": [
+    "project_enc",
+    "item_enc",
+    "month",
+    "year",
+    "day",
+    "in_use"
+  ],
+  "cat_features": [
+    "project_enc",
+    "item_enc"
+  ],
+  "notes": "During inference apply model.predict(X_raw_transformed_features) -> np.expm1(pred) -> round -> clip >=0"
+}

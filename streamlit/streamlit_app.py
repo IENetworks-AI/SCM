@@ -9,6 +9,11 @@ from kafka import KafkaConsumer
 from datetime import datetime
 import logging
 import requests
+from google import genai
+from datetime import timedelta
+
+import os
+
 
 # -------------------------- Logging configuration
 logging.basicConfig(level=logging.INFO)
@@ -19,6 +24,185 @@ KAFKA_BOOTSTRAP_SERVERS = os.getenv("KAFKA_BOOTSTRAP_SERVERS", "scm_pipeline-kaf
 TOPIC_REQUESTS = "scm_requests"
 TOPIC_INVENTORY = "scm_inventory"
 MAX_MESSAGES = 5000  # Maximum messages to keep in memory
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
+# Create client (0.8.x style)
+client = genai.Client(api_key=GEMINI_API_KEY)
+
+# -------------------------- Helper: Get recent data
+
+
+def get_recent_data(df, months=3):
+    """Return requests from the last N months."""
+    if df.empty or 'requested_date' not in df.columns:
+        return pd.DataFrame()
+    df['requested_date'] = pd.to_datetime(df['requested_date'], errors='coerce')
+    cutoff = datetime.now() - timedelta(days=30*months)
+    recent_df = df[df['requested_date'] >= cutoff]
+    return recent_df
+
+# -------------------------- Chatbot function
+# -------------------------- Chatbot function
+
+
+# -------------------------- Helper: filter by timeframe
+def filter_by_timeframe(df, user_question):
+    """
+    Detect time period in user question and return the right slice of data.
+    Defaults to last 3 months if no specific period is found.
+    """
+    if df.empty or 'requested_date' not in df.columns:
+        return pd.DataFrame(), "No data"
+    
+    df['requested_date'] = pd.to_datetime(df['requested_date'], errors='coerce')
+    today = datetime.now().date()
+
+    # last week
+    if "last week" in user_question.lower():
+        start = today - timedelta(days=today.weekday() + 7)  # Monday last week
+        end = start + timedelta(days=6)
+        return df[(df['requested_date'].dt.date >= start) & (df['requested_date'].dt.date <= end)], f"{start} to {end}"
+
+    # last month
+    elif "last month" in user_question.lower():
+        first_day_this_month = today.replace(day=1)
+        last_day_last_month = first_day_this_month - timedelta(days=1)
+        first_day_last_month = last_day_last_month.replace(day=1)
+        return df[(df['requested_date'].dt.date >= first_day_last_month) & (df['requested_date'].dt.date <= last_day_last_month)], f"{first_day_last_month} to {last_day_last_month}"
+
+    # default: last 3 months
+    else:
+        cutoff = today - timedelta(days=90)
+        return df[df['requested_date'].dt.date >= cutoff], "last 3 months"
+
+def get_recent_items(df, project=None, months_list=[3,6,9,12], min_items=1):
+    """
+    Returns recent item names for forecast, using dynamic lookback if insufficient data.
+    """
+    for months in months_list:
+        cutoff = datetime.now() - timedelta(days=30*months)
+        recent_df = df[df['requested_date'] >= cutoff]
+        if project:
+            recent_df = recent_df[recent_df['project_display'] == project]
+        items = recent_df['item_name'].dropna().value_counts().index.tolist()
+        if len(items) >= min_items:
+            return items, months
+    # fallback: all available items
+    items = df['item_name'].dropna().value_counts().index.tolist()
+    return items, months_list[-1]
+
+def ask_chatbot(user_question, requests_df, max_retries=3, client=None):
+    """
+    Chatbot function to provide inventory insights or forecasts with executive-level analysis.
+    """
+    if not user_question.strip():
+        return "Please ask a valid question."
+
+    # Detect if question is about forecast
+    forecast_keywords = ["next week", "next month", "forecast", "predict"]
+    is_forecast = any(k in user_question.lower() for k in forecast_keywords)
+
+    # Extract project name if mentioned
+    project_name = None
+    for word in user_question.split():
+        if word.upper() in requests_df['project_display'].unique():
+            project_name = word.upper()
+            break
+
+    # ---------------- Forecast (future demand) ----------------
+    if is_forecast:
+        items, months_used = get_recent_items(requests_df, project_name)
+        if not items:
+            return "Insufficient historical data to forecast demand."
+        if project_name:
+            return (f"Based on historical data from the past {months_used} months, "
+                    f"the project '{project_name}' is likely to need the following items next week: "
+                    f"{', '.join(items[:5])}. These are inferred from the most frequently requested items in the recent period.")
+        else:
+            return (f"Based on historical data from the past {months_used} months, "
+                    f"the project is likely to need the following items next week: "
+                    f"{', '.join(items[:5])}. These are inferred from the most frequently requested items in the recent period.")
+
+    # ---------------- Historical insight (last week/month/etc) ----------------
+    period_df, analysis_window = filter_by_timeframe(requests_df, user_question)
+    if period_df.empty:
+        return f"No data available for the requested period ({analysis_window})."
+
+    total_requested = period_df['requested_quantity'].sum()
+    avg_qty = period_df['requested_quantity'].mean()
+    top_items = period_df['item_name'].value_counts().head(5)
+
+    # Detect trend compared to previous 3 months
+    cutoff_prev = datetime.now() - timedelta(days=90)
+    prev_df = requests_df[(requests_df['requested_date'] >= cutoff_prev) & 
+                          (requests_df['requested_date'] < period_df['requested_date'].min())]
+    prev_total = prev_df['requested_quantity'].sum() if not prev_df.empty else 0
+    trend = "increase" if total_requested > prev_total else "decrease" if total_requested < prev_total else "stable"
+
+    # ---------------- Gemini API Prompt ----------------
+    if client:
+        try:
+            prompt = f"""
+**Role:** You are a Senior Inventory Strategist for a leading networking solutions company. Your audience is the Head of Operations.
+
+**Objective:** Transform the following raw inventory request data for the period '{analysis_window}' into a concise, executive-level analysis. Your focus is on operational impact and actionable strategy, not just listing numbers.
+
+**Data for Analysis:**
+{period_df[['project_display','item_name','requested_quantity']].to_csv(index=False)}
+
+
+**User's Question:** "{user_question}"
+
+---
+
+**Your Executive Analysis Must Include:**
+
+1.  **Headline Summary:** Start with a one-sentence summary of the key takeaway for the period.
+    * *Example: "Last week saw a significant surge in demand for project deployment gear, driven by the 'Alpha Project', while general supply consumption remained stable."*
+
+2.  **Key Consumption Drivers & Context:**
+    * Identify the top 2-3 most requested items.
+    * **Crucially, differentiate between high-value networking equipment (e.g., routers, switches, cables) and low-value consumables (e.g., office supplies, paper).** Explain the business context. A spike in fiber optic cables is more operationally significant than a spike in A4 paper.
+    * Mention which projects or departments are driving this demand.
+
+3.  **Trend Analysis & Business Impact:**
+    * Analyze the overall usage trend ({trend}). Is it an increase, decrease, or stable?
+    * Translate this trend into **business impact**. A sharp increase could risk a stockout of critical components, while a sharp decrease might signal a project delay or completion.
+
+4.  **Specific, Actionable Recommendations:**
+    * Based **only** on the data, recommend 1-2 concrete actions.
+    * **Avoid generic advice.**
+    * **Good Example:** "The sudden high demand for 'CAT6a Cable' for the 'Alpha Project' suggests we should immediately verify our current stock and consider placing a priority order to prevent installation delays."
+    * **Bad Example:** "Review stock levels of critical items."
+
+**Tone and Format:**
+* Professional, analytical, and concise.
+* Use markdown for **bolding** key items and metrics.
+* Write in a clear, narrative paragraph style. Do not use a numbered list for your final output.
+
+**Begin Your Analysis:**
+"""
+            response = client.models.generate_content(
+                model="gemini-1.5-flash",
+                contents=prompt
+            )
+            return response.text.strip()
+        except Exception as e:
+            logger.warning(f"Gemini API failed: {e}, falling back to local insight.")
+
+    # ---------------- Local fallback insight ----------------
+    insight_text = (
+        f"**Executive Analysis ({analysis_window})**\n\n"
+        f"**Headline Summary:** The period showed a {trend} in overall inventory requests, with key consumption driven by {', '.join(top_items.index[:3])}.\n\n"
+        f"**Key Drivers & Context:** High-demand items included {', '.join(top_items.index[:3])}, where spikes in networking equipment may impact project schedules more than low-value consumables. The demand was primarily from projects such as {', '.join(period_df['project_display'].unique()[:2])}.\n\n"
+        f"**Trend & Business Impact:** Overall usage {trend}, which could lead to stockout risks or indicate changes in project activity.\n\n"
+        f"**Actionable Recommendations:** Verify current stock for critical items, prioritize orders for high-demand equipment, and monitor for unusual spikes to prevent operational disruption."
+    )
+    return insight_text
+
+
+
 
 # -------------------------- Kafka consumer
 def create_kafka_consumer(topic):
@@ -87,19 +271,22 @@ def ensure_column(df, col):
 # -------------------------- Inventory display
 def prepare_inventory_display(df, view_option="Quantity"):
     if df.empty:
-        return pd.DataFrame()
-    
+        return pd.DataFrame(), {}
+
     for col in ['item_name','price','date_of_purchased','store_store_name','quantity','amount']:
         if col not in df.columns:
             df[col] = 0
-    
-    agg_df = df.groupby(['item_name','price','date_of_purchased','store_store_name'], as_index=False).agg({
+
+    agg_df = df.groupby(
+        ['item_name','price','date_of_purchased','store_store_name'], 
+        as_index=False
+    ).agg({
         'amount':'sum',
         'quantity':'first'
     })
-    
+
     status_field = 'amount' if view_option=="Amount" else 'quantity'
-    
+
     def stock_status(row):
         if row[status_field] <= 5:
             return "🔴 Critical"
@@ -107,9 +294,19 @@ def prepare_inventory_display(df, view_option="Quantity"):
             return "🟡 Low Stock"
         else:
             return "🟢 Sufficient"
-    
+
     agg_df['Status'] = agg_df.apply(stock_status, axis=1)
-    return agg_df
+
+    summary = {
+        "Critical": (agg_df['Status'] == "🔴 Critical").sum(),
+        "Low Stock": (agg_df['Status'] == "🟡 Low Stock").sum(),
+        "Sufficient": (agg_df['Status'] == "🟢 Sufficient").sum(),
+        "Total Items": len(agg_df),
+        "Total Price (Birr)": agg_df['amount'].sum()
+    }
+
+    return agg_df, summary
+
 
 # -------------------------- Alert for unreturned items
 def generate_unreturned_item_alert(requests_df, selected_project):
@@ -222,27 +419,42 @@ def main():
     # Sidebar filters
     with st.sidebar:
         st.markdown("## Project Filters")
-        selected_project_inventory = st.selectbox("Inventory Project", ["All Projects"] + sorted(inventory_df['project_display'].unique().tolist()))
-        selected_project_usage = st.selectbox("Usage Project", ["All Projects"] + sorted(requests_df['project_display'].unique().tolist()))
+        selected_project_inventory = st.selectbox(
+            "Inventory Project",
+            ["All Projects"] + sorted(inventory_df['project_display'].unique().tolist())
+        )
+        selected_project_usage = st.selectbox(
+            "Usage Project",
+            ["All Projects"] + sorted(requests_df['project_display'].unique().tolist())
+        )
 
     # Main layout
     col_left, col_right = st.columns(2)
 
-    # Inventory
+    # ---------------- Inventory ----------------
     with col_left:
         st.subheader("Inventory Analysis")
         view_option = st.selectbox("View Stock By:", ["Quantity", "Amount"], key="inventory_view")
-        inventory_filtered = inventory_df if selected_project_inventory=="All Projects" else inventory_df[inventory_df['project_display']==selected_project_inventory]
-        inventory_display = prepare_inventory_display(inventory_filtered, view_option)
+        inventory_filtered = inventory_df if selected_project_inventory == "All Projects" else inventory_df[inventory_df['project_display'] == selected_project_inventory]
+
+        inventory_display, summary = prepare_inventory_display(inventory_filtered, view_option)
         if not inventory_display.empty:
+            st.markdown(f"""
+              **📊 Inventory Summary ({selected_project_inventory})**
+              - 🔴 Critical Items: **{summary['Critical']}**
+              - 🟡 Low Stock Items: **{summary['Low Stock']}**
+              - 🟢 Sufficient Items: **{summary['Sufficient']}**
+              - 📦 Total Items: **{summary['Total Items']}**
+              - 💰 Total Price: **{summary['Total Price (Birr)']:,.2f} birr**
+            """)
             st.dataframe(inventory_display)
         else:
             st.info("No inventory data available.")
 
-    # Usage analytics and demand prediction
+    # ---------------- Usage analytics & demand prediction ----------------
     with col_right:
         st.subheader("Usage Analytics")
-        requests_filtered = requests_df if selected_project_usage=="All Projects" else requests_df[requests_df['project_display']==selected_project_usage]
+        requests_filtered = requests_df if selected_project_usage == "All Projects" else requests_df[requests_df['project_display'] == selected_project_usage]
         trans_agg = aggregate_transactions(requests_filtered)
         if not trans_agg.empty:
             pie_fig = px.pie(
@@ -263,12 +475,9 @@ def main():
 
         # ---------------- Prediction Feature ----------------
         st.subheader("🔮 Demand Prediction")
-
-        # Projects from requests_df
         available_projects = sorted(requests_df['project_display'].dropna().unique().tolist())
         project_choice = st.selectbox("Select Project", available_projects if available_projects else ["No projects available"], key="predict_project")
 
-        # Items from requests_df filtered by project
         if project_choice and project_choice != "No projects available":
             project_items = requests_df[requests_df['project_display'] == project_choice]['item_name'].dropna().unique().tolist()
             available_items = sorted(project_items)
@@ -284,6 +493,24 @@ def main():
                     st.success(f"📈 Predicted requested quantity for **next week**: {prediction:.2f}")
             else:
                 st.warning("Please select valid project and item to predict.")
+
+    # ---------------- Chatbot ----------------
+    st.subheader("🤖 SCM Query Bot")
+
+    if "chat_history" not in st.session_state:
+        st.session_state.chat_history = []
+
+    user_input = st.text_input("Ask about inventory or usage:")
+
+    if user_input:
+        answer = ask_chatbot(user_input, requests_df)
+        st.session_state.chat_history.append({"question": user_input, "answer": answer})
+
+    for chat in reversed(st.session_state.chat_history):
+        st.markdown(f"**You:** {chat['question']}")
+        st.markdown(f"**Bot:** {chat['answer']}")
+        st.markdown("---")
+       
 
 if __name__ == "__main__":
     main()
