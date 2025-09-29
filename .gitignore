@@ -17,6 +17,19 @@ airflow/logs/
 .venv/
 venv/
 venvy/
+.cache/
+.pytest_cache/
+artifacts/
+airflow/output/
+airflow/logs/
+airflow_db/
+airflow_home/
+*.zip
+*.tar.gz
+*.pyc
+*.pkl
+node_modules/
+.DS_Store
 myenv/
 
 
