@@ -5,24 +5,26 @@ services:
     image: provectuslabs/kafka-ui:latest
     container_name: kafka-ui
     environment:
-      KAFKA_CLUSTERS_0_NAME: "local"
-      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: "scm_pipeline-kafka-1:9092"
+      KAFKA_CLUSTERS_0_NAME: "scm-cluster"
+      # Use the internal Docker DNS name for the Kafka broker so kafka-ui
+      # can reach Kafka over the Docker network (avoids hairpin/NAT issues
+      # when EXTERNAL_KAFKA_HOST is a public IP not present on the host).
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: "kafka:9092"
     ports:
       - "8085:8080"
-    restart: unless-stopped  
+    restart: unless-stopped
+
   scm_ml-api:
     build:
       context: ./ml-api
       dockerfile: Dockerfile
     container_name: scm_ml-api
-    networks:
-      - scm_pipeline_default
     ports:
       - "8001:8001"
     environment:
       - SOME_ENV_VAR=value
     volumes:
-      - ./scripts:/app/scripts 
+      - ./scripts:/app/scripts
 
   postgres:
     image: postgres:13
@@ -33,7 +35,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U airflow"]
+      test: [ "CMD-SHELL", "pg_isready -U airflow" ]
       interval: 5s
       timeout: 5s
       retries: 5
@@ -45,7 +47,7 @@ services:
     ports:
       - "2181:2181"
     healthcheck:
-      test: ["CMD", "echo", "ok"]
+      test: [ "CMD", "echo", "ok" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -59,17 +61,23 @@ services:
         condition: service_started
     environment:
       KAFKA_CFG_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_CFG_LISTENERS: PLAINTEXT://:9092,PLAINTEXT_HOST://:29092
-      KAFKA_CFG_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:29092
+
+      # Internal Docker clients
+      KAFKA_CFG_LISTENERS: PLAINTEXT://:9092,PLAINTEXT_HOST://:${KAFKA_EXTERNAL_PORT}
+
+      # Internal + external advertised listeners
+      # KAFKA_CFG_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://${EXTERNAL_KAFKA_HOST}:${KAFKA_EXTERNAL_PORT}
+      KAFKA_CFG_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://kafka.ienetworks.co:29092
+
       KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
       KAFKA_CFG_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE: "true"
       ALLOW_PLAINTEXT_LISTENER: "yes"
     ports:
       - "9092:9092"
-      - "29092:29092"
+      - "${KAFKA_EXTERNAL_PORT}:${KAFKA_EXTERNAL_PORT}"
     healthcheck:
-      test: ["CMD-SHELL", "kafka-topics.sh --bootstrap-server localhost:9092 --list >/dev/null 2>&1"]
+      test: [ "CMD-SHELL", "kafka-topics.sh --bootstrap-server localhost:9092 --list >/dev/null 2>&1" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -83,10 +91,10 @@ services:
         condition: service_healthy
     user: "${AIRFLOW_UID:-1000}:0"
     environment:
-    - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-    - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-    - AIRFLOW_UID=${AIRFLOW_UID:-1000}
-    - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW_UID=${AIRFLOW_UID:-1000}
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/data:/opt/airflow/data
@@ -95,10 +103,7 @@ services:
       - ./airflow/output:/opt/airflow/output
       - ./airflow/logs:/opt/airflow/logs
     command: >
-      bash -c "
-      airflow db init &&
-      airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com || true
-      "
+      bash -c " airflow db init && airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com || true "
 
   airflow-webserver:
     build: ./airflow
@@ -112,10 +117,10 @@ services:
     restart: always
     user: "${AIRFLOW_UID:-1000}:0"
     environment:
-    - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-    - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-    - AIRFLOW_UID=${AIRFLOW_UID:-1000}
-    - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW_UID=${AIRFLOW_UID:-1000}
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
     ports:
       - "8082:8080"
     volumes:
@@ -140,10 +145,10 @@ services:
     restart: always
     user: "${AIRFLOW_UID:-1000}:0"
     environment:
-    - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-    - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-    - AIRFLOW_UID=${AIRFLOW_UID:-1000}
-    - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW_UID=${AIRFLOW_UID:-1000}
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/data:/opt/airflow/data
@@ -161,11 +166,11 @@ services:
     depends_on:
       kafka:
         condition: service_started
-    networks:
-      - scm_pipeline_default
     environment:
+      # Streamlit runs inside the same compose network; use internal Kafka
+      # bootstrap address so it can connect directly to the broker.
       - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
-      - GEMINI_API_KEY=AIzaSyBTB4ooWmFCwf62wxJGcwWhP-QZzrqKNsU
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
     volumes:
       - ./streamlit:/app
       - ./streamlit/requirements.txt:/app/requirements.txt
@@ -179,8 +184,3 @@ volumes:
   kafka_data:
   airflow_output:
   airflow_logs:
-
-networks:
-  scm_pipeline_default:
-    external: true
-

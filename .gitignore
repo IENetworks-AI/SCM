@@ -24,3 +24,5 @@ myenv/
 *.env
 .env:Zone.Identifier
 
+
+diagnostics/
