@@ -27,7 +27,7 @@ dag = DAG(
     'scm_extract_dag',
     default_args=default_args,
     description='Extract SCM data from APIs and save as JSON',
-    schedule='@hourly',
+    schedule='@daily',
     catchup=False,
 )
 

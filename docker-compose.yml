@@ -61,13 +61,14 @@ services:
         condition: service_started
     environment:
       KAFKA_CFG_ZOOKEEPER_CONNECT: zookeeper:2181
-
-      # Internal Docker clients
+      # Internal Docker clients and an external listener. The listener names
+      # must match those used in advertised.listeners (PLAINTEXT and PLAINTEXT_HOST).
       KAFKA_CFG_LISTENERS: PLAINTEXT://:9092,PLAINTEXT_HOST://:${KAFKA_EXTERNAL_PORT}
 
-      # Internal + external advertised listeners
-      # KAFKA_CFG_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://${EXTERNAL_KAFKA_HOST}:${KAFKA_EXTERNAL_PORT}
-      KAFKA_CFG_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://kafka.ienetworks.co:29092
+      # Internal + external advertised listeners. Use the internal Docker DNS
+      # for in-cluster clients and EXTERNAL_KAFKA_HOST/KAFKA_EXTERNAL_PORT for
+      # clients connecting from outside the host.
+      KAFKA_CFG_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://${EXTERNAL_KAFKA_HOST}:${KAFKA_EXTERNAL_PORT}
 
       KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
       KAFKA_CFG_INTER_BROKER_LISTENER_NAME: PLAINTEXT
@@ -102,8 +103,11 @@ services:
       - ./.env:/opt/airflow/.env
       - ./airflow/output:/opt/airflow/output
       - ./airflow/logs:/opt/airflow/logs
+    # Ensure the mounted output directory is owned by the AIRFLOW_UID so the
+    # non-root Airflow processes can write to it. Then initialize DB and
+    # create the admin user (ignore errors if user already exists).
     command: >
-      bash -c " airflow db init && airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com || true "
+      bash -c "chown -R ${AIRFLOW_UID:-1000}:0 /opt/airflow/output || true && airflow db init && airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com || true"
 
   airflow-webserver:
     build: ./airflow

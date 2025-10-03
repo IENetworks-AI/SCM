@@ -33,7 +33,7 @@ MAX_MESSAGES = 5000
 
 # -------------------------- Gemini API
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-client = genai.Client(api_key=GEMINI_API_KEY)
+client = genai.Client(api_key=GEMINI_API_KEY) if GEMINI_API_KEY else None
 
 # -------------------------- Helper Functions
 def get_recent_data(df, months=3):
@@ -77,70 +77,299 @@ def get_recent_items(df, project=None, months_list=[3,6,9,12], min_items=1):
     return items, months_list[-1]
 
 def ask_chatbot(user_question, requests_df, max_retries=3, client=None):
-    if not user_question.strip():
-        return "Please ask a valid question."
+    """
+    Improved ask_chatbot:
+    - Handles greetings and small talk with short replies.
+    - Adds Inventory Status intent to handle 'critical state' queries.
+    - Uses Gemini (client) when available with a tightly-scoped prompt.
+    - Falls back to local insight text when model not used/available.
+    """
 
-    forecast_keywords = ["next week", "next month", "forecast", "predict"]
-    is_forecast = any(k in user_question.lower() for k in forecast_keywords)
+    # Basic guards
+    if not user_question or not str(user_question).strip():
+        return "Please ask a valid question about inventory, usage, or forecasts."
 
+    q = str(user_question).strip()
+    q_lower = q.lower()
+
+    # 1) Small talk / greetings -> short friendly reply (do not run analysis)
+    import re
+    if re.search(r"\b(hi|hello|hey|good morning|good afternoon|good evening|how are you|what's up)\b", q_lower):
+        return "Hi! 👋 I can summarize usage, show unreturned items, or predict next-week demand. Try: 'Top items last month' or 'Predict next week demand for Cement in PROJECT_X'."
+
+    # 2) Help / capabilities
+    if re.search(r"\b(help|what can you do|capabilities|how to use)\b", q_lower):
+        return ("I can:\n"
+                "- Summarize requests over a timeframe (e.g. 'summary for last month')\n"
+                "- List top requested items (e.g. 'top 5 items last 3 months')\n"
+                "- Identify unreturned items for a project (e.g. 'unreturned items for PROJECT_X')\n"
+                "- Forecast next-week demand for an item (e.g. 'predict next week demand for Cement in PROJECT_X')\n"
+                "- Identify high-demand items (e.g. 'what items are in critical state')")
+
+    # Helper: safe access to columns
+    def has_col(df, col):
+        return df is not None and hasattr(df, "columns") and col in df.columns
+
+    # Try to detect project name token appearing in requests_df.project_display
     project_name = None
-    for word in user_question.split():
-        if word.upper() in requests_df['project_display'].unique():
-            project_name = word.upper()
-            break
+    if has_col(requests_df, "project_display"):
+        tokens = re.findall(r"[A-Za-z0-9_-]+", q)
+        projects = set(requests_df['project_display'].dropna().astype(str).unique())
+        for t in tokens:
+            if t in projects or t.upper() in projects:
+                project_name = t if t in projects else t.upper()
+                break
 
+    # Try to detect item name by substring match (case-insensitive)
+    item_name = None
+    if has_col(requests_df, "item_name"):
+        items = requests_df['item_name'].dropna().astype(str).unique().tolist()
+        for it in items:
+            if it and it.lower() in q_lower:
+                item_name = it
+                break
+
+    # Intent detection
+    forecast_keywords = ["next week", "next-week", "next month", "forecast", "predict", "prediction", "required"]
+    unreturned_keywords = ["unreturned", "not returned", "still with", "longest unreturned", "unconsumed"]
+    summary_keywords = ["summary", "top", "most requested", "top requested", "trend", "analysis", "how many", "total"]
+    inventory_status_keywords = ["critical", "low stock", "stock status", "needed", "urgent"]
+
+    is_forecast = any(k in q_lower for k in forecast_keywords)
+    is_unreturned = any(k in q_lower for k in unreturned_keywords)
+    is_summary = any(k in q_lower for k in summary_keywords)
+    is_inventory_status = any(k in q_lower for k in inventory_status_keywords)
+
+    # --- INVENTORY STATUS branch (Handles "what items are in critical state") ---
+    if is_inventory_status:
+        # Since we only have 'requests' data, we define 'critical' as 'highest recent demand'.
+        period_df, analysis_window = filter_by_timeframe(requests_df, "last 3 months")
+        if period_df is None or getattr(period_df, "empty", True):
+             return f"No recent request data available to assess item status."
+
+        if 'item_name' not in period_df.columns:
+            return "Cannot determine critical items: 'item_name' column missing."
+
+        # Ensure quantities are numeric
+        period_df['requested_quantity'] = pd.to_numeric(period_df.get('requested_quantity', pd.Series(dtype=float)), errors='coerce').fillna(0)
+
+        top_items = period_df['item_name'].value_counts().nlargest(5)
+        top_items_text = ", ".join([f"{i} ({c})" for i, c in top_items.items()])
+
+        response = (
+            f"I do not have current **stock levels** to determine a true 'critical state'. "
+            f"However, based on the **highest request volume** in the {analysis_window} window, "
+            f"the items in highest demand (and thus potentially low on stock) are: "
+            f"**{top_items_text}**. Recommendation: **Verify stock levels** for these top items immediately."
+        )
+        return response
+    # --------------------------------------------------------------------------
+
+    # FORECAST branch
     if is_forecast:
-        items, months_used = get_recent_items(requests_df, project_name)
-        if not items:
-            return "Insufficient historical data to forecast demand."
-        if project_name:
-            return (f"Based on historical data from the past {months_used} months, "
-                    f"the project '{project_name}' is likely to need the following items next week: "
-                    f"{', '.join(items[:5])}.")
+        # If user specified an item -> attempt ML API via client or fallback to local insight
+        if item_name:
+            if client:
+                try:
+                    prompt = (
+                        "You are a concise forecasting assistant for inventory. INPUT: CSV rows below contain "
+                        "columns project_display,item_name,requested_quantity,requested_date. TASK: produce a single-line "
+                        "Forecast for the named item with the numeric predicted next-week quantity and a one-sentence rationale. "
+                        "If data is insufficient, reply: 'INSUFFICIENT_DATA'.\n\n"
+                        f"ITEM: {item_name}\n"
+                        f"PROJECT: {project_name or 'ALL'}\n\n"
+                        "DATA:\n"
+                        f"{requests_df[['project_display','item_name','requested_quantity','requested_date']].to_csv(index=False)}\n\n"
+                        "REPLY (exact format):\n"
+                        "Forecast: <number> units — <one-sentence rationale>\n"
+                    )
+                    response = client.models.generate_content(
+                        model="gemini-1.5-flash",
+                        contents=prompt
+                    )
+                    text = getattr(response, "text", None) or str(response)
+                    text = text.strip()
+                    if "INSUFFICIENT_DATA" in text.upper() or not text:
+                        raise ValueError("Model reported insufficient data or empty response")
+                    return text
+                except Exception as e:
+                    logger.warning(f"Gemini forecast call failed or returned no useful result: {e}. Falling back to local forecast.")
+
+            # Local heuristic fallback: average weekly demand from recent weeks
+            try:
+                df_local = requests_df.copy() if requests_df is not None else pd.DataFrame()
+                if has_col(df_local, "requested_date") and has_col(df_local, "requested_quantity"):
+                    df_local['requested_date'] = pd.to_datetime(df_local['requested_date'], errors='coerce')
+                    df_local = df_local.dropna(subset=['requested_date'])
+                    if project_name:
+                        df_local = df_local[df_local.get('project_display', '') == project_name]
+                    df_local = df_local[df_local.get('item_name', '') == item_name]
+                    if df_local.empty:
+                        return f"Insufficient historical data to predict next-week demand for '{item_name}'."
+                    recent = datetime.now() - timedelta(weeks=12)
+                    df_local = df_local[df_local['requested_date'] >= recent]
+                    if df_local.empty:
+                        return f"Insufficient recent historical data to predict next-week demand for '{item_name}'."
+                    df_local['requested_quantity'] = pd.to_numeric(df_local['requested_quantity'], errors='coerce').fillna(0)
+                    weekly = df_local.set_index('requested_date')['requested_quantity'].resample('W-MON').sum()
+                    if weekly.empty:
+                        return f"Insufficient weekly aggregation data for '{item_name}'."
+                    pred = float(weekly.mean())
+                    return f"Forecast: {pred:.1f} units — based on the average weekly requests over the last {len(weekly)} weeks."
+                else:
+                    return "Insufficient data: 'requested_date' or 'requested_quantity' column missing."
+            except Exception as e:
+                logger.warning(f"Local forecast failed: {e}")
+                return "Unable to produce a forecast due to insufficient or malformed data."
+
+        # No item specified -> provide top likely items next week
         else:
-            return (f"Based on historical data from the past {months_used} months, "
-                    f"the project is likely to need the following items next week: "
-                    f"{', '.join(items[:5])}.")
+            items, months_used = get_recent_items(requests_df, project=project_name)
+            if not items:
+                return "Insufficient historical data to forecast items for next week."
+            top_list = ", ".join(items[:5])
+            if project_name:
+                return f"Based on the last {months_used} months, project '{project_name}' is likely to request: {top_list} next week."
+            return f"Based on the last {months_used} months, the likely items next week are: {top_list}."
 
-    period_df, analysis_window = filter_by_timeframe(requests_df, user_question)
-    if period_df.empty:
-        return f"No data available for the requested period ({analysis_window})."
+    # UNRETURNED items branch
+    if is_unreturned:
+        if not project_name:
+            return "Please specify the project to check unreturned items (e.g. 'unreturned items for PROJECT_X')."
+        return generate_unreturned_item_alert(requests_df, project_name)
 
-    total_requested = period_df['requested_quantity'].sum()
-    avg_qty = period_df['requested_quantity'].mean()
-    top_items = period_df['item_name'].value_counts().head(5)
+    # SUMMARY / ANALYSIS branch
+    # Triggered by explicit keywords OR a long query that is NOT a forecast, status, or unreturned request.
+    if is_summary or (len(q.split()) > 3 and not is_inventory_status):
+        period_df, analysis_window = filter_by_timeframe(requests_df, q)
+        if period_df is None or getattr(period_df, "empty", True):
+            return f"No data available for the requested period ({analysis_window})."
 
-    cutoff_prev = datetime.now() - timedelta(days=90)
-    prev_df = requests_df[(requests_df['requested_date'] >= cutoff_prev) & 
-                          (requests_df['requested_date'] < period_df['requested_date'].min())]
-    prev_total = prev_df['requested_quantity'].sum() if not prev_df.empty else 0
-    trend = "increase" if total_requested > prev_total else "decrease" if total_requested < prev_total else "stable"
+        period_df['requested_quantity'] = pd.to_numeric(period_df.get('requested_quantity', pd.Series(dtype=float)), errors='coerce').fillna(0)
 
-    if client:
+        total_requested = int(period_df['requested_quantity'].sum())
+        avg_qty = float(period_df['requested_quantity'].mean()) if not period_df.empty else 0.0
+        top_items = period_df['item_name'].value_counts().head(5)
+        top_items_text = ", ".join([f"{i} ({c})" for i, c in top_items.items()])
+
+        # Try Gemini for a short executive summary if client available
+        if client:
+            try:
+                # Refined prompt: explicitly ask for calculation of previous trend
+                prompt = (
+                    "You are a concise inventory analyst. INPUT: CSV rows below contain project_display,item_name,requested_quantity,requested_date. "
+                    "TASK: Produce a short executive summary (max 3 lines):\n"
+                    "1) Headline: State the total requested quantity for the period and calculate the trend (increase/decrease/stable) compared to the *immediately preceding* period of the same length, based on 'requested_quantity' sum.\n"
+                    "2) Top Items: List the top 3 items and their total requested counts for this period.\n"
+                    "3) Recommendation: Provide one short, actionable recommendation based on the data.\n"
+                    "If data insufficient, reply 'NO_DATA'.\n\n"
+                    f"PERIOD: {analysis_window}\n"
+                    f"DATA:\n{period_df[['project_display','item_name','requested_quantity','requested_date']].to_csv(index=False)}\n\n"
+                    "REPLY (plain text, max 3 lines):"
+                )
+                response = client.models.generate_content(
+                    model="gemini-1.5-flash",
+                    contents=prompt
+                )
+                text = getattr(response, "text", None) or str(response)
+                text = text.strip()
+                if not text or text.upper().startswith("NO_DATA"):
+                    raise ValueError("Model returned no usable summary")
+                return text
+            except Exception as e:
+                logger.warning(f"Gemini summary call failed: {e}. Falling back to local summary.")
+                pass # Fallback to local summary below
+
+        # Local summary fallback
         try:
-            prompt = f"""
-**Role:** You are a Senior Inventory Strategist.
-**Objective:** Transform the following raw inventory request data for '{analysis_window}' into concise, executive-level analysis.
-**Data for Analysis:**
-{period_df[['project_display','item_name','requested_quantity']].to_csv(index=False)}
-**User's Question:** "{user_question}"
-"""
-            response = client.models.generate_content(
-                model="gemini-1.5-flash",
-                contents=prompt
-            )
-            return response.text.strip()
-        except Exception as e:
-            logger.warning(f"Gemini API failed: {e}, falling back to local insight.")
+            # compute previous window trend (More robust calculation)
+            trend = "stable"
+            try:
+                window_start = pd.to_datetime(period_df['requested_date']).min()
+                window_end = pd.to_datetime(period_df['requested_date']).max()
+                window_days = (window_end - window_start).days or 1
 
-    insight_text = (
-        f"**Executive Analysis ({analysis_window})**\n\n"
-        f"**Headline Summary:** The period showed a {trend} in inventory requests, with key items {', '.join(top_items.index[:3])}.\n\n"
-        f"**Key Drivers & Context:** High-demand items included {', '.join(top_items.index[:3])}. Demand mainly from projects {', '.join(period_df['project_display'].unique()[:2])}.\n\n"
-        f"**Trend & Business Impact:** Overall usage {trend}.\n\n"
-        f"**Actionable Recommendations:** Verify stock for critical items, prioritize high-demand equipment, monitor spikes to prevent disruption."
-    )
-    return insight_text
+                prev_end = window_start - timedelta(days=1)
+                prev_start = prev_end - timedelta(days=window_days)
+
+                requests_df['requested_date'] = pd.to_datetime(requests_df.get('requested_date'), errors='coerce')
+                requests_df['requested_quantity'] = pd.to_numeric(requests_df.get('requested_quantity'), errors='coerce').fillna(0)
+
+                prev_df = requests_df[
+                    (requests_df['requested_date'] >= prev_start) &
+                    (requests_df['requested_date'] <= prev_end)
+                ]
+                prev_total = int(prev_df['requested_quantity'].sum()) if not prev_df.empty else 0
+
+                if total_requested > prev_total * 1.10: # 10% increase threshold
+                    trend = "significant increase"
+                elif total_requested < prev_total * 0.90: # 10% decrease threshold
+                    trend = "significant decrease"
+                elif total_requested > prev_total:
+                     trend = "slight increase"
+                elif total_requested < prev_total:
+                     trend = "slight decrease"
+                else:
+                    trend = "stable"
+            except Exception:
+                trend = "stable (comparison failed)"
+
+            response = (
+                f"Summary ({analysis_window}): Total requested = {total_requested}, Avg per request = {avg_qty:.2f}. "
+                f"Top items: {top_items_text if top_items_text else 'No items'}. Trend vs previous window: **{trend}**. "
+                "Recommendation: **Review the trend**; if increasing, **verify stock for top items** and set reorder thresholds."
+            )
+            return response
+        except Exception as e:
+            logger.warning(f"Local summary failed: {e}")
+            return "Unable to produce a summary due to an internal error."
+
+    # ITEM-specific fallback: user asked about a single item explicitly (e.g., "Tell me about Cement")
+    if item_name:
+        try:
+            item_df = requests_df[requests_df.get('item_name', '') == item_name].copy()
+            if item_df.empty:
+                return f"No historical requests found for item '{item_name}'."
+
+            if 'requested_date' not in item_df.columns:
+                 return f"Item '{item_name}' found, but missing 'requested_date' for analysis."
+            item_df['requested_date'] = pd.to_datetime(item_df['requested_date'], errors='coerce')
+            item_df = item_df.dropna(subset=['requested_date'])
+
+            if item_df.empty:
+                 return f"Item '{item_name}' found, but all dates were invalid."
+
+            item_df['requested_quantity'] = pd.to_numeric(item_df.get('requested_quantity', pd.Series(dtype=float)), errors='coerce').fillna(0)
+
+            last_request = item_df.sort_values('requested_date', ascending=False).iloc[0]
+            total_requested = int(item_df['requested_quantity'].sum())
+
+            recent_avg = None
+            try:
+                recent = datetime.now() - timedelta(weeks=12)
+                weekly = item_df[item_df['requested_date'] >= recent].set_index('requested_date')['requested_quantity'].resample('W-MON').sum()
+                recent_avg = float(weekly.mean()) if not weekly.empty and weekly.sum() > 0 else None
+            except Exception:
+                recent_avg = None
+
+            response = (
+                f"Item **'{item_name}'** — Total requested (all time): **{total_requested} units**. "
+                f"Most recent request on **{pd.to_datetime(last_request['requested_date']).date()}**."
+            )
+            if recent_avg is not None:
+                response += f" Recent average weekly demand is **~{recent_avg:.1f} units** (based on last 12 weeks)."
+            return response
+        except Exception as e:
+            logger.warning(f"Item-specific lookup failed: {e}")
+            return "Unable to fetch item details due to internal error."
+
+    # If nothing matched
+    return ("I didn't understand exactly what you'd like. Try one of these options:\n"
+            "- 'Give me a summary for last month'\n"
+            "- 'Predict next week demand for Cement in PROJECT_X'\n"
+            "- 'Show unreturned items for PROJECT_Y'\n"
+            "- 'What items are in critical state?'")
+
 
 def create_kafka_consumer(topic):
     try:
@@ -426,10 +655,11 @@ def main():
         #         st.warning("Select both project and item for prediction.")
 
     # st.subheader("💬 Ask SCM Chatbot")
-    # user_question = st.text_area("Enter your question about inventory or forecast:")
-    # if st.button("Ask Chatbot"):
-    #     response = ask_chatbot(user_question, requests_df, client=client)
-    #     st.markdown(f"**Response:**\n{response}")
+    st.subheader("💬 Ask SCM Chatbot")
+    user_question = st.text_area("Enter your question about inventory or forecast:")
+    if st.button("Ask Chatbot"):
+        response = ask_chatbot(user_question, requests_df, client=client)
+        st.markdown(f"**Response:**\n{response}")
 
 if __name__ == "__main__":
     main()

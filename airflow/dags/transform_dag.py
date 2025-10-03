@@ -30,7 +30,7 @@ dag = DAG(
     'scm_transform_dag',
     default_args=default_args,
     description='Transform SCM JSON to CSV and stream to Kafka',
-    schedule='@hourly',
+    schedule='@daily',
     catchup=False,
 )
 
